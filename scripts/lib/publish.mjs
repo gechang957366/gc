@@ -39,6 +39,8 @@ const SKIP_FILES = new Set([
   '.api-usage.json',
   'update-requests.json',
   'published.json',
+  'publish.json',
+  '.gitkeep',
   'nul',
   'desktop.ini',
   '.DS_Store',
@@ -244,38 +246,59 @@ async function getBranchHead(token, repo, branch) {
 }
 
 /**
- * 空仓库（一次提交都没有）不能用 Git Data API 建 blob（会 409 「Git Repository is empty」），
- * 先用 Contents API 放一个占位文件把首次提交建出来，后面的整树提交会把它替换掉。
+ * 确保分支存在，返回它的 head sha。
+ * - 分支已存在：直接用；
+ * - 仓库里已有别的分支：从默认分支的 head 拉一个新分支（Git Data API 要求 blob 之前仓库非空）；
+ * - 仓库真的是空的：先用 Contents API 垫一个占位提交（落到默认分支），再拉目标分支。
  */
-async function bootstrapEmptyRepo(token, repo, branch) {
-  const put = await api(token, `/repos/${repo}/contents/.gitkeep`, {
+async function ensureBranch(token, repo, branch) {
+  let head = await getBranchHead(token, repo, branch)
+  if (head) return head
+
+  const repoInfo = await api(token, `/repos/${repo}`)
+  const defaultBranch = repoInfo.body?.default_branch || 'main'
+  const base = await getBranchHead(token, repo, defaultBranch)
+  if (base) {
+    const create = await api(token, `/repos/${repo}/git/refs`, {
+      method: 'POST',
+      body: JSON.stringify({ ref: `refs/heads/${branch}`, sha: base }),
+    })
+    if (!create.ok && create.status !== 422) {
+      throw new Error(`创建分支 ${branch} 失败：${create.status} ${JSON.stringify(create.body).slice(0, 160)}`)
+    }
+    head = await getBranchHead(token, repo, branch)
+    if (head) return head
+  }
+
+  // 空仓库：先用 Contents API 造出第一个提交（会落在默认分支上）
+  const bootstrap = await api(token, `/repos/${repo}/contents/.gitkeep`, {
     method: 'PUT',
     body: JSON.stringify({
       message: 'chore: init repo (weekly digest bootstrap)',
       content: Buffer.from('').toString('base64'),
-      branch,
     }),
   })
-  if (!put.ok && put.status !== 422) {
-    // 422 = 文件已存在（上次已经垫过），当作成功；其它情况退一步不指定 branch 再试
-    const fallback = await api(token, `/repos/${repo}/contents/.gitkeep`, {
-      method: 'PUT',
-      body: JSON.stringify({
-        message: 'chore: init repo (weekly digest bootstrap)',
-        content: Buffer.from('').toString('base64'),
-      }),
+  if (!bootstrap.ok && bootstrap.status !== 422) {
+    throw new Error(`初始化空仓库失败：${bootstrap.status} ${JSON.stringify(bootstrap.body).slice(0, 200)}`)
+  }
+  const firstHead = await getBranchHead(token, repo, defaultBranch)
+  if (!firstHead) throw new Error('仓库初始化后仍读不到分支（检查 token 是否有 Contents 写权限）')
+  if (branch !== defaultBranch) {
+    const create = await api(token, `/repos/${repo}/git/refs`, {
+      method: 'POST',
+      body: JSON.stringify({ ref: `refs/heads/${branch}`, sha: firstHead }),
     })
-    if (!fallback.ok && fallback.status !== 422) {
-      throw new Error(`初始化空仓库失败：${fallback.status} ${JSON.stringify(fallback.body).slice(0, 200)}`)
+    if (!create.ok && create.status !== 422) {
+      throw new Error(`创建分支 ${branch} 失败：${create.status} ${JSON.stringify(create.body).slice(0, 160)}`)
     }
+    for (let attempt = 0; attempt < 6; attempt += 1) {
+      const head2 = await getBranchHead(token, repo, branch)
+      if (head2) return head2
+      await new Promise((resolve) => setTimeout(resolve, 700))
+    }
+    throw new Error(`分支 ${branch} 创建后读不到`)
   }
-  // 刚建完分支时接口偶尔还读不到，重试几次
-  for (let attempt = 0; attempt < 6; attempt += 1) {
-    const head = await getBranchHead(token, repo, branch)
-    if (head) return head
-    await new Promise((resolve) => setTimeout(resolve, 700))
-  }
-  return undefined
+  return firstHead
 }
 
 /**
@@ -302,12 +325,8 @@ async function pushTree({ token, repo, branch, files, message, dataDir, dry }) {
   const nextBranchState = {}
   const entries = []
   let uploaded = 0
-  let parent = await getBranchHead(token, repo, branch)
-  // 空仓库先垫一次提交，否则 blob 接口会 409
-  if (!parent) {
-    parent = await bootstrapEmptyRepo(token, repo, branch)
-    if (!parent) throw new Error('仓库是空的，且初始化失败（检查 token 是否有 Contents 写权限）')
-  }
+  // 空仓库/新分支先保证分支存在（否则 blob 接口会 409/404）
+  const parent = await ensureBranch(token, repo, branch)
   const queue = [...toUpload]
   const pendingReuse = hashes.filter((item) => branchState[item.file.path]?.hash === item.hash)
 
@@ -362,22 +381,44 @@ async function pushTree({ token, repo, branch, files, message, dataDir, dry }) {
 
 async function ensurePages(token, repo, pagesBranch) {
   const info = await api(token, `/repos/${repo}/pages`)
+  let url
   if (info.ok) {
-    if ((info.body.source || {}).branch === pagesBranch) return info.body.html_url
-    const put = await api(token, `/repos/${repo}/pages`, {
-      method: 'PUT',
-      body: JSON.stringify({ source: { branch: pagesBranch, path: '/' } }),
-    })
-    return put.ok ? put.body.html_url : undefined
-  }
-  if (info.status === 404) {
+    url = info.body.html_url
+    if ((info.body.source || {}).branch !== pagesBranch) {
+      const put = await api(token, `/repos/${repo}/pages`, {
+        method: 'PUT',
+        body: JSON.stringify({ source: { branch: pagesBranch, path: '/' } }),
+      })
+      if (put.ok) url = put.body.html_url || url
+    }
+  } else if (info.status === 404) {
     const create = await api(token, `/repos/${repo}/pages`, {
       method: 'POST',
       body: JSON.stringify({ source: { branch: pagesBranch, path: '/' } }),
     })
-    return create.ok ? create.body.html_url : undefined
+    if (create.ok) url = create.body.html_url
   }
-  return undefined
+  if (url) {
+    // 顺手把仓库主页地址设成 Pages 网址（只设一次不碍事）
+    await api(token, `/repos/${repo}`, {
+      method: 'PATCH',
+      body: JSON.stringify({
+        homepage: url,
+        description:
+          '每周文献速递：功率预测/气象预报/雷达流场重构 + 大模型/时序预测，自动整理中文速递（DSH 插件 + 静态站点）',
+      }),
+    })
+  }
+  return url
+}
+
+/** legacy Pages 在推送后不一定自动重建：手动触发一次。 */
+async function triggerPagesBuild(token, repo) {
+  const latest = await api(token, `/repos/${repo}/pages`)
+  if (!latest.ok) return undefined
+  if ((latest.body.build_type || 'legacy') !== 'legacy') return undefined // Actions 模式不用管
+  const res = await api(token, `/repos/${repo}/pages/builds`, { method: 'POST' })
+  return res.ok ? res.body.status : undefined
 }
 
 // -------------------------------------------------------------- 对外入口 ----
@@ -432,6 +473,8 @@ export async function publishToGitHub(options = {}) {
       if (!options.dry) {
         const url = await ensurePages(token, config.repo, config.pagesBranch)
         if (url) result.pagesUrl = url
+        const buildStatus = await triggerPagesBuild(token, config.repo)
+        if (buildStatus) result.pagesBuild = buildStatus
       }
     }
     result.ok = true
