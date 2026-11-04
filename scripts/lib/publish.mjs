@@ -253,8 +253,8 @@ async function bootstrapEmptyRepo(token, repo, branch) {
       branch,
     }),
   })
-  if (!put.ok) {
-    // 可能是 branch 不存在（默认分支名不同）：退一步，不指定 branch 让它落到默认分支
+  if (!put.ok && put.status !== 422) {
+    // 422 = 文件已存在（上次已经垫过），当作成功；其它情况退一步不指定 branch 再试
     const fallback = await api(token, `/repos/${repo}/contents/.gitkeep`, {
       method: 'PUT',
       body: JSON.stringify({
@@ -262,11 +262,17 @@ async function bootstrapEmptyRepo(token, repo, branch) {
         content: Buffer.from('').toString('base64'),
       }),
     })
-    if (!fallback.ok) {
+    if (!fallback.ok && fallback.status !== 422) {
       throw new Error(`初始化空仓库失败：${fallback.status} ${JSON.stringify(fallback.body).slice(0, 200)}`)
     }
   }
-  return getBranchHead(token, repo, branch)
+  // 刚建完分支时接口偶尔还读不到，重试几次
+  for (let attempt = 0; attempt < 6; attempt += 1) {
+    const head = await getBranchHead(token, repo, branch)
+    if (head) return head
+    await new Promise((resolve) => setTimeout(resolve, 700))
+  }
+  return undefined
 }
 
 /**
