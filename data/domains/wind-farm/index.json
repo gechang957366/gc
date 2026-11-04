@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "title": "每周文献速递 · 尾流",
+  "subtitle": "风电场尾流",
+  "domain": "wind-farm",
+  "updatedAt": "2026-11-04T21:08:00+08:00",
+  "coverage": {
+    "totalItems": 8,
+    "figures": 0,
+    "coveredFrom": "2024-02-08",
+    "to": "2026-10-01"
+  },
+  "issues": [
+    {
+      "id": "20261104-b4",
+      "label": "换一批 · 11-04 第 4 批",
+      "range": [
+        "2023-12-14",
+        "2026-12-01"
+      ],
+      "mode": "batch",
+      "updatedAt": "2026-11-04T21:08:00+08:00",
+      "counts": {
+        "field": 8,
+        "algo": 0,
+        "figures": 0
+      },
+      "note": "按「wind farm wake / wake steering / wind turbine wake / large eddy simulation wake」从等级池（476 条候选）里取下一批：顶刊 1 · 领域顶刊 7。上一批仍保留在历史期号里。"
+    },
+    {
+      "id": "20261104-b3",
+      "label": "换一批 · 11-04 第 3 批",
+      "range": [
+        "2022-01-18",
+        "2026-10-01"
+      ],
+      "mode": "batch",
+      "updatedAt": "2026-11-04T21:05:00+08:00",
+      "counts": {
+        "field": 8,
+        "algo": 0,
+        "figures": 0
+      },
+      "note": "按「wind farm wake / wake steering / wind turbine wake / large eddy simulation wake」从等级池（476 条候选）里取下一批：领域顶刊 8。上一批仍保留在历史期号里。"
+    },
+    {
+      "id": "20261104-b2",
+      "label": "换一批 · 11-04 第 2 批",
+      "range": [
+        "2022-06-20",
+        "2026-11-01"
+      ],
+      "mode": "batch",
+      "updatedAt": "2026-11-04T21:05:00+08:00",
+      "counts": {
+        "field": 8,
+        "algo": 0,
+        "figures": 0
+      },
+      "note": "按「wind farm wake / wake steering / wind turbine wake / large eddy simulation wake」从等级池（476 条候选）里取下一批：领域顶刊 8。上一批仍保留在历史期号里。"
+    },
+    {
+      "id": "20261104-b1",
+      "label": "换一批 · 11-04 第 1 批",
+      "range": [
+        "2024-02-08",
+        "2026-10-01"
+      ],
+      "mode": "batch",
+      "updatedAt": "2026-11-04T21:04:00+08:00",
+      "counts": {
+        "field": 8,
+        "algo": 0,
+        "figures": 0
+      },
+      "note": "按「wind farm wake / wake steering / wind turbine wake / large eddy simulation wake」从等级池（476 条候选）里取下一批：领域顶刊 8。上一批仍保留在历史期号里。"
+    }
+  ],
+  "current": "20261104-b4"
+}

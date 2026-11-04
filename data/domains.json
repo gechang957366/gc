@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "note": "研究方向注册表。改这里就能在界面上切换方向：默认方向 power 沿用 data/ 根目录的历史数据，其他方向各自放在 data/domains/<id>/ 下。",
+  "default": "power",
+  "domains": [
+    {
+      "id": "power",
+      "label": "功率预测 · 气象 · 雷达流场",
+      "short": "功率预测",
+      "subtitle": "功率预测 · 气象预报 · 雷达流场重构 / 大模型 · 时序预测",
+      "sections": {
+        "field": "专业前沿",
+        "algo": "算法进展"
+      },
+      "note": "默认方向：风电/光伏功率预测、数值天气预报、雷达流场重构；优先期刊见 sources.json"
+    },
+    {
+      "id": "wind-farm",
+      "label": "风电场尾流",
+      "short": "尾流",
+      "subtitle": "风电场尾流",
+      "sections": {
+        "field": "专业前沿",
+        "algo": "算法进展"
+      },
+      "custom": true,
+      "note": "关键词：wind farm wake"
+    }
+  ]
+}

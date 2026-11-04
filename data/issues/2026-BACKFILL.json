@@ -1,0 +1,1055 @@
+{
+  "id": "2026-BACKFILL",
+  "label": "回溯精选 · 近三年顶级",
+  "week": null,
+  "year": 2026,
+  "range": [
+    "2024-12-04",
+    "2026-11-04"
+  ],
+  "mode": "backfill",
+  "generatedAt": "2026-11-04T17:21:00+08:00",
+  "generatedBy": "merge",
+  "note": "合并 2026-W45-2 + 2026-W45 + 2026-W44 + 2026-W43，只保留顶刊/中科院1区/CCF-A；丢弃 29 条次级、去重 0 条。",
+  "counts": {
+    "field": 5,
+    "algo": 10,
+    "figures": 5
+  },
+  "sections": {
+    "field": {
+      "title": "专业前沿",
+      "subtitle": "功率预测 · 气象预报 · 雷达流场重构",
+      "items": [
+        {
+          "id": "10.1038/s41467-026-73817-3",
+          "title": "Rethinking the use of deep learning methods for photovoltaic power forecasting",
+          "titleZh": "重新审视深度学习在光伏功率预测中的用法",
+          "authors": [
+            "Zhang Y",
+            "Zhang Y",
+            "Dai Z",
+            "Zhang R"
+          ],
+          "venue": "Nature Communications",
+          "venueShort": "Nat Commun",
+          "publisher": "Springer Nature",
+          "year": 2026,
+          "date": "2026-06-12",
+          "level": "SCI",
+          "impactNote": "JCR Q1",
+          "citation": "Zhang Y, Zhang Y, Dai Z, et al. Rethinking the use of deep learning methods for photovoltaic power forecasting[J]. Nature Communications, 2026, 17(1): 7613.",
+          "doi": "10.1038/s41467-026-73817-3",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1038/s41467-026-73817-3"
+            },
+            {
+              "label": "原文",
+              "url": "https://www.nature.com/articles/s41467-026-73817-3"
+            }
+          ],
+          "keywords": [
+            "光伏功率预测",
+            "编码器—解码器",
+            "交叉注意力",
+            "数值天气预报",
+            "AI 天气模式"
+          ],
+          "abstractEn": "Accurate photovoltaic power forecasting is critical for grid stability, but remains challenged by weather uncertainties and difficulty integrating historical observations with forward-looking forecasts. We re-evaluate existing architectural choices in deep-learning models for time-series forecasting and demonstrate the importance of full encoder-decoder architectures and channel dependence modeling when both weather forecasts and historical data are available. Based on this insight, we propose Cross-Unet, a Transformer-based architecture featuring multi-scale temporal encoding, correlation-aware channel attention, and hierarchical cross-attention decoding to fuse historical generation data with weather forecasts. Evaluated on open-source datasets from four utility-scale plants in northern China and one aggregated plant in central Australia, using three types of forward-looking inputs: numerical weather prediction, satellite-derived irradiance, and AI-based weather model forecasts. Across the majority of evaluated configurations spanning five photovoltaic power stations, five forecasting horizons (4 hours to 7 days), and three forecast sources, Cross-Unet outperforms ten deep learning baselines and traditional operational benchmarks. By integrating advanced forecasting systems, such as modern AI weather models, into an end-to-end forecasting pipeline, Cross-Unet enables operational 15-minute-resolution predictions over 4-hour to 7-day horizons, supporting grid scheduling and energy trading.",
+          "abstractZh": "准确的光伏功率预测对电网稳定至关重要，但仍受天气不确定性以及历史观测与前向预报难以融合的制约。本文重新评估了时序预测深度学习模型中的既有架构选择，并证明当同时具备气象预报和历史数据时，完整的编码器—解码器架构与通道依赖建模尤为重要。基于这一认识，我们提出 Cross-Unet：一种基于 Transformer 的架构，包含多尺度时间编码、相关性感知的通道注意力以及层次化交叉注意力解码，用以融合历史发电数据与气象预报。我们在中国北方四座公用事业规模光伏电站以及澳大利亚中部一座聚合电站的开源数据集上进行评估，使用了三类前向输入：数值天气预报、卫星反演辐照度以及基于 AI 的天气模式预报。在覆盖五座光伏电站、五个预测时效（4 小时至 7 天）和三类预报来源的多数评估配置中，Cross-Unet 优于十个深度学习基线与传统业务基准。通过把先进预报系统（如现代 AI 天气模式）纳入端到端预测流程，Cross-Unet 可实现 15 min 分辨率、4 小时至 7 天的业务化预测，支撑电网调度与电力交易。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "重新审视时序深度模型架构，指出有气象预报输入时编码器—解码器与通道建模最关键",
+            "提出 Cross-Unet：多尺度时间编码、相关性感知通道注意力与层次化交叉注意力解码",
+            "在华北 4 站与澳洲 1 站、5 个时效（4 h–7 d）、3 类前向输入上做系统评估",
+            "多数配置下优于 10 个深度学习基线与传统业务基准，含 AI 天气模式输入场景",
+            "实现 15 min 分辨率、4 h 至 7 d 的端到端业务化光伏功率预测"
+          ],
+          "figures": [],
+          "relevance": "把 NWP 与 AI 天气模式预报接入端到端光伏功率预测，定量验证了天气输入对功率预测的价值。",
+          "tags": [
+            "功率预测",
+            "气象预报"
+          ],
+          "section": "field",
+          "metrics": {
+            "cas": {
+              "zone": "1区",
+              "top": true,
+              "major": "综合性期刊",
+              "year": "2025"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 18.1,
+            "source": "https://www.letpub.com.cn/index.php?journalid=8411&page=journalapp&view=detail"
+          },
+          "rank": 0,
+          "tierLabel": "顶刊"
+        },
+        {
+          "id": "10.1016/j.apenergy.2026.128864",
+          "doi": "10.1016/j.apenergy.2026.128864",
+          "title": "Helio-TAF: A multimodal temporal attention fusion network for short-term photovoltaic power forecasting",
+          "titleZh": "Helio-TAF：用于短期光伏功率预测的多模态时间注意力融合网络",
+          "authors": [
+            "Zhang P.",
+            "Lin L.",
+            "Zhang Y.",
+            "Wan M.",
+            "Simon G.",
+            "Wang H."
+          ],
+          "authorsText": "Zhang P., Lin L., Zhang Y., et al",
+          "venue": "Applied Energy",
+          "venueShort": "Appl Energy",
+          "publisher": "Elsevier",
+          "year": 2026,
+          "date": "2026-11-04",
+          "coverDate": "2027-01-01",
+          "note": "在线首发，期次 2027-01-01",
+          "level": "SCI",
+          "citation": "Zhang P., Lin L., Zhang Y., et al. Helio-TAF: A multimodal temporal attention fusion network for short-term photovoltaic power forecasting[J]. Applied Energy, 2027, 427.",
+          "abstractEn": "Accurate short-term photovoltaic (PV) power forecasts are crucial for real-time grid operations, yet models using only sky images or only weather data often fail to capture the rapid fluctuations caused by fast-moving clouds. This paper proposes Helio-TAF, a novel deep learning framework that fuses ground-based all-sky images with meteorological measurements through a Temporal Attention Fusion (TAF) mechanism. Unlike time-invariant or globally shared fusion, Helio-TAF performs per-time-step cross-modal reweighting within the input window, adapting how image and weather representations are combined as conditions evolve. The architecture employs dual LSTM-based encoders for the visual and meteorological inputs, followed by the TAF module for adaptive cross-modal integration. We also construct a new multimodal dataset by synchronizing one-minute all-sky images and PV output records with 18 co-located hourly meteorological variables. Experiments over 15, 30, 45, and 60 min forecast horizons show that multimodal models consistently outperform image-only and meteorology-only baselines, and that Helio-TAF achieves the best overall forecasting performance across all lead times. Furthermore, a SHAP-based interpretability analysis shows that cloud-related and wind-related variables are the most influential meteorological drivers, supporting the physical relevance of the proposed multimodal fusion strategy. These results underscore the value of adaptive multimodal fusion for improving the reliability of solar power forecasting in practical energy systems.",
+          "abstractZh": "准确的短期光伏（PV）功率预测对电网实时运行至关重要，但仅使用天空图像或仅使用气象数据的模型往往无法捕捉快速移动云层引起的快速波动。本文提出Helio-TAF，一种新的深度学习框架，通过时间注意力融合（TAF）机制将地基全天空图像与气象测量数据融合。与时间不变或全局共享的融合不同，Helio-TAF在输入窗口内执行逐时间步的跨模态重加权，随着条件演变自适应地组合图像和气象表示。该架构对视觉和气象输入采用双LSTM编码器，随后由TAF模块进行自适应跨模态集成。我们还通过将一分钟全天空图像和光伏出力记录与18个同址小时级气象变量同步，构建了一个新的多模态数据集。在15、30、45和60分钟预测时域上的实验表明，多模态模型始终优于仅图像和仅气象基线，且Helio-TAF在所有提前时间上取得最佳整体预测性能。此外，基于SHAP的可解释性分析表明，云相关和风相关变量是最具影响力的气象驱动因素，支持了所提出多模态融合策略的物理相关性。这些结果强调了自适应多模态融合在提高实际能源系统中太阳能功率预测可靠性方面的价值。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "提出Helio-TAF框架，用时间注意力融合机制逐时间步重加权全天空图像与气象数据",
+            "采用双LSTM编码器分别处理视觉与气象输入，再由TAF模块自适应跨模态集成",
+            "构建新多模态数据集：一分钟全天空图像与光伏出力同步18个同址小时级气象变量",
+            "在15/30/45/60分钟时域上，多模态模型均优于单模态基线，Helio-TAF整体最优",
+            "SHAP分析显示云相关和风相关变量是最具影响力的气象驱动因素"
+          ],
+          "keywords": [
+            "光伏功率预测",
+            "多模态融合",
+            "时间注意力",
+            "全天空图像",
+            "短期预测",
+            "可解释性"
+          ],
+          "figures": [],
+          "relevance": "直接面向光伏短期功率预测，融合全天空图像与气象数据，属多模态时序预测在新能源功率预测中的应用。",
+          "tags": [
+            "功率预测",
+            "多模态",
+            "时序预测"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "427",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1016/j.apenergy.2026.128864"
+            }
+          ],
+          "source": "scopus",
+          "score": 19,
+          "rank": 1,
+          "tierLabel": "中科院1区 Top",
+          "metrics": {
+            "cas": {
+              "zone": "1区",
+              "top": true,
+              "major": "工程技术",
+              "year": "2025"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 12.2,
+            "source": "https://www.letpub.com.cn/index.php?journalid=729&page=journalapp&view=detail"
+          }
+        },
+        {
+          "id": "10.1016/j.apenergy.2026.128885",
+          "doi": "10.1016/j.apenergy.2026.128885",
+          "title": "Ground-based spectral irradiance for intra-hour photovoltaic power forecasting",
+          "titleZh": "基于地基光谱辐照度的光伏功率小时内预测",
+          "authors": [
+            "Zhang H.",
+            "Rodríguez-Gallegos C.D.",
+            "Rahman T."
+          ],
+          "authorsText": "Zhang H., Rodríguez-Gallegos C.D., Rahman T",
+          "venue": "Applied Energy",
+          "venueShort": "Appl Energy",
+          "publisher": "Elsevier",
+          "year": 2026,
+          "date": "2026-11-04",
+          "coverDate": "2027-01-01",
+          "note": "在线首发，期次 2027-01-01",
+          "level": "SCI",
+          "citation": "Zhang H., Rodríguez-Gallegos C.D., Rahman T. Ground-based spectral irradiance for intra-hour photovoltaic power forecasting[J]. Applied Energy, 2027, 427.",
+          "abstractEn": "Electricity markets worldwide are shortening their settlement intervals, with Australia adopting 5-minute settlement in 2021 and the European Union now mandating a 15-minute imbalance settlement period across Member States. Shorter intervals sharpen the value of accurate intra-hour photovoltaic (PV) power forecasting at the timescale of cloud-induced ramp events, which broadband irradiance cannot fully resolve. In this study, ground-based high-resolution spectroradiometer measurements (213 channels, 350–1052 nm) are exploited as an input to short-horizon PV forecasting for the first time, and the gain is quantified across two climates and multiple years using data from the Solar Energy Research Institute of Singapore (SERIS). A SpectralEncoder is introduced, a lightweight 1-D convolutional network applied along the wavelength axis, combined with a physically motivated spectral-ratio representation that decouples spectral shape from broadband magnitude. Performance is evaluated under a dual-dimension framework crossing ramp/non-ramp conditions with clear/intermediate/overcast regimes defined by the clear-sky index. At the primary German site (temperate oceanic; trained 2018–2021, tested 2023), overall RMSE is reduced by 4.4% with spectral inputs, with the largest gain (+9.4%) under overcast ramp conditions, the regime most damaging to grid balancing. At the Australian site (hot desert; trained 2018–2020, tested 2022) the gain is 2.7%, of the same sign as at the German site. A noise-replacement control confirms the gain is driven by genuine spectral structure rather than dimensionality. The contribution is positively signed across forecast horizons from 15 to 90 min, holds across three model families (TCN, LSTM, LightGBM), and is statistically significant under day-block bootstrap (p<0.001). Post-hoc wavelength-importance analysis localises the signal to visible and near-infrared channels coinciding with known atmospheric absorption features, with cross-site Pearson correlation r=0.69. As market clearing intervals shrink and PV penetration rises, ground-based spectral irradiance, already collected at BSRN and collaborative PV testing networks worldwide, is a low-cost, deployable input feature for intra-hour forecasts.",
+          "abstractZh": "全球电力市场正在缩短结算间隔，澳大利亚于2021年采用5分钟结算，欧盟现在要求成员国采用15分钟不平衡结算周期。更短的间隔凸显了在云致爬坡事件时间尺度上准确的小时内光伏（PV）功率预测的价值，而宽带辐照度无法完全解决这一问题。本研究首次利用地基高分辨率光谱辐射计测量（213个通道，350–1052 nm）作为短期光伏预测的输入，并利用新加坡太阳能研究所（SERIS）的数据在两种气候和多年份下量化了增益。引入了SpectralEncoder，一种沿波长轴应用的轻量级一维卷积网络，并结合了物理驱动的光谱比率表示，将光谱形状与宽带幅度解耦。在双维度框架下评估性能，该框架将爬坡/非爬坡条件与由晴空指数定义的晴朗/中间/阴天状态交叉。在主要德国站点（温带海洋性；2018–2021年训练，2023年测试），使用光谱输入后总体RMSE降低了4.4%，在阴天爬坡条件下增益最大（+9.4%），这是对电网平衡最具破坏性的状态。在澳大利亚站点（热沙漠；2018–2020年训练，2022年测试），增益为2.7%，与德国站点符号相同。噪声替换对照证实增益由真实光谱结构而非维度驱动。贡献在15至90分钟的预测范围内均为正，在三个模型家族（TCN、LSTM、LightGBM）中均成立，并且在日块自助法下具有统计显著性（p<0.001）。事后波长重要性分析将信号定位在可见光和近红外通道，与已知大气吸收特征重合，跨站点皮尔逊相关r=0.69。随着市场出清间隔缩短和光伏渗透率上升，地基光谱辐照度（已在全球BSRN和合作光伏测试网络中收集）是一种低成本、可部署的小时内预测输入特征。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "首次将地基高分辨率光谱辐射计（213通道，350–1052 nm）用于光伏功率小时内预测。",
+            "提出SpectralEncoder轻量1D卷积网络和物理光谱比率表示，解耦光谱形状与宽带幅度。",
+            "德国站点总体RMSE降低4.4%，阴天爬坡条件下增益最大达9.4%；澳大利亚站点增益2.7%。",
+            "增益在15–90分钟预测范围、三个模型家族中均成立，统计显著（p<0.001）。",
+            "波长重要性分析定位信号至可见光和近红外通道，跨站点相关r=0.69。"
+          ],
+          "keywords": [
+            "光伏功率预测",
+            "光谱辐照度",
+            "小时内预测",
+            "爬坡事件",
+            "深度学习"
+          ],
+          "figures": [],
+          "relevance": "该研究利用地基光谱辐照度改进光伏功率小时内预测，直接服务于光伏功率预测和气象预报，其光谱特征方法可借鉴于雷达流场重构中的多通道数据处理。",
+          "tags": [
+            "功率预测",
+            "气象预报",
+            "时序预测"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "427",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1016/j.apenergy.2026.128885"
+            }
+          ],
+          "source": "scopus",
+          "score": 19,
+          "rank": 1,
+          "tierLabel": "中科院1区 Top",
+          "metrics": {
+            "cas": {
+              "zone": "1区",
+              "top": true,
+              "major": "工程技术",
+              "year": "2025"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 12.2,
+            "source": "https://www.letpub.com.cn/index.php?journalid=729&page=journalapp&view=detail"
+          }
+        },
+        {
+          "id": "10.1109/tste.2026.3678706",
+          "title": "Adaptive Perceptual Graph Learning for Robust Wind Power Forecasting Under Incomplete Observations",
+          "titleZh": "面向不完备观测的鲁棒风电功率预测自适应感知图学习",
+          "authors": [
+            "Ma D",
+            "Xu Q",
+            "Wang Z",
+            "Liu Y",
+            "Wang Q"
+          ],
+          "venue": "IEEE Transactions on Sustainable Energy",
+          "venueShort": "IEEE TSTE",
+          "publisher": "IEEE",
+          "year": 2026,
+          "date": "2026-10-01",
+          "level": "SCI",
+          "citation": "Ma D, Xu Q, Wang Z, et al. Adaptive Perceptual Graph Learning for Robust Wind Power Forecasting Under Incomplete Observations[J]. IEEE Transactions on Sustainable Energy, 2026, 17(4): 3508-3520.",
+          "doi": "10.1109/tste.2026.3678706",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1109/tste.2026.3678706"
+            },
+            {
+              "label": "原文",
+              "url": "https://ieeexplore.ieee.org/document/11457794"
+            }
+          ],
+          "keywords": [
+            "风电功率预测",
+            "不完备观测",
+            "图学习",
+            "物理信息判别器",
+            "鲁棒预测"
+          ],
+          "abstractEn": "Reliable wind power forecasting plays a crucial role in enabling efficient scheduling and effective energy management in virtual power plants. However, incomplete data observations caused by sensor malfunctions and volatile environmental conditions significantly compromise the reliability of wind power forecasting. To address these challenges, this paper presents a robust adaptive perceptual graph learning framework designed to enhance forecasting accuracy and robustness. The proposed framework uses an attention-gated GRU encoder to restore spatiotemporal dependencies under incomplete observations and integrates an adaptive graph convolution module to dynamically capture complex, non-stationary spatial correlations between wind turbines. To further promote physical consistency, a physics-informed discriminator is introduced as a plug-in component, guiding the model to align its outputs with the nonlinear aerodynamic relationship between wind speed and power generation. In addition, a sensitivity-aware adjustment strategy is developed to dynamically emphasize low-speed operating regimes. Comprehensive experiments conducted on real-world wind farm datasets show that the proposed method consistently surpasses baseline approaches, achieving a reduction of up to 35% in mean absolute percentage error, even under severe missing data scenarios.",
+          "abstractZh": "可靠的风电功率预测对于虚拟电厂实现高效调度与有效能量管理至关重要。然而，传感器故障与多变的环境条件所造成的数据观测不完备，会显著损害风电功率预测的可靠性。为应对这些挑战，本文提出一种鲁棒的自适应感知图学习框架，用以提升预测精度与鲁棒性。该框架采用注意力门控 GRU 编码器，在不完备观测下恢复时空依赖关系，并集成自适应图卷积模块，以动态刻画风电机组之间复杂、非平稳的空间相关性。为进一步提升物理一致性，引入物理信息判别器作为插件式组件，引导模型输出与风速—发电功率之间的非线性气动关系对齐。此外，发展了敏感度感知调整策略，以动态强化低风速运行工况。在真实风电场数据集上的大量实验表明，所提方法始终优于基线方法，即使在数据严重缺失的情形下，平均绝对百分比误差仍最多降低 35%。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "用注意力门控 GRU 编码器在不完备观测下恢复风电场时空依赖关系",
+            "自适应图卷积模块动态刻画机组间复杂、非平稳的空间相关性",
+            "引入物理信息判别器作插件，约束风速—功率非线性气动关系",
+            "敏感度感知调整策略强化低风速工况，严重缺数下 MAPE 最多降 35%"
+          ],
+          "figures": [],
+          "relevance": "直接对应我们的风电功率预测方向：针对传感器故障导致的数据缺失，用图学习+物理约束提升场站级功率预测鲁棒性，可直接迁移到机组级/场站级预测的缺数场景。",
+          "tags": [
+            "功率预测",
+            "图学习"
+          ],
+          "section": "field",
+          "note": "摘要取自 OpenAlex（works/doi:10.1109/tste.2026.3678706 的 abstract_inverted_index，1691 字符全文完整还原），来源为 IEEE 元数据；IEEE Xplore 页面本身 403 无法直连，Crossref 该条目不存摘要字段。date 取正式发表期次 2026 年 17 卷 4 期（IEEE 期次只公布到月，故取当月首日）；OpenAlex 记录的在线首发日期为 2026-03-30，早于本次时间窗，本条以“正式发表期次”落入 2026-06-01~2026-11-04。",
+          "metrics": {
+            "cas": {
+              "zone": "1区",
+              "top": true,
+              "major": "工程技术",
+              "year": "2025"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 10.3,
+            "source": "https://www.letpub.com.cn/index.php?journalid=9470&page=journalapp&view=detail"
+          },
+          "rank": 1,
+          "tierLabel": "中科院1区 Top"
+        },
+        {
+          "id": "10.1109/tsg.2026.3707286",
+          "title": "Enhancing Multi-Step Photovoltaic Forecasting With Large-Scale Meteorological Data",
+          "titleZh": "利用大尺度气象数据增强光伏多步功率预测",
+          "authors": [
+            "Zhang Z",
+            "Li Y",
+            "Li Y",
+            "Qie Z",
+            "Chung C Y",
+            "Zeng Z"
+          ],
+          "venue": "IEEE Transactions on Smart Grid",
+          "venueShort": "IEEE TSG",
+          "publisher": "IEEE",
+          "year": 2026,
+          "date": "2026-06-25",
+          "level": "SCI",
+          "citation": "Zhang Z, Li Y, Li Y, et al. Enhancing Multi-Step Photovoltaic Forecasting With Large-Scale Meteorological Data[J]. IEEE Transactions on Smart Grid, 2026, 17(6): 6724-6738.",
+          "doi": "10.1109/tsg.2026.3707286",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1109/tsg.2026.3707286"
+            },
+            {
+              "label": "原文",
+              "url": "https://ieeexplore.ieee.org/document/11579426"
+            }
+          ],
+          "keywords": [
+            "光伏功率预测",
+            "多步预测",
+            "ERA5 再分析",
+            "4D 气象嵌入",
+            "遥相关"
+          ],
+          "abstractEn": "The increasing integration of sustainable energy sources, such as photovoltaic (PV) power, into power systems has greatly added to the complexities of grid control. Highly accurate PV power generation forecasting is therefore of critical importance. However, most existing PV power generation forecasting models are still solely based on time series analysis, while some models attempt to improve forecasting accuracy by incorporating basic meteorological data, such as local precipitation and temperature. The limitation of these approaches lies in the fact that simple meteorological information is insufficient to significantly enhance model performance and can even lead to a decline in accuracy. Teleconnection in meteorology and our analysis both indicate that local PV power stations can be influenced by meteorological conditions across large-scale or even global spatial ranges. To address this issue, this study analyzes the global correlation between PV sites and broader meteorological factors, and introduces a 4D meteorological data embedder for ERA5 meteorological data. By encoding spatial-temporal meteorological information over multiple hours, the embedder integrates these features into traditional neural network-based time series predictors using channel tokenization to encode local historical PV time series. Finally, the model's feedforward network performs multi-step local PV power generation forecasts through a single forward propagation. Experimental results demonstrate that on the evaluated datasets and baselines, the proposed model outperforms both classical and state-of-the-art deep learning models in PV power forecasting tasks up to 48 hours in advance.",
+          "abstractZh": "光伏（PV）等可持续能源接入电力系统的程度不断提高，极大增加了电网控制的复杂性，因此高精度的光伏发电功率预测至关重要。然而，现有大多数光伏发电功率预测模型仍仅基于时间序列分析；部分模型尝试引入降水、气温等基本气象数据来提升预测精度。这类方法的局限在于：简单的气象信息不足以显著提升模型性能，甚至可能导致精度下降。气象学中的遥相关现象以及本文的分析均表明，本地光伏电站会受到大尺度乃至全球空间范围气象条件的影响。为解决该问题，本文分析了光伏站点与更广泛气象要素之间的全球相关性，并针对 ERA5 气象数据提出一种 4D 气象数据嵌入器。该嵌入器对多个小时的时空气象信息进行编码，并通过通道标记化（channel tokenization）编码本地历史光伏时间序列，从而把这些特征融入传统的基于神经网络的时序预测器。最后，模型的前馈网络通过一次前向传播完成本地光伏发电功率的多步预测。实验结果表明，在所评估的数据集与基线上，所提模型在提前至多 48 小时的光伏功率预测任务中优于经典模型与最先进的深度学习模型。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "指出仅用降水、气温等基本气象量，甚至会让光伏预测精度下降",
+            "基于 ERA5 构造 4D 气象数据嵌入器，编码数小时全球时空气象信息",
+            "用通道标记化把气象特征与本地历史功率序列融合进时序预测网络",
+            "前馈网络一次前向传播完成多步预测，提前 48 小时仍优于经典与 SOTA 模型"
+          ],
+          "figures": [],
+          "relevance": "把气象预报与功率预测直接连起来：用 ERA5 全球 4D 气象场驱动光伏多步功率预测，正是我们“NWP/再分析数据 + 功率预测”技术路线的直接参考实现。",
+          "tags": [
+            "功率预测",
+            "气象预报",
+            "多模态"
+          ],
+          "section": "field",
+          "note": "摘要取自 OpenAlex（works/doi:10.1109/tsg.2026.3707286 的 abstract_inverted_index，1691 字符全文完整还原），来源为 IEEE 元数据；IEEE Xplore 页 403 不可直连，Crossref 该条目不存摘要。date 为在线首发日 2026-06-25（Crossref 记录创建时间与 OpenAlex publication_date 一致），正式期次为 2026 年 17 卷 6 期（2026-11）。",
+          "metrics": {
+            "cas": {
+              "zone": "1区",
+              "top": true,
+              "major": "工程技术",
+              "year": "2025"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 10.1,
+            "source": "https://www.letpub.com.cn/index.php?journalid=9469&page=journalapp&view=detail"
+          },
+          "rank": 1,
+          "tierLabel": "中科院1区 Top"
+        }
+      ],
+      "summary": "在时序深度模型架构层面，有工作重新审视编码器—解码器与通道建模在有气象预报输入时的关键作用，并以多尺度时间编码、相关性感知通道注意力与层次化交叉注意力解码构建Cross-Unet；多模态融合路径则借助时间注意力逐时间步重加权全天空图像与气象数据，或以双LSTM编码器加自适应跨模态集成处理视觉与气象输入；光谱方向上，地基高分辨率光谱辐照度结合轻量一维卷积与物理光谱比率表示，实现光谱形状与宽带幅度的解耦；面向不完备观测，注意力门控GRU与自适应图卷积被用于恢复场站时空依赖并刻画非平稳空间相关性；大尺度气象数据方面，基于ERA5构造的四维气象嵌入器将数小时全球时空信息纳入多步预测。整体呈现从单一气象输入向多源异构融合、从确定性点预测向概率化与鲁棒建模演进的趋势。"
+    },
+    "algo": {
+      "title": "算法进展",
+      "subtitle": "大模型 · 时序预测",
+      "items": [
+        {
+          "id": "arxiv:2611.03592",
+          "title": "Evaluating Uncertainty Calibration in Probabilistic Time Series Foundation Models",
+          "titleZh": "概率时序基础模型的不确定性校准评估",
+          "authors": [
+            "Decker T",
+            "Tresp V"
+          ],
+          "venue": "Advances in Neural Information Processing Systems (NeurIPS 2026)",
+          "venueShort": "Advances in",
+          "proceedings": "NeurIPS 2026",
+          "year": 2026,
+          "date": "2026-11-02",
+          "level": "CCF-A",
+          "citation": "Decker T, Tresp V. Evaluating uncertainty calibration in probabilistic time series foundation models[C]//Advances in Neural Information Processing Systems (NeurIPS 2026). 2026.",
+          "links": [
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2611.03592"
+            },
+            {
+              "label": "PDF",
+              "url": "https://arxiv.org/pdf/2611.03592"
+            }
+          ],
+          "keywords": [
+            "时序基础模型",
+            "概率预测",
+            "不确定性校准",
+            "评测基准",
+            "多步预测"
+          ],
+          "abstractEn": "Time series foundation models (TSFMs) are increasingly used for probabilistic forecasting across diverse domains, yet the reliability of their uncertainty estimates remains poorly understood. In this work, we study uncertainty calibration in probabilistic TSFMs from a broader methodological and empirical perspective. We introduce a taxonomy of how TSFMs represent predictive uncertainty and develop a fine-grained evaluation framework for calibration in multi-horizon forecasting that distinguishes pooled, horizon-wise, and stronger conditional notions of calibration. Using this framework, we conduct a comprehensive empirical evaluation of popular TSFMs across diverse datasets and show that current models exhibit distinct and systematic patterns of miscalibration that standard metrics often obscure. We further analyze common post-hoc recalibration methods and characterize which forms of calibration they can improve and which tend to persist. Our results provide practical guidance for evaluating and improving uncertainty calibration in TSFMs and highlight important limitations of current practice.",
+          "abstractZh": "时序基础模型（TSFM）正越来越多地被用于跨领域的概率预测，但其不确定性估计的可靠性仍鲜为人知。本文从更宽的方法论与实证视角研究概率 TSFM 中的不确定性校准问题。我们给出 TSFM 表示预测不确定性的分类体系，并针对多步预测中的校准建立细粒度评估框架，区分合并式（pooled）、逐时程（horizon-wise）以及更强的条件式校准这三类概念。基于该框架，我们对主流 TSFM 在多种数据集上开展了全面的实证评估，结果表明当前模型表现出各自不同且系统性的失准模式，而标准指标常常掩盖了这些模式。我们进一步分析常用的后验重校准方法，刻画它们能改善哪些形式的校准、哪些又会持续存在。研究结果为评估与改进 TSFM 的不确定性校准提供了实践指引，并凸显了当前做法的重要局限。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "给出 TSFM 表示预测不确定性的分类体系，并建立多步概率预测的细粒度校准评估框架。",
+            "框架区分合并式、逐时程与更强的条件式三类校准口径，揭示标准指标会掩盖的系统性失准。",
+            "对主流 TSFM 跨多数据集做全面实证，指出当前模型存在各自不同且系统性的失准模式。",
+            "系统分析常用后验重校准方法，明确其能改善哪些校准形式、哪些仍会持续存在。",
+            "为\"时序基础模型能否直接用于概率预测\"提供评估口径与实践指引，而非只报点预测误差。"
+          ],
+          "figures": [],
+          "relevance": "给出检验概率预报可靠性的评测口径，可直接用于核查功率区间/分位数预测的校准质量，避免只看 MSE 而忽视区间覆盖率与条件偏差。",
+          "tags": [
+            "时序预测",
+            "概率预测"
+          ],
+          "section": "algo",
+          "rank": 0,
+          "tierLabel": "CCF-A"
+        },
+        {
+          "id": "arxiv:2610.17715",
+          "title": "MissPath-FM: Flow Matching with Structured Priors for Partially Observed Time Series",
+          "titleZh": "MissPath-FM：面向部分观测时序的结构化先验流匹配",
+          "authors": [
+            "Zhang G"
+          ],
+          "venue": "Advances in Neural Information Processing Systems (NeurIPS 2026)",
+          "venueShort": "Advances in",
+          "proceedings": "NeurIPS 2026",
+          "year": 2026,
+          "date": "2026-10-13",
+          "level": "CCF-A",
+          "citation": "Zhang G. MissPath-FM: Flow matching with structured priors for partially observed time series[C]//Advances in Neural Information Processing Systems (NeurIPS 2026). 2026.",
+          "links": [
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2610.17715"
+            },
+            {
+              "label": "PDF",
+              "url": "https://arxiv.org/pdf/2610.17715"
+            }
+          ],
+          "keywords": [
+            "流匹配",
+            "缺失值",
+            "部分观测",
+            "生成模型",
+            "结构化先验"
+          ],
+          "abstractEn": "Flow matching has emerged as a powerful alternative to diffusion models for generative modeling, but standard conditional flow matching is fundamentally misaligned with partially observed time series: starting from an uninformed Gaussian source forces the model to transport even already-observed entries from noise to the target, wasting capacity on trivially known regions. We propose MissPath-FM, a partial-observation-aware flow matching framework that redesigns the source prior and probability path for incomplete time series. MissPath-FM employs structured source priors (interpolation priors and Gaussian process posterior priors) to initialize the flow close to the observed signal, paired with a missingness-aware smooth path that allocates transport asymmetrically between observed and missing regions. We evaluate systematically across four datasets, four missingness mechanisms (MCAR, block, MNAR, irregular), two missing ratios, and three sequence lengths (T in {24, 48, 96}), totaling 48 settings against eight baselines. MissPath-FM wins 29 of 32 settings at T=48 and 45 of 48 overall (93.8%). Our ablations reveal a regime-dependent design hierarchy in which no single component suffices: under random missingness the source prior yields a large initial gain, but under structured block missingness it can fail entirely and the learned flow becomes indispensable; the missingness-aware path contributes a further 12%-26% across all regimes. Mechanistically, structured priors shorten observed-region transport by up to 15x, concentrating the velocity field on genuinely uncertain entries. Project page: https://zgp110.github.io/misspath-fm/",
+          "abstractZh": "流匹配已成为生成建模中扩散模型之外的一个强大替代方案，但标准条件流匹配与部分观测时序存在根本性错配：从无信息的各向同性高斯源出发，会迫使模型把已观测的条目也从噪声搬运到目标，把容量浪费在本来已知的区域上。我们提出 MissPath-FM——一个考虑部分观测的流匹配框架，针对不完整时序重新设计源先验与概率路径。MissPath-FM 采用结构化源先验（插值先验与高斯过程后验先验），使流的初始化接近观测信号；并配合缺失感知的平滑路径，在观测区与缺失区之间非对称地分配传输。我们系统评估了四个数据集、四种缺失机制（MCAR、块状、MNAR、不规则）、两种缺失率与三种序列长度（T∈{24, 48, 96}），共 48 种设置，对比 8 个基线。MissPath-FM 在 T=48 的 32 个设置中赢下 29 个，在整体 48 个设置中赢下 45 个（93.8%）。消融实验揭示了随机制而变的设计层级，没有任何单一组件可以普适：随机缺失下源先验带来很大的初始增益，但结构化块状缺失下它可能完全失效，此时学习到的流不可或缺；缺失感知路径在所有机制下额外贡献 12%–26%。从机理上看，结构化先验使观测区的传输缩短最多 15 倍，把速度场集中到真正不确定的条目上。项目主页：https://zgp110.github.io/misspath-fm/",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "指出标准条件流匹配与部分观测时序错配：从无信息高斯源出发，会把已知观测也当作待搬运的噪声，浪费容量。",
+            "用插值先验/高斯过程后验先验把流初始化到接近观测信号，并以缺失感知平滑路径在观测区与缺失区非对称分配传输。",
+            "共 48 种设置、8 个基线：T=48 时 32 个设置赢 29 个，整体 45/48（93.8%）。",
+            "消融给出随机制而变的设计层级：块状缺失下源先验可能完全失效、学习到的流不可或缺；缺失感知路径额外贡献 12%–26%。",
+            "结构化先验使观测区传输缩短最多 15 倍，把速度场集中到真正不确定的条目。"
+          ],
+          "figures": [],
+          "relevance": "测风塔/功率量测普遍存在连续缺测与不规则采样，\"插值/GP 先验 + 缺失感知路径\"可直接用于缺测段重建与含缺失输入的功率概率预测。",
+          "tags": [
+            "时序预测",
+            "概率预测"
+          ],
+          "section": "algo",
+          "rank": 0,
+          "tierLabel": "CCF-A"
+        },
+        {
+          "id": "arxiv:2609.36982v1",
+          "arxivId": "2609.36982v1",
+          "title": "SRJudge: Empowering Large Language Models with Selective Reasoning for Fine-Grained Knowledge Concept Tagging",
+          "titleZh": "SRJudge：赋予大语言模型选择性推理能力以实现细粒度知识概念标注",
+          "authors": [
+            "Zhiwei Yang",
+            "Jiahua Yang",
+            "Huiru Lin",
+            "Xing Chen",
+            "Quanlong Guan"
+          ],
+          "authorsText": "Yang Z, Yang J, Lin H, et al.",
+          "venue": "International Joint Conference on Artificial Intelligence (IJCAI 2026)",
+          "venueShort": "International Join",
+          "year": 2026,
+          "date": "2026-09-29",
+          "level": "CCF-A",
+          "citation": "Yang Z, Yang J, Lin H, et al. SRJudge: Empowering Large Language Models with Selective Reasoning for Fine-Grained Knowledge Concept Tagging[C]//International Joint Conference on Artificial Intelligence (IJCAI 2026). 2026.",
+          "abstractEn": "Knowledge concept tagging aims to assign specific concept or topic labels to educational content, which is essential for both educators and learners in traditional and online teaching practices. Recent work has explored large language models (LLMs) for this task, achieving promising performance. However, LLMs still struggle to select the correct concept from a large-scale candidate set due to the high dimensionality of the decision space. In this paper, we propose a novel three-stage Select-Reason-Judge (SRJudge) framework, which empowers LLMs with selective reasoning capability for fine-grained knowledge concept tagging. Specifically, the Selector in Stage 1 first narrows the candidate concepts to a top-K shortlist by fine-tuning a small language model (SLM), e.g., BERT, since the top-$K$ predictions hit the correct concept in most cases, thereby reducing the decision space of correct candidates. Next, the Stage 2 Reasoner employs a lightweight LLM for refined reasoning over the shortlisted candidates. It further integrates an improved reinforcement learning strategy with a dynamic task-specific reward function and a pruning mechanism to better align with human reasoning preferences. Finally, a larger LLM acts as a judger that evaluates the overall rationality of the reasoning process and its explanations to determine the final output. In addition, we construct two high-quality datasets for further validation, i.e., the biology dataset S_Bio and the physics dataset S_Phy. Experimental results demonstrate that our method consistently outperforms state-of-the-art baselines across benchmark datasets, verifying its effectiveness and superiority. Resources are available at: https://github.com/Nicozwy/SRJudge.",
+          "abstractZh": "知识概念标注旨在为教育内容分配特定的概念或主题标签，这对传统与在线教学中的教育者和学习者都至关重要。近期研究探索了利用大语言模型（LLM）完成该任务，并取得了有前景的性能。然而，由于决策空间的高维性，LLM仍难以从大规模候选集中选出正确的概念。本文提出一种新颖的三阶段“选择-推理-评判”（SRJudge）框架，赋予LLM选择性推理能力以实现细粒度知识概念标注。具体而言，第一阶段的选择器首先通过微调一个小语言模型（SLM，如BERT）将候选概念缩小至前K个短名单，因为前K个预测在多数情况下能命中正确概念，从而缩小正确候选的决策空间。接着，第二阶段的推理器采用轻量级LLM对入围候选进行精细推理，并进一步结合改进的强化学习策略、动态任务特定奖励函数和剪枝机制，以更好地对齐人类推理偏好。最后，一个更大的LLM作为评判者，评估推理过程及其解释的整体合理性以确定最终输出。此外，我们构建了两个高质量数据集用于进一步验证，即生物数据集S_Bio和物理数据集S_Phy。实验结果表明，我们的方法在基准数据集上持续优于最先进的基线，验证了其有效性与优越性。资源见：https://github.com/Nicozwy/SRJudge。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "提出三阶段SRJudge框架：选择器、推理器、评判器分工协作完成概念标注",
+            "选择器微调BERT等小模型将候选缩至前K个，缩小LLM决策空间",
+            "推理器用轻量LLM并引入动态奖励函数与剪枝的改进强化学习策略",
+            "评判器用更大LLM评估推理过程合理性以确定最终输出",
+            "构建S_Bio与S_Phy两个数据集，实验持续优于最先进基线"
+          ],
+          "keywords": [
+            "大语言模型",
+            "知识概念标注",
+            "选择性推理",
+            "强化学习",
+            "候选筛选"
+          ],
+          "figures": [],
+          "relevance": "该文虽面向教育知识概念标注，但其“小模型筛选候选+轻量LLM推理+大LLM评判”的选择性推理框架，可迁移至大模型辅助的时序预测与功率预测中的候选方案筛选与推理决策。",
+          "tags": [
+            "大模型",
+            "时序预测"
+          ],
+          "section": "algo",
+          "kind": "conference",
+          "acceptance": {
+            "venue": "IJCAI 2026",
+            "ccf": "A",
+            "kind": "conf",
+            "evidence": "Accepted by IJCAI 2026"
+          },
+          "links": [
+            {
+              "label": "原文",
+              "url": "https://arxiv.org/abs/2609.36982v1"
+            },
+            {
+              "label": "PDF",
+              "url": "https://arxiv.org/pdf/2609.36982v1"
+            }
+          ],
+          "source": "arxiv-conference",
+          "score": 27,
+          "rank": 0,
+          "tierLabel": "CCF-A"
+        },
+        {
+          "id": "10.1145/3770855.3818201",
+          "title": "Efficient Test-Time Scaling for LLM-based Time Series Forecasting",
+          "titleZh": "面向基于大语言模型时序预测的高效测试时扩展",
+          "authors": [
+            "Le X M",
+            "Tran M T",
+            "Luo L",
+            "Aickelin U",
+            "Phung D",
+            "Le T"
+          ],
+          "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026)",
+          "venueShort": "ACM SIGKDD",
+          "proceedings": "KDD 2026",
+          "publisher": "ACM",
+          "year": 2026,
+          "date": "2026-08-08",
+          "level": "CCF-A",
+          "citation": "Le X M, Tran M T, Luo L, et al. Efficient test-time scaling for LLM-based time series forecasting[C]//Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 2026: 2437-2448.",
+          "doi": "10.1145/3770855.3818201",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1145/3770855.3818201"
+            },
+            {
+              "label": "原文",
+              "url": "https://dl.acm.org/doi/10.1145/3770855.3818201"
+            },
+            {
+              "label": "预印本",
+              "url": "https://arxiv.org/abs/2608.08675"
+            }
+          ],
+          "keywords": [
+            "时序预测",
+            "大语言模型",
+            "测试时扩展",
+            "由粗到细",
+            "推理成本"
+          ],
+          "abstractEn": "Long-term time series forecasting benefits from preserving global structure such as trends and seasonality. Recent LLM-based forecasters often improve accuracy through test-time scaling (e.g., iterative refinement), but these methods are computationally expensive and increasingly prone to global-shape mismatch as the prediction horizon extends. We propose SCALER, a coarse-to-fine forecasting framework that first employs a lightweight Transformer tailored to long-term shape modeling to predict a coarse representation of future dynamics. This predicted shape then serves as a compact guide for an LLM to perform test-time scaling via iterative coarse-to-fine residual token refinement, while processing substantially fewer tokens at each step. By guiding refinement with an explicit future-shape prediction, SCALER reduces reliance on long description prompts, and its fixed-step refinement avoids costly reward-model-based selection, further lowering computational overhead. Experimental results demonstrate that SCALER outperforms strong forecasting baselines in long-term, short-term and zero-shot forecasting while significantly reducing the inference cost associated with scaled LLM for time series forecasting. Code: https://github.com/xuanmay2701/SCALER.",
+          "abstractZh": "长时程时序预测的收益来自保留趋势与季节性等全局结构。近期基于大语言模型（LLM）的预测器常通过测试时扩展（如迭代细化）提升精度，但这类方法计算开销大，且随着预测步长延长越来越容易出现全局形状失配。我们提出 SCALER——一个由粗到细的预测框架：首先用轻量级 Transformer 针对长程形状建模，预测未来动态的粗粒度表示；该预测形状随后作为紧凑引导，供 LLM 通过迭代式由粗到细的残差 token 细化来完成测试时扩展，同时每一步处理的 token 数量大幅减少。以显式的未来形状预测来引导细化，SCALER 降低了对长描述提示的依赖，其固定步数细化也避免了代价高昂的基于奖励模型的选择，从而进一步降低计算开销。实验结果表明，SCALER 在长期、短期与零样本预测中均优于强基线，同时显著降低了 LLM 时序预测在测试时扩展中的推理成本。代码：https://github.com/xuanmay2701/SCALER。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "提出 SCALER 由粗到细框架：轻量 Transformer 定未来形状，LLM 迭代细化残差 token。",
+            "用显式未来形状引导替代长描述提示，并以固定步数细化免去奖励模型选择，显著压缩推理开销。",
+            "长期、短期与零样本预测均优于强基线；三个数据集上 MSE 最低（或并列最低）且推理更快。",
+            "长时程鲁棒性更好：随预测步长增大，SCALER 的 MSE/MAE 退化比基线更平缓。"
+          ],
+          "figures": [
+            {
+              "file": "fig/algo2-2608.08675-1.png",
+              "caption": "SCALER 与已有建模范式对比：(a) 传统预测器直接输出，易丢失长时程趋势与季节性；(b) 基于 LLM 的预测器依赖长描述提示，长步长下形状易漂移；(c) LLM 测试时扩展反复迭代、开销大；(d) SCALER 先由轻量全局预测器给出未来形状（Stage I），再由 LLM 逐级细化 1×1、1×2 token（Stage II），显著减少每步 token 数。",
+              "source": "原文 Fig. 1",
+              "license": "CC BY 4.0"
+            },
+            {
+              "file": "fig/algo2-2608.08675-2.png",
+              "caption": "精度—效率权衡：在 ETTh1、ECL、Weather 三个数据集上比较 MSE（纵轴，越低越好）与相对推理时间（横轴，越左越快）。SCALER 同时位于最低 MSE 与最快推理的角点，优于 PatchTST、TimeLLM、TimeReasoner。",
+              "source": "原文 Fig. 3",
+              "license": "CC BY 4.0"
+            }
+          ],
+          "relevance": "把 LLM 测试时扩展拆成\"轻量模型定形状 + LLM 精修残差\"，正是超短期功率预测中\"廉价数值模型打底、大模型校正偏差\"的可行工程化路线，可用于滚动刷新场景下的降本。",
+          "tags": [
+            "大模型",
+            "时序预测"
+          ],
+          "section": "algo",
+          "rank": 0,
+          "tierLabel": "CCF-A"
+        },
+        {
+          "id": "10.1145/3770855.3818841",
+          "title": "EnergyMamba: An Uncertainty-Aware Graph-Enhanced Selective State Space Model for Energy Consumption Prediction",
+          "titleZh": "EnergyMamba：面向能耗预测的不确定性感知图增强选择性状态空间模型",
+          "authors": [
+            "Yu D",
+            "Xu R",
+            "Jiang L",
+            "Wang G"
+          ],
+          "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026)",
+          "venueShort": "ACM SIGKDD",
+          "proceedings": "KDD 2026",
+          "publisher": "ACM",
+          "year": 2026,
+          "date": "2026-08-08",
+          "level": "CCF-A",
+          "citation": "Yu D, Xu R, Jiang L, et al. EnergyMamba: An uncertainty-aware graph-enhanced selective state space model for energy consumption prediction[C]//Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 2026: 12727-12738.",
+          "doi": "10.1145/3770855.3818841",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1145/3770855.3818841"
+            },
+            {
+              "label": "原文",
+              "url": "https://dl.acm.org/doi/10.1145/3770855.3818841"
+            },
+            {
+              "label": "预印本",
+              "url": "https://arxiv.org/abs/2606.00506"
+            }
+          ],
+          "keywords": [
+            "能耗预测",
+            "状态空间模型",
+            "图神经网络",
+            "共形分位数回归",
+            "不确定性量化"
+          ],
+          "abstractEn": "Energy consumption prediction is essential for efficient grid management, demand-side optimization, and sustainable energy planning. Although advanced machine learning methods have been employed for better prediction performance, existing works have two key limitations: (1) they usually formulate this task as a purely time-series prediction problem without explicitly modeling the spatial dependencies among different regions, and (2) they fail to provide reliable predictions with uncertainty estimates under abnormal situations such as extreme weather events. To advance existing research, we propose EnergyMamba, an uncertainty-aware spatiotemporal learning framework for accurate and reliable energy consumption prediction, which comprises two key components: (i) a novel Graph-Enhanced Selective State Space Model (GE-Mamba) that injects spatial context learned from the grid topology into the temporal dynamics, enabling coupled spatiotemporal modeling, and (ii) an Adaptive Sequential Conformalized Quantile Regression (AS-CQR) module, which includes locally adaptive normalization and an online feedback mechanism to dynamically calibrate prediction intervals under potential distribution shifts. We evaluate EnergyMamba on four large-scale real-world datasets from Florida, New York, and California. Results show EnergyMamba achieves around 5% improvement in prediction accuracy and 6% improvement in uncertainty quantification over 15 state-of-the-art baselines.",
+          "abstractZh": "能耗预测对于高效电网管理、需求侧优化与可持续能源规划至关重要。尽管已有先进的机器学习方法用于提升预测性能，现有工作仍存在两个关键局限：（1）通常把该任务建模为纯时间序列预测问题，未显式建模不同区域间的空间依赖；（2）在极端天气等异常情形下，无法给出带不确定性估计的可靠预测。为推进现有研究，我们提出 EnergyMamba——一个不确定性感知的时空学习框架，用于准确且可靠的能耗预测，包含两个关键组成部分：（i）图增强选择性状态空间模型（GE-Mamba），把从电网拓扑中学到的空间上下文注入时间动态，实现耦合的时空建模；（ii）自适应序列共形分位数回归（AS-CQR）模块，包含局部自适应归一化与在线反馈机制，可在潜在分布漂移下动态校准预测区间。我们在来自佛罗里达、纽约和加利福尼亚的四个大规模真实数据集上评估 EnergyMamba。结果表明，相较于 15 个最先进基线，EnergyMamba 在预测精度上提升约 5%，在不确定性量化上提升约 6%。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "提出 EnergyMamba：GE-Mamba 把电网拓扑学到的空间上下文注入选择性状态空间模型，实现时空耦合建模。",
+            "AS-CQR 模块用局部自适应归一化与在线反馈机制，在分布漂移下动态校准预测区间。",
+            "在佛罗里达、纽约、加州四个大规模真实数据集上评估，对比 15 个最先进基线。",
+            "预测精度提升约 5%，不确定性量化提升约 6%。"
+          ],
+          "figures": [],
+          "relevance": "电网拓扑图 + 选择性 SSM + 共形分位数，正是区域级新能源功率预测最直接的组合范本；AS-CQR 的在线反馈机制也可迁移到极端天气下的功率区间校准。",
+          "tags": [
+            "功率预测",
+            "图学习",
+            "概率预测"
+          ],
+          "section": "algo",
+          "rank": 0,
+          "tierLabel": "CCF-A"
+        },
+        {
+          "id": "arxiv:2606.30461",
+          "title": "MuonSSM: Orthogonalizing State Space Models for Sequence Modeling",
+          "titleZh": "MuonSSM：面向序列建模的状态空间模型正交化",
+          "authors": [
+            "Nguyen T K",
+            "Vo N B U",
+            "Vo T N",
+            "Nguyen T M",
+            "Pham C"
+          ],
+          "venue": "International Conference on Machine Learning (ICML 2026)",
+          "venueShort": "International Conf",
+          "proceedings": "ICML 2026",
+          "publisher": "PMLR",
+          "year": 2026,
+          "date": "2026-06-29",
+          "level": "CCF-A",
+          "citation": "Nguyen T K, Vo N B U, Vo T N, et al. MuonSSM: Orthogonalizing state space models for sequence modeling[C]//Proceedings of the 43rd International Conference on Machine Learning (ICML 2026). 2026.",
+          "links": [
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2606.30461"
+            },
+            {
+              "label": "PDF",
+              "url": "https://arxiv.org/pdf/2606.30461"
+            }
+          ],
+          "keywords": [
+            "状态空间模型",
+            "Mamba",
+            "长序列建模",
+            "Newton-Schulz",
+            "训练稳定性"
+          ],
+          "abstractEn": "State space models (SSMs) have emerged as efficient linear-time alternatives to attention for long-sequence modeling. However, existing SSMs often suffer from instability and memory degradation over extended horizons due to poorly conditioned first-order updates and unbalanced update geometry. We introduce MuonSSM, a general framework that stabilizes SSM training by explicitly conditioning the geometry of memory updates rather than the recurrent transition matrix. MuonSSM augments SSMs with a momentum-based pathway and a lightweight Newton Schulz transformation on low-rank input injections, yielding bounded and spectrally conditioned updates while preserving parallel scan complexity. Theory shows that MuonSSM improves gradient propagation, mitigates spectral amplification, and enriches memory representations over long horizons. Extensive experiments across language, vision, and time-series benchmarks show consistent gains in accuracy, robustness, and long-context performance when integrated into diverse SSM backbones. These results establish geometric conditioning of updates as a principled pathway to stable, scalable sequence modeling.",
+          "abstractZh": "状态空间模型（SSM）已成为长序列建模中替代注意力的高效线性时间方案。然而，现有 SSM 常因一阶更新条件数不佳与更新几何不平衡，在长时程上出现不稳定与记忆退化。我们提出 MuonSSM——一个通用框架，通过显式调整记忆更新的几何条件（而非循环转移矩阵）来稳定 SSM 训练。MuonSSM 为 SSM 增加基于动量的通路，并对低秩输入注入施加轻量级 Newton–Schulz 变换，在保持并行扫描复杂度的同时获得有界、谱条件良好的更新。理论分析表明，MuonSSM 改善梯度传播、抑制谱放大，并在长时程上丰富记忆表示。在语言、视觉与时序基准上的大量实验显示，将其集成到多种 SSM 骨干时，在精度、鲁棒性与长上下文性能上均有一致提升。这些结果确立了\"更新的几何条件化\"作为稳定、可扩展序列建模的一条原则性路径。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "提出 MuonSSM：不调整循环转移矩阵，而是对记忆更新本身做显式几何条件化以稳定 SSM 训练。",
+            "引入动量通路 + 低秩输入注入上的轻量 Newton–Schulz 变换，在保持并行扫描线性复杂度的同时获得有界谱更新。",
+            "理论证明其改善梯度传播、抑制谱放大，并在长时程上丰富记忆表示。",
+            "在语言、视觉与时序基准上均有一致提升，可直接插入多种 SSM 骨干（含视觉 Mamba 骨干）。"
+          ],
+          "figures": [
+            {
+              "file": "fig/algo2-2606.30461-1.png",
+              "caption": "循环状态矩阵的谱形态对比：标准 SSM 更新（红，Before NS）出现谱坍缩，条件数高达 2.2×10⁶；加入 Newton–Schulz 变换后（绿，After NS）奇异值谱接近等距，条件数降至 1.2×10⁵。",
+              "source": "原文 Fig. 2",
+              "license": "CC BY 4.0"
+            }
+          ],
+          "relevance": "线性复杂度且训练更稳定的 SSM 骨干，为长历史（数年小时级）风电/光伏功率序列建模提供比 Transformer 更省内存与算力的替代方案。",
+          "tags": [
+            "时序预测"
+          ],
+          "section": "algo",
+          "rank": 0,
+          "tierLabel": "CCF-A"
+        },
+        {
+          "id": "arxiv:2605.20678",
+          "title": "Dynamic TMoE: A Drift-Aware Dynamic Mixture of Experts Framework for Non-Stationary Time Series Forecasting",
+          "titleZh": "Dynamic TMoE：面向非平稳时序预测的漂移感知动态混合专家框架",
+          "authors": [
+            "Zhu J",
+            "Liu S",
+            "Weng D",
+            "Wu Y"
+          ],
+          "venue": "International Conference on Machine Learning (ICML 2026)",
+          "venueShort": "International Conf",
+          "proceedings": "ICML 2026",
+          "publisher": "PMLR",
+          "year": 2026,
+          "date": "2026-05-20",
+          "level": "CCF-A",
+          "citation": "Zhu J, Liu S, Weng D, et al. Dynamic TMoE: A drift-aware dynamic mixture of experts framework for non-stationary time series forecasting[C]//Proceedings of the 43rd International Conference on Machine Learning (ICML 2026). 2026.",
+          "links": [
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2605.20678"
+            },
+            {
+              "label": "PDF",
+              "url": "https://arxiv.org/pdf/2605.20678"
+            }
+          ],
+          "keywords": [
+            "非平稳时序",
+            "混合专家",
+            "分布漂移",
+            "最大均值差异",
+            "专家演化"
+          ],
+          "abstractEn": "Non-stationary time series forecasting is challenged by evolving distribution shifts that static models struggle to capture. While Mixture-of-Experts (MoE) architectures offer a promising paradigm for decoupling complex drift patterns, existing approaches are limited by fixed expert pools and memoryless routing, hampering their ability to adapt to abrupt regime shifts. To address this, we propose Dynamic TMoE, a framework that unifies architectural evolution with temporal continuity during learning phase. By detecting distribution shifts via Maximum Mean Discrepancy (MMD), we dynamically instantiate heterogeneous experts and prune redundant ones to optimize capacity. Additionally, a temporal memory router leverages recurrent states and an anomaly repository to ensure stable, context-aware expert selection without requiring test-time updates. Experiments on nine benchmarks demonstrate state-of-the-art performance, reducing MSE by 10.4% and MAE by 7.8%. Code is available at https://github.com/andone-07/Dynamic-TMoE.",
+          "abstractZh": "非平稳时序预测受制于不断演化的分布漂移，静态模型难以捕捉。虽然混合专家（MoE）架构为解耦复杂漂移模式提供了有前景的范式，但现有方法受限于固定的专家池与无记忆路由，难以适应突变式的工况切换。为此，我们提出 Dynamic TMoE——一个在学习阶段把架构演化与时间连续性统一起来的框架。我们通过最大均值差异（MMD）检测分布漂移，动态实例化异构专家并剪除冗余专家以优化容量；同时，时间记忆路由器利用循环状态与异常库，在无需测试时更新的前提下实现稳定、上下文感知的专家选择。在九个基准上的实验展示了最先进的性能，MSE 降低 10.4%，MAE 降低 7.8%。代码见 https://github.com/andone-07/Dynamic-TMoE。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "用 MMD 检测分布漂移，动态实例化异构专家并剪除冗余专家，把\"固定专家池\"变成可演化专家池。",
+            "时间记忆路由器结合循环状态与异常库，在无需测试时更新的情况下实现上下文感知的专家选择。",
+            "在九个基准上取得最先进性能：MSE 降低 10.4%，MAE 降低 7.8%。",
+            "在 ETTh1 与 Weather 上，MMD 分数恰在漂移点突增并越过动态阈值，触发专家自适应。"
+          ],
+          "figures": [],
+          "relevance": "气候季节性漂移、机组检修与限电带来的突变工况，正对应文中\"分布漂移 + 专家扩容/剪枝\"设定，可直接照搬到场站级功率预测的自适应建模。",
+          "tags": [
+            "时序预测"
+          ],
+          "section": "algo",
+          "rank": 0,
+          "tierLabel": "CCF-A"
+        },
+        {
+          "id": "10.1038/s42256-026-01322-9",
+          "title": "Foundation model for particle collision data analysis",
+          "titleZh": "面向粒子碰撞数据分析的基础模型",
+          "authors": [
+            "Hsu T H",
+            "Zhou B",
+            "Liu Q",
+            "Xu Y",
+            "Li S",
+            "Hou G W S",
+            "Nachman B",
+            "Hsu S C",
+            "et al."
+          ],
+          "venue": "Nature Machine Intelligence",
+          "venueShort": "Nature MI",
+          "publisher": "Springer Nature",
+          "year": 2026,
+          "date": "2026-10-29",
+          "level": "SCI",
+          "citation": "Hsu T H, Zhou B, Liu Q, et al. Foundation model for particle collision data analysis[J]. Nature Machine Intelligence, 2026.",
+          "doi": "10.1038/s42256-026-01322-9",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1038/s42256-026-01322-9"
+            },
+            {
+              "label": "原文",
+              "url": "https://www.nature.com/articles/s42256-026-01322-9"
+            },
+            {
+              "label": "PDF",
+              "url": "https://www.nature.com/articles/s42256-026-01322-9.pdf"
+            }
+          ],
+          "keywords": [
+            "基础模型",
+            "自监督预训练",
+            "粒子物理",
+            "迁移学习",
+            "事例级表示"
+          ],
+          "abstractEn": "Data-intensive collider experiments increasingly require models that transfer across high-dimensional, partially observed measurements, yet most analyses still optimize separate models for each task. Here, to address this bottleneck, we introduce EVENET, an event-level foundation model pretrained on 500 million simulated collision events using self-supervised learning and physics-informed supervision. The model constructs a shared particle-cloud representation from the variable-length set of physics objects in each event. Across searches for heavy resonances and exotic Higgs decays, EVENET outperforms both established and state-of-the-art baselines, particularly in low-statistics regimes. We validate transfer to experimental data by rediscovering the ϒ meson in CMS Open Data. The pretrained model also supports precise extraction of quantum-correlation observables that remain stable under the tested systematic variations. Together, these results establish a reusable backbone for diverse collider analyses, improving downstream adaptation after a substantial one-time pretraining investment.",
+          "abstractZh": "数据密集的对撞机实验越来越需要能够在高维、部分观测的测量之间迁移的模型，但当前大多数分析仍为每个任务单独优化模型。为此，本文提出 EVENET——一个事例级基础模型，使用自监督学习与物理先验监督在 5 亿个模拟碰撞事例上预训练。该模型从每个事例中长度可变的物理对象集合构建共享的\"粒子云\"表示。在重共振态搜寻与稀有希格斯衰变搜寻中，EVENET 优于已有基线和当前最优基线，在低统计量情形下尤为明显。作者通过 CMS 公开数据中重新发现 ϒ 介子，验证了向实验数据的迁移能力。预训练模型还支持精确提取量子关联可观测量，且在所测试的系统误差扰动下保持稳定。这些结果确立了可供多种对撞机分析复用的主干网络，使得在一次较大的预训练投入之后，下游适配得到改善。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "提出 EVENET：以 5 亿个模拟碰撞事例自监督预训练的\"事例级\"基础模型，输入为变长粒子云。",
+            "用点–边 Transformer 与扩散时间条件构建共享表示，并配生成式（Sup-Gen/SS-Gen）与判别式解码器。",
+            "在重共振态与稀有希格斯衰变搜寻中优于现有基线，低统计量区间增益最明显。",
+            "在 CMS 公开数据中重新发现 ϒ 介子，完成向真实实验数据的迁移验证。",
+            "一次预训练即可复用于分类、分配、分割等多任务，降低下游适配成本。"
+          ],
+          "figures": [
+            {
+              "file": "fig/algo-10.1038-s42256-026-01322-9-1.png",
+              "caption": "EVENET 模型架构与任务总览：（a）物理点云、扩散时间步与条件变量输入，经点–边 Transformer 编码器与共享 Transformer 接入解码器；（b）生成式解码器 Sup-Gen 与 SS-Gen；（c）判别式解码器 Cls、Asn 与 Seg。",
+              "source": "原文 Fig. 1",
+              "license": "CC BY 4.0"
+            }
+          ],
+          "relevance": "其\"大规模自监督预训练 + 少量标注下游微调\"的范式，可直接迁移到跨场站、跨区域的气象与功率预测建模。",
+          "tags": [
+            "大模型"
+          ],
+          "section": "algo",
+          "metrics": {
+            "cas": {
+              "zone": "1区",
+              "top": true,
+              "major": "计算机科学",
+              "year": "2025"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 29.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=11172&page=journalapp&view=detail"
+          },
+          "rank": 4,
+          "tierLabel": "顶刊"
+        },
+        {
+          "id": "10.1038/s41586-025-09422-z",
+          "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+          "titleZh": "DeepSeek-R1：通过强化学习激发大语言模型的推理能力",
+          "authors": [
+            "Guo D",
+            "Yang D",
+            "Zhang H",
+            "Song J",
+            "Wang P",
+            "Zhu Q",
+            "Xu R",
+            "Zhang R",
+            "et al."
+          ],
+          "venue": "Nature",
+          "venueShort": "Nature",
+          "publisher": "Springer Nature",
+          "year": 2025,
+          "date": "2025-09-17",
+          "level": "SCI",
+          "citation": "Guo D, Yang D, Zhang H, et al. DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning[J]. Nature, 2025, 645(8081): 633-638.",
+          "doi": "10.1038/s41586-025-09422-z",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1038/s41586-025-09422-z"
+            },
+            {
+              "label": "原文",
+              "url": "https://www.nature.com/articles/s41586-025-09422-z"
+            },
+            {
+              "label": "PDF",
+              "url": "https://www.nature.com/articles/s41586-025-09422-z.pdf"
+            }
+          ],
+          "keywords": [
+            "大语言模型",
+            "强化学习",
+            "推理能力",
+            "思维链",
+            "蒸馏"
+          ],
+          "abstractEn": "General reasoning represents a long-standing and formidable challenge in artificial intelligence (AI). Recent breakthroughs, exemplified by large language models (LLMs) 1,2 and chain-of-thought (CoT) prompting 3, have achieved considerable success on foundational reasoning tasks. However, this success is heavily contingent on extensive human-annotated demonstrations and the capabilities of models are still insufficient for more complex problems. Here we show that the reasoning abilities of LLMs can be incentivized through pure reinforcement learning (RL), obviating the need for human-labelled reasoning trajectories. The proposed RL framework facilitates the emergent development of advanced reasoning patterns, such as self-reflection, verification and dynamic strategy adaptation. Consequently, the trained model achieves superior performance on verifiable tasks such as mathematics, coding competitions and STEM fields, surpassing its counterparts trained through conventional supervised learning on human demonstrations. Moreover, the emergent reasoning patterns exhibited by these large-scale models can be systematically used to guide and enhance the reasoning capabilities of smaller models.",
+          "abstractZh": "通用推理是人工智能中长期存在且极其困难的挑战。近期的突破——以大语言模型（LLM）与思维链（CoT）提示为代表——在基础推理任务上取得了可观的成功。然而，这种成功在很大程度上依赖于大量人工标注的示例，且模型能力对更复杂的问题仍显不足。本文表明，大语言模型的推理能力可以通过纯强化学习（RL）被激发出来，从而无需人工标注的推理轨迹。所提出的 RL 框架促成了高级推理模式（如自我反思、验证与动态策略调整）的涌现。由此训练得到的模型在数学、编程竞赛与 STEM 等可验证任务上取得了更优表现，超过了用传统监督学习在人工示例上训练的同类模型。此外，这些大规模模型所展现的涌现推理模式可以被系统地用于指导并提升较小模型的推理能力。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "仅用纯强化学习、无需人工标注推理轨迹，即可激发自我反思、验证与动态策略调整等推理模式。",
+            "训练所得 DeepSeek-R1-Zero 在数学、代码竞赛与 STEM 等可验证任务上超过监督学习同类模型。",
+            "把大模型涌现的推理模式用于指导小模型，系统性提升小模型推理能力。",
+            "说明 RL 可替代大规模人工演示，为推理能力提升提供可扩展路径。"
+          ],
+          "figures": [
+            {
+              "file": "fig/algo-10.1038-s41586-025-09422-z-1.png",
+              "caption": "DeepSeek-R1 的多阶段训练流程：DeepSeek-V3-Base 经纯强化学习得到 R1-Zero，再经冷启动 SFT、强化学习与拒绝采样/SFT 迭代，最终得到 DeepSeek-R1。",
+              "source": "原文 Fig. 2",
+              "license": "CC BY 4.0"
+            }
+          ],
+          "relevance": "强化学习驱动的推理自我改进与\"大模型→小模型\"蒸馏路径，可用于预报策略的自校正与轻量化业务部署。",
+          "tags": [
+            "大模型"
+          ],
+          "section": "algo",
+          "metrics": {
+            "cas": {
+              "zone": "1区",
+              "top": true,
+              "major": "综合性期刊",
+              "year": "2025"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 56.1,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6054&page=journalapp&view=detail"
+          },
+          "rank": 4,
+          "tierLabel": "顶刊"
+        },
+        {
+          "id": "10.1038/s41586-024-08252-9",
+          "title": "Probabilistic weather forecasting with machine learning",
+          "titleZh": "基于机器学习的概率天气预报",
+          "authors": [
+            "Price I",
+            "Sanchez-Gonzalez A",
+            "Alet F",
+            "Andersson T R",
+            "El-Kadi A",
+            "Masters D",
+            "Ewalds T",
+            "Stott J",
+            "et al."
+          ],
+          "venue": "Nature",
+          "venueShort": "Nature",
+          "publisher": "Springer Nature",
+          "year": 2025,
+          "date": "2024-12-04",
+          "level": "SCI",
+          "citation": "Price I, Sanchez-Gonzalez A, Alet F, et al. Probabilistic weather forecasting with machine learning[J]. Nature, 2025, 637(8044): 84-90.",
+          "doi": "10.1038/s41586-024-08252-9",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1038/s41586-024-08252-9"
+            },
+            {
+              "label": "原文",
+              "url": "https://www.nature.com/articles/s41586-024-08252-9"
+            },
+            {
+              "label": "PDF",
+              "url": "https://www.nature.com/articles/s41586-024-08252-9.pdf"
+            }
+          ],
+          "keywords": [
+            "概率预报",
+            "集合预报",
+            "机器学习天气预测",
+            "极端天气",
+            "风电出力"
+          ],
+          "abstractEn": "Weather forecasts are fundamentally uncertain, so predicting the range of probable weather scenarios is crucial for important decisions, from warning the public about hazardous weather to planning renewable energy use. Traditionally, weather forecasts have been based on numerical weather prediction (NWP) 1, which relies on physics-based simulations of the atmosphere. Recent advances in machine learning (ML)-based weather prediction (MLWP) have produced ML-based models with less forecast error than single NWP simulations 2,3. However, these advances have focused primarily on single, deterministic forecasts that fail to represent uncertainty and estimate risk. Overall, MLWP has remained less accurate and reliable than state-of-the-art NWP ensemble forecasts. Here we introduce GenCast, a probabilistic weather model with greater skill and speed than the top operational medium-range weather forecast in the world, ENS, the ensemble forecast of the European Centre for Medium-Range Weather Forecasts 4. GenCast is an ML weather prediction method, trained on decades of reanalysis data. GenCast generates an ensemble of stochastic 15-day global forecasts, at 12-h steps and 0.25° latitude–longitude resolution, for more than 80 surface and atmospheric variables, in 8 min. It has greater skill than ENS on 97.2% of 1,320 targets we evaluated and better predicts extreme weather, tropical cyclone tracks and wind power production. This work helps open the next chapter in operational weather forecasting, in which crucial weather-dependent decisions are made more accurately and efficiently.",
+          "abstractZh": "天气预报本质上具有不确定性，因此预测可能出现的天气情景范围对于重要决策至关重要，从向公众预警灾害性天气到规划可再生能源利用皆是如此。传统上，天气预报基于数值天气预报（NWP），依赖对大气的物理模拟。近期机器学习天气预测（MLWP）的进展已经产生了预报误差小于单次 NWP 模拟的机器学习模型。然而，这些进展主要聚焦于单一确定性预报，无法表征不确定性并估计风险。总体而言，MLWP 在准确性与可靠性上仍逊于最先进的 NWP 集合预报。本文提出 GenCast，一个概率天气预报模型，其技巧与速度均优于目前世界上最好的业务中期天气预报——欧洲中期天气预报中心（ECMWF）的集合预报 ENS。GenCast 是一种基于机器学习的方法，使用数十年的再分析数据训练。它以 12 小时间隔、0.25° 经纬度分辨率，针对 80 多个地面与大气变量，在 8 分钟内生成一组 15 天的全球随机集合预报。在所评估的 1320 个目标中，它在 97.2% 的目标上技巧高于 ENS，并且能更好地预测极端天气、热带气旋路径与风电出力。这项工作有助于开启业务天气预报的新篇章：依赖天气的关键决策将得以更准确、更高效地作出。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "提出 GenCast：基于机器学习的概率（集合）预报模型，用数十年再分析数据训练。",
+            "8 分钟内生成 15 天、12 小时间隔、0.25° 分辨率、80 余变量的全球随机集合预报。",
+            "在 1320 个评估目标中 97.2% 的技巧高于 ECMWF 业务集合预报 ENS。",
+            "对极端天气、热带气旋路径与风电出力的预测更可靠，兼顾精度与速度。"
+          ],
+          "figures": [],
+          "relevance": "概率集合预报直接支撑新能源功率的概率/区间预测与极端天气风险评估，也是\"生成式模型做情景集合\"的范式参考。",
+          "tags": [
+            "概率预测",
+            "气象预报"
+          ],
+          "section": "algo",
+          "metrics": {
+            "cas": {
+              "zone": "1区",
+              "top": true,
+              "major": "综合性期刊",
+              "year": "2025"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 56.1,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6054&page=journalapp&view=detail"
+          },
+          "rank": 4,
+          "tierLabel": "顶刊"
+        }
+      ],
+      "summary": "概率时序基础模型的不确定性刻画正从单一指标走向细粒度校准评估，合并式、逐时程与条件式三类口径的区分揭示了标准指标对系统性失准的掩盖；流匹配方法则通过插值先验与缺失感知平滑路径，纠正无信息源对部分观测的错配。面向大模型时序预测，由粗到细的形状引导与残差细化显著压缩推理开销，选择性推理与概念标注则借助小模型收缩决策空间。非平稳场景下，漂移检测驱动的动态专家演化与自适应区间校准共同应对分布漂移，状态空间模型则以记忆更新的几何条件化换取训练稳定性。这些路径在不确定性来源、计算预算与漂移假设上各有取舍。"
+    }
+  }
+}

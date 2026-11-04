@@ -1,0 +1,25 @@
+# 秘密与本地状态（永远不要提交）
+data/.elsevier-key
+.elsevier-key
+data/logs/
+data/.pool/
+data/domains/*/.pool/
+data/update-requests.json
+data/.api-usage.json
+
+# 生成物 / 临时目录
+dist/
+standalone/
+standalone-site/
+preview/*.png
+node_modules/
+_run/
+_incoming/
+_backup_issues/
+.backup/
+*.tgz
+*.log
+.DS_Store
+.github-token
+published.json
+data/publish.json

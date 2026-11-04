@@ -1,0 +1,531 @@
+{
+  "id": "20261104-b2",
+  "domain": "wind-farm",
+  "label": "换一批 · 11-04 第 2 批",
+  "week": null,
+  "year": 2026,
+  "range": [
+    "2022-06-20",
+    "2026-11-01"
+  ],
+  "mode": "batch",
+  "generatedAt": "2026-11-04T21:05:00+08:00",
+  "generatedBy": "reroll",
+  "note": "按「wind farm wake / wake steering / wind turbine wake / large eddy simulation wake」从等级池（476 条候选）里取下一批：领域顶刊 8。上一批仍保留在历史期号里。",
+  "counts": {
+    "field": 8,
+    "algo": 0,
+    "figures": 0
+  },
+  "sections": {
+    "field": {
+      "title": "专业前沿",
+      "subtitle": "风电场尾流",
+      "summary": "这批文献在尾流刻画上主要沿三条路径展开：高保真大涡模拟结合致动线或致动盘模型，考察来流湍流、地形坡度与粗糙度对尾流恢复和涡结构演化的影响，并借助PIV与风洞试验校验；基于泰勒扩散理论与高斯尾流模型的物理建模，通过质量与动量守恒约束尾流膨胀，并以滤波速度均方根表征湍流尺度；针对复杂几何绕流（阶梯圆柱、船用螺旋桨）的LES研究则引入水平集—VOF与浸入边界方法捕捉界面与几何效应。整体趋势是从稳态工程尾流模型转向非定常、多尺度与几何自适应的高保真模拟，但面向功率预测的快速化与不确定性量化仍显不足。",
+      "items": [
+        {
+          "id": "10.1016/j.jweia.2026.106620",
+          "doi": "10.1016/j.jweia.2026.106620",
+          "title": "Influence of subgrid-scale models on effective grid scale in large-eddy simulations using wind flow around a 1:1:2 building model",
+          "titleZh": "亚格子模型对1:1:2建筑模型风场大涡模拟有效网格尺度的影响",
+          "authors": [
+            "Tong T.",
+            "Okaze T.",
+            "Ikegaya N."
+          ],
+          "authorsText": "Tong T., Okaze T., Ikegaya N.",
+          "venue": "Journal of Wind Engineering and Industrial Aerodynamics",
+          "venueShort": "JWEIA",
+          "year": 2026,
+          "date": "2026-11-01",
+          "level": "SCI",
+          "citation": "Tong T., Okaze T., Ikegaya N. Influence of subgrid-scale models on effective grid scale in large-eddy simulations using wind flow around a 1:1:2 building model[J]. Journal of Wind Engineering and Industrial Aerodynamics, 2026, 278.",
+          "abstractEn": "Large-eddy simulation (LES) of urban wind flows is often assessed using nominal grid spacing, but the smallest motions resolved are strongly influenced by both subgrid-scale (SGS) modelling and numerical dissipation. A clear research gap is that the SGS dependence of effective resolution has not been quantified systematically for isolated-building benchmarks. This study aims to quantify how commonly used SGS models modify the effective cut-off length scale in LES of the airflow around a 1:1:2 isolated building. A set of OpenFOAM simulations was performed on an identical grid using several SGS models and an upwind-blended advection setting for reference. The effective cut-off scale was identified by matching LES velocity spectra to wind-tunnel spectra after applying a simple low-pass filtering procedure and then converted to an equivalent length scale based on the local mean convection velocity. The most dissipative configurations showed the earliest decay of high-frequency energy and the largest cut-off scales, particularly in the roof shear layer and wake. In contrast, dynamic and structure-sensitive models produced smaller cut-off scales and more compact spatial distributions, indicating improved effective resolution on the same mesh. These findings imply that LES quality control for urban aerodynamics should complement nominal grid checks with effective-resolution metrics, and that overly dissipative combinations of numerics and SGS modelling should be avoided when spectral fidelity and unsteady wind statistics are key targets.",
+          "abstractZh": "城市风场的大涡模拟（LES）通常用名义网格间距评估，但解析的最小运动受亚格子（SGS）建模和数值耗散强烈影响。一个明确的研究空白是，对于孤立建筑基准，有效分辨率的SGS依赖性尚未系统量化。本研究旨在量化常用SGS模型如何改变1:1:2孤立建筑周围气流LES的有效截断长度尺度。在相同网格上使用多个SGS模型和迎风混合对流设置作为参考，进行了一系列OpenFOAM模拟。通过应用简单的低通滤波程序将LES速度谱与风洞谱匹配，识别有效截断尺度，然后基于局部平均对流速度转换为等效长度尺度。耗散最强的配置显示出高频能量的最早衰减和最大的截断尺度，特别是在屋顶剪切层和尾流中。相比之下，动态和结构敏感模型产生更小的截断尺度和更紧凑的空间分布，表明在相同网格上有效分辨率提高。这些发现意味着城市空气动力学的LES质量控制应补充名义网格检查与有效分辨率指标，并且当谱保真度和非定常风统计是关键目标时，应避免数值和SGS建模的过度耗散组合。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "在相同网格上使用多个SGS模型和迎风混合对流设置进行OpenFOAM大涡模拟。",
+            "通过低通滤波匹配LES与风洞速度谱，识别有效截断尺度并转换为等效长度尺度。",
+            "耗散最强的配置高频能量衰减最早、截断尺度最大，尤其在屋顶剪切层和尾流。",
+            "动态和结构敏感模型产生更小截断尺度和更紧凑空间分布，有效分辨率提高。",
+            "建议城市空气动力学LES质量控制补充有效分辨率指标，避免过度耗散组合。"
+          ],
+          "keywords": [
+            "大涡模拟",
+            "亚格子模型",
+            "有效分辨率",
+            "建筑风场",
+            "谱分析"
+          ],
+          "figures": [],
+          "relevance": "该研究关注大涡模拟中亚格子模型对有效分辨率的影响，与风场高保真模拟相关，可为风电功率预测中的气象场模拟和雷达流场重构提供参考。",
+          "tags": [
+            "气象预报",
+            "雷达流场重构"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1016/j.jweia.2026.106620"
+            }
+          ],
+          "source": "scopus",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 5.1,
+            "source": "https://www.letpub.com.cn/index.php?journalid=5452&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊",
+          "volume": "278"
+        },
+        {
+          "id": "10.1017/jfm.2026.11665",
+          "doi": "10.1017/jfm.2026.11665",
+          "title": "Effect of freestream turbulence on the coherent dynamics of a wind turbine wake",
+          "titleZh": "自由来流湍流对风力机尾流相干动力学的影响",
+          "authors": [
+            "Biswas N.",
+            "Buxton O."
+          ],
+          "authorsText": "Biswas N., Buxton O.",
+          "venue": "Journal of Fluid Mechanics",
+          "venueShort": "JFM",
+          "year": 2026,
+          "date": "2026-06-11",
+          "level": "SCI",
+          "citation": "Biswas N., Buxton O. Effect of freestream turbulence on the coherent dynamics of a wind turbine wake[J]. Journal of Fluid Mechanics, 2026, 1037.",
+          "abstractEn": "The wake of a model wind turbine exposed to incoming freestream turbulence (FST) with a variety of turbulent characteristics is studied through particle image velocimetry experiments. The FST cases were produced using different passive turbulence generating grids. The cases spanned turbulent intensities in the range and only considered short integral length scales (where is the turbine diameter). Increasing and in this range resulted in an earlier breakdown of the tip vortices which is shown to be associated with increased wake meandering amplitudes. For all the FST cases considered, the initiation of wake meandering was found to be related to a turbine instability that is excited by the nacelle's shedding, even for the highest FST levels. The amplitudes of wake meandering were similar for all the cases in the near wake, but the amplitudes in the far wake were discernibly higher for all the FST cases compared with the no grid case (lowest), primarily due to the early break down of the tip vortices. Deeper insights into the origins, and subsequent evolution, of the various coherent motions (characterised by particular frequencies) in the presence of FST are obtained through analysis of the multiscale triple-decomposed coherent kinetic energy budgets. The wake meandering modes in the presence of FST are shown to better utilise the mean velocity shear, extracting more energy from the mean flow while other sources such as nonlinear triadic interactions and diffusion also become important.",
+          "abstractZh": "通过粒子图像测速实验，研究了模型风力机在具有多种湍流特性的来流自由湍流（FST）作用下的尾流。FST工况由不同的被动湍流发生栅格产生。工况覆盖的湍流强度范围为[原文数值缺失]，且仅考虑短积分长度尺度（其中[原文数值缺失]为风轮直径）。在该范围内增大[原文数值缺失]和[原文数值缺失]会导致叶尖涡更早破碎，并表明这与尾流蜿蜒幅度增大相关。对于所考虑的所有FST工况，尾流蜿蜒的起始均与由机舱脱落激励的涡轮不稳定性有关，即使FST水平最高时也是如此。近尾流中所有工况的尾流蜿蜒幅度相似，但远尾流中所有FST工况的幅度均明显高于无栅格工况（最低），主要归因于叶尖涡的早期破碎。通过分析多尺度三重分解的相干动能收支，获得了对FST存在时各种相干运动（以特定频率为特征）的起源及后续演化的深入认识。研究表明，FST存在时的尾流蜿蜒模态能更好地利用平均速度剪切，从平均流中提取更多能量，同时非线性三波相互作用和扩散等其他来源也变得重要。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "用不同被动湍流栅格产生多种来流自由湍流工况，以PIV测量模型风力机尾流。",
+            "增大湍流强度与短积分尺度使叶尖涡更早破碎，并伴随尾流蜿蜒幅度增大。",
+            "各FST工况下尾流蜿蜒均由机舱脱落激励的涡轮不稳定性触发，最高湍流水平亦然。",
+            "近尾流蜿蜒幅度相近，远尾流FST工况明显高于无栅格工况，主因是叶尖涡早破碎。",
+            "多尺度三重分解相干动能收支表明，FST下蜿蜒模态更多利用平均剪切从平均流取能。"
+          ],
+          "keywords": [
+            "自由来流湍流",
+            "风力机尾流",
+            "尾流蜿蜒",
+            "叶尖涡",
+            "相干动能收支"
+          ],
+          "figures": [],
+          "relevance": "该研究揭示来流湍流与尾流相干结构、蜿蜒的关联机制，可为风电功率预测中风速演化与尾流损失建模提供物理依据。",
+          "tags": [
+            "功率预测",
+            "气象预报"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1017/jfm.2026.11665"
+            }
+          ],
+          "source": "scopus",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 4.2,
+            "source": "https://www.letpub.com.cn/index.php?journalid=4536&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊",
+          "volume": "1037"
+        },
+        {
+          "id": "10.1063/5.0311613",
+          "doi": "10.1063/5.0311613",
+          "title": "Large-eddy simulation of wind turbine wake characteristics over a two-dimensional hill",
+          "titleZh": "二维山丘上风力机尾流特性的大涡模拟",
+          "authors": [
+            "Yan Bowen",
+            "Yang Weidong",
+            "Zhu Hengli",
+            "Qian Guowei",
+            "Chen Yao",
+            "Huang Guoqing",
+            "Yang Qingshan",
+            "Zhou Xuhong"
+          ],
+          "authorsText": "Yan Bowen, Yang Weidong, Zhu Hengli, et al.",
+          "venue": "Physics of Fluids",
+          "venueShort": "Phys Fluids",
+          "year": 2026,
+          "date": "2026-03-01",
+          "level": "SCI",
+          "citation": "Yan Bowen, Yang Weidong, Zhu Hengli, et al. Large-eddy simulation of wind turbine wake characteristics over a two-dimensional hill[J]. Physics of Fluids, 2026, 38(3).",
+          "abstractEn": "Hilly terrain can significantly affect the wake characteristics of wind turbines. In this paper, the effects of terrain slope, wind turbine location, and wind turbine–terrain size ratio on wind turbine wake characteristics are systematically investigated. First, a high-fidelity large-eddy simulation framework is established based on the actuator line model, and validated by comparing with the wind tunnel test results. Subsequently, several key characteristics of wind turbine wake, including wake-center trajectory, velocity deficit, and added turbulence intensity, are systematically investigated, and the related flow mechanisms are elaborated via analysis of mean kinetic energy. It is found that the interaction between the turbine and hill-induced wakes alters the wake center trajectory significantly. Steep hills amplify wake–terrain interactions, producing higher velocity deficits and negative turbulence in the leeward region, indicative of strong nonlinear effects. Furthermore, wake recovery over complex terrain is primarily governed by the pressure gradient on windward slopes and hilltops, and a large terrain-to-turbine ratio amplifies the role of turbulence-driven energy redistribution.",
+          "abstractZh": "丘陵地形会显著影响风力机尾流特性。本文系统研究了地形坡度、风力机位置及风力机-地形尺寸比对风力机尾流特性的影响。首先，基于致动线模型建立高保真大涡模拟框架，并通过与风洞试验结果对比进行验证。随后，系统研究了尾流中心轨迹、速度亏损和附加湍流强度等风力机尾流关键特性，并通过平均动能分析阐述了相关流动机制。研究发现，风力机与山丘诱导尾流之间的相互作用显著改变尾流中心轨迹。陡峭山丘放大了尾流-地形相互作用，在背风区产生更高的速度亏损和负湍流，表明存在强非线性效应。此外，复杂地形上的尾流恢复主要受迎风坡和山顶的压力梯度控制，而较大的地形-风力机尺寸比放大了湍流驱动能量再分配的作用。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "基于致动线模型建立高保真大涡模拟框架，并与风洞试验结果对比验证。",
+            "系统研究地形坡度、风力机位置和风力机-地形尺寸比对尾流特性的影响。",
+            "陡峭山丘放大尾流-地形相互作用，背风区出现更高速度亏损和负湍流。",
+            "复杂地形尾流恢复主要受迎风坡和山顶压力梯度控制。",
+            "大地形-风力机尺寸比放大湍流驱动能量再分配的作用。"
+          ],
+          "keywords": [
+            "大涡模拟",
+            "风力机尾流",
+            "丘陵地形",
+            "致动线模型",
+            "速度亏损",
+            "湍流强度"
+          ],
+          "figures": [],
+          "relevance": "该研究揭示丘陵地形下风力机尾流演化与恢复机制，可为复杂地形风电场微观选址和风电功率预测中的尾流损失建模提供物理依据。",
+          "tags": [
+            "功率预测",
+            "气象预报"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "38",
+          "issue": "3",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1063/5.0311613"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1063/5.0229562",
+          "doi": "10.1063/5.0229562",
+          "title": "Large eddy simulation of turbulent wake from dual-step cylinders",
+          "titleZh": "双阶梯圆柱湍流尾流的大涡模拟",
+          "authors": [
+            "Theja Charan",
+            "Sathia Kishore Ram",
+            "Mahesh Somasani",
+            "Narasimhamurthy Vagesh D."
+          ],
+          "authorsText": "Theja Charan, Sathia Kishore Ram, Mahesh Somasani, et al.",
+          "venue": "Physics of Fluids",
+          "venueShort": "Phys Fluids",
+          "year": 2024,
+          "date": "2024-10-01",
+          "level": "SCI",
+          "citation": "Theja Charan, Sathia Kishore Ram, Mahesh Somasani, et al. Large eddy simulation of turbulent wake from dual-step cylinders[J]. Physics of Fluids, 2024, 36(10).",
+          "abstractEn": "Numerical computations of the three-dimensional flow past dual-step cylinders using large eddy simulations are performed. The Reynolds number based on the diameter of the large cylinder, ReD, is fixed at 2000. The diameter ratio between the two cylinders is kept constant in all computations, i.e., D/d=2, where d is the diameter of the small cylinder. Investigations are carried out at different aspect ratios (ARs), defined as the ratio between the length of the large cylinder and its diameter L/D=0.2,0.5,1.0,1.5. Vortex dislocation phenomenon is observed in all the cases near the step discontinuity. The higher AR cases, L/D=1.0,1.5, exhibit similar trends with regard to wake dynamics, while they are quite different in the lower AR cases, L/D=0.2,0.5. Kelvin–Helmholtz instability is present in the wake of the dual-step cylinder with higher AR. Stable in-phase shedding and downwash characterize the wake of higher AR configurations, while oblique shedding (and flipping) is the key feature in the lower AR counterparts. Unique features are observed in the L/D=1.0 configuration that marks the transition between shedding modes.",
+          "abstractZh": "采用大涡模拟对双阶梯圆柱的三维流动进行了数值计算。基于大圆柱直径的雷诺数ReD固定为2000。所有计算中两圆柱的直径比保持不变，即D/d=2，其中d为小圆柱直径。在不同长径比（AR，定义为大圆柱长度与其直径之比L/D=0.2、0.5、1.0、1.5）下开展了研究。所有工况在阶梯不连续处附近均观察到涡位错现象。较高AR工况（L/D=1.0、1.5）在尾流动力学方面表现出相似趋势，而较低AR工况（L/D=0.2、0.5）则差异显著。较高AR的双阶梯圆柱尾流中存在开尔文-亥姆霍兹不稳定性。较高AR构型的尾流以稳定的同相脱落和下沉流为特征，而较低AR对应构型则以斜向脱落（及翻转）为主要特征。L/D=1.0构型处于脱落模式之间的过渡区，观察到独特特征。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用大涡模拟计算ReD=2000、直径比D/d=2的双阶梯圆柱三维绕流",
+            "在L/D=0.2、0.5、1.0、1.5四种长径比下研究尾流，均发现阶梯处涡位错",
+            "高长径比L/D=1.0、1.5尾流呈稳定同相脱落与下沉流，并存在开尔文-亥姆霍兹不稳定性",
+            "低长径比L/D=0.2、0.5以斜向脱落及翻转为特征，与高长径比差异显著",
+            "L/D=1.0为脱落模式过渡区，呈现独特尾流特征"
+          ],
+          "keywords": [
+            "大涡模拟",
+            "双阶梯圆柱",
+            "湍流尾流",
+            "涡脱落",
+            "开尔文-亥姆霍兹不稳定性"
+          ],
+          "figures": [],
+          "relevance": "该文研究圆柱绕流尾流的大涡模拟与涡脱落机制，可为风电场尾流模拟及雷达流场重构中的湍流涡结构建模提供参考，但与风电/光伏功率预测无直接关系。",
+          "tags": [
+            "雷达流场重构"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "36",
+          "issue": "10",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1063/5.0229562"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1017/jfm.2024.373",
+          "doi": "10.1017/jfm.2024.373",
+          "title": "Corrigendum: A physics-based model for wind turbine wake expansion in the atmospheric boundary layer (Journal of Fluid Mechanics (2022) 943 (A49) DOI: 10.1017/jfm.2022.443)",
+          "titleZh": "勘误：大气边界层中风电机组尾流扩展的物理模型（Journal of Fluid Mechanics (2022) 943 (A49) DOI: 10.1017/jfm.2022.443）",
+          "authors": [
+            "Vahidi Dara",
+            "Porté-Agel Fernando"
+          ],
+          "authorsText": "Vahidi Dara, Porté-Agel Fernando",
+          "venue": "Journal of Fluid Mechanics",
+          "venueShort": "JFM",
+          "year": 2024,
+          "date": "2024-04-25",
+          "level": "SCI",
+          "citation": "Vahidi Dara, Porté-Agel Fernando. Corrigendum: A physics-based model for wind turbine wake expansion in the atmospheric boundary layer (Journal of Fluid Mechanics (2022) 943 (A49) DOI: 10.1017/jfm.2022.443)[J]. Journal of Fluid Mechanics, 2024, 985.",
+          "abstractEn": "We have noticed a typographical mistake in (2.6). The correct expression for the scalar diffusion from a disk source, as given by Crank (1979), is as follows: C(r, t) = C0 2Dct exp ?r2 4Dct R 0 exp?r2 4Dct I0 rr 2Dct r dr . (1) The correct expression was used in the study. Therefore, the results, discussion and figures regarding the analogy between wind turbine wake expansion and scalar diffusion from a disk source remain valid.",
+          "abstractZh": "我们注意到（2.6）式中存在一处排版错误。Crank（1979）给出的圆盘源标量扩散的正确表达式如下：C(r, t) = C0 2Dct exp ?r2 4Dct R 0 exp?r2 4Dct I0 rr 2Dct r dr . (1) 本研究实际使用了正确表达式。因此，关于风电机组尾流扩展与圆盘源标量扩散之间类比的结果、讨论和图表仍然有效。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "指出原文（2.6）式存在排版错误，并给出Crank（1979）圆盘源标量扩散的正确表达式",
+            "说明研究中实际使用的是正确表达式，未影响计算",
+            "结论：尾流扩展与圆盘源标量扩散类比的结果、讨论和图表仍然有效"
+          ],
+          "keywords": [
+            "风电机组尾流",
+            "大气边界层",
+            "标量扩散",
+            "圆盘源",
+            "勘误"
+          ],
+          "figures": [],
+          "relevance": "该文为风电机组尾流扩展物理模型的勘误，尾流模型是风电场功率预测与尾流效应建模的基础，与风电功率预测相关。",
+          "tags": [
+            "功率预测"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "985",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1017/jfm.2024.373"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 4.2,
+            "source": "https://www.letpub.com.cn/index.php?journalid=4536&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1103/physrevfluids.8.104605",
+          "doi": "10.1103/physrevfluids.8.104605",
+          "title": "Multiscale analysis of a very long wind turbine wake in an atmospheric boundary layer",
+          "titleZh": "大气边界层中极长风力机尾流的多尺度分析",
+          "authors": [
+            "Zhang F.",
+            "Yang X.",
+            "He G."
+          ],
+          "authorsText": "Zhang F., Yang X., He G.",
+          "venue": "Physical Review Fluids",
+          "venueShort": "Phys Rev Fluids",
+          "year": 2023,
+          "date": "2023-10-27",
+          "level": "SCI",
+          "citation": "Zhang F., Yang X., He G. Multiscale analysis of a very long wind turbine wake in an atmospheric boundary layer[J]. Physical Review Fluids, 2023, 8(10).",
+          "abstractEn": "In this paper, we investigate the dynamics of a wind turbine wake for three different ground surface roughness lengths, i.e., k0=0.001, 0.01, 0.1 m. The computational domain is very long [until 215D (D is the rotor diameter) wind turbine downwind], with the attempt to include the entire recovery process of a wind turbine wake. The streamwise variations of velocity deficit and turbulence intensity are analyzed. The focus of this paper is how flow structures of different scales vary as they pass through a wind turbine and travel to further downwind locations. Three different trends depending on scales are observed: (1) energy is added to motions of small scales (<1D) immediately in wind turbine's downwind, (2) energy for motions of scales in the range of 1D to 3.2D is first extracted by the wind turbine and then increased by the wake to a level higher than the inflow, and (3) energy for motions of scales greater than 3.4D is first extracted by the wind turbine, and then monotonically increase to the inflow level without a maximum. Finally, the energy density in scale space and its evolution in the streamwise direction are examined, showing the range of scales affected by a wind turbine and its wake.",
+          "abstractZh": "本文研究了三种不同地表粗糙度长度（k0=0.001、0.01、0.1 m）下风力机尾流的动力学。计算域非常长（直至风力机下风向215D处，D为转子直径），试图涵盖风力机尾流的整个恢复过程。分析了速度亏损和湍流强度的流向变化。本文重点研究不同尺度的流动结构在穿过风力机并传播到更远下游位置时如何变化。观察到三种取决于尺度的不同趋势：（1）在风力机下风向立即向小尺度（<1D）运动添加能量；（2）尺度在1D至3.2D范围内的运动能量先被风力机提取，然后被尾流增加至高于入流水平；（3）尺度大于3.4D的运动能量先被风力机提取，然后单调增加至入流水平而无最大值。最后，检查了尺度空间中的能量密度及其沿流向的演变，显示了受风力机及其尾流影响的尺度范围。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用三种地表粗糙度（k0=0.001、0.01、0.1 m）模拟风力机尾流至下风向215D。",
+            "分析速度亏损与湍流强度的流向变化，覆盖尾流完整恢复过程。",
+            "发现小尺度（<1D）运动在风力机下风向立即获得能量。",
+            "中尺度（1D-3.2D）能量先被提取后增至高于入流，大尺度（>3.4D）单调恢复至入流。",
+            "通过尺度空间能量密度演变，界定风力机尾流影响的尺度范围。"
+          ],
+          "keywords": [
+            "风力机尾流",
+            "大气边界层",
+            "多尺度分析",
+            "地表粗糙度",
+            "尾流恢复"
+          ],
+          "figures": [],
+          "relevance": "该研究揭示风力机尾流多尺度能量演变规律，可为风电功率预测中的尾流效应建模和气象预报中的边界层湍流参数化提供物理依据。",
+          "tags": [
+            "功率预测",
+            "气象预报"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "8",
+          "issue": "10",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1103/physrevfluids.8.104605"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3,
+            "source": "https://www.letpub.com.cn/index.php?journalid=10333&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1063/5.0152232",
+          "doi": "10.1063/5.0152232",
+          "title": "Large eddy simulation of turbulent wake flow around a marine propeller under the influence of incident waves",
+          "titleZh": "入射波影响下船用螺旋桨湍流尾流的大涡模拟",
+          "authors": [],
+          "authorsText": "",
+          "venue": "Physics of Fluids",
+          "venueShort": "Phys Fluids",
+          "year": 2023,
+          "date": "2023-05-01",
+          "level": "SCI",
+          "citation": "Large eddy simulation of turbulent wake flow around a marine propeller under the influence of incident waves[J]. Physics of Fluids, 2023, 35(5).",
+          "abstractEn": "In practical applications, propellers often operate beneath incident waves. To investigate the effects of waves on turbulent propeller wakes, a comparative study of the instantaneous flow fields and turbulent statistics of propeller wakes under open-water condition and with incident waves is conducted through the large-eddy simulation framework. The simulations are performed on a Cartesian grid, with the air–water interface captured using a coupled level-set and volume-of-fluid method. The complex geometry of the propeller is captured using an immersed boundary method. The results show that, near the water surface, the existence of incident waves accelerates the wake flow in the axial direction. Both the mean axial velocity and turbulent kinetic energy exhibit phase-lag behavior in the presence of incident waves. Waves increase the instability of the flow in the far-wake region, resulting in the rising of turbulent kinetic energy. Further analysis of the power spectral density shows that the velocity fluctuations gain energy from the waves at low frequencies, and nonlinear interactions between wave-induced motion and turbulent fluctuations transport energy from low to high frequencies as the wake flows downstream. The present study shows the potential of the large-eddy simulation framework to provide engineering guidance and a theoretical basis for the design and operation of propellers in wave environments.",
+          "abstractZh": "在实际应用中，螺旋桨经常在入射波下运行。为了研究波浪对螺旋桨湍流尾流的影响，通过大涡模拟框架，对开放水域条件和入射波条件下螺旋桨尾流的瞬时流场和湍流统计进行了对比研究。模拟在笛卡尔网格上进行，使用耦合水平集和流体体积方法捕捉空气-水界面。螺旋桨的复杂几何形状使用浸入边界方法捕捉。结果表明，在水面附近，入射波的存在加速了轴向尾流。在入射波存在下，平均轴向速度和湍动能均表现出相位滞后行为。波浪增加了远尾流区域流动的不稳定性，导致湍动能上升。进一步分析功率谱密度表明，速度波动在低频从波浪中获取能量，并且随着尾流向下游流动，波浪诱导运动与湍流波动之间的非线性相互作用将能量从低频输运到高频。本研究表明，大涡模拟框架有潜力为波浪环境中螺旋桨的设计和运行提供工程指导和理论基础。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用大涡模拟框架对比开放水域与入射波条件下的螺旋桨尾流。",
+            "使用耦合水平集和流体体积法捕捉气水界面，浸入边界法处理螺旋桨几何。",
+            "入射波在水面附近加速轴向尾流，平均轴向速度和湍动能出现相位滞后。",
+            "波浪增加远尾流不稳定性，导致湍动能上升。",
+            "功率谱密度分析显示速度波动从波浪低频获取能量，非线性相互作用将能量输运至高频。"
+          ],
+          "keywords": [
+            "大涡模拟",
+            "螺旋桨尾流",
+            "入射波",
+            "湍流统计",
+            "功率谱密度"
+          ],
+          "figures": [],
+          "relevance": "该研究通过大涡模拟分析波浪对螺旋桨尾流的影响，其流场重构与湍流统计方法对雷达流场重构和气象预报中的湍流建模有参考价值。",
+          "tags": [
+            "雷达流场重构",
+            "气象预报"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "35",
+          "issue": "5",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1063/5.0152232"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1017/jfm.2022.443",
+          "doi": "10.1017/jfm.2022.443",
+          "title": "A physics-based model for wind turbine wake expansion in the atmospheric boundary layer",
+          "titleZh": "大气边界层中风力机尾流膨胀的物理模型",
+          "authors": [
+            "Vahidi Dara",
+            "Porté-Agel Fernando"
+          ],
+          "authorsText": "Vahidi Dara, Porté-Agel Fernando",
+          "venue": "Journal of Fluid Mechanics",
+          "venueShort": "JFM",
+          "year": 2022,
+          "date": "2022-06-20",
+          "level": "SCI",
+          "citation": "Vahidi Dara, Porté-Agel Fernando. A physics-based model for wind turbine wake expansion in the atmospheric boundary layer[J]. Journal of Fluid Mechanics, 2022, 943.",
+          "abstractEn": "Analytical wind turbine wake models are widely used to predict the wake velocity deficit. In these models, the wake growth rate is a key parameter specified mainly with empirical formulations. In this study, a new physics-based model is proposed and validated to predict the wake expansion downstream of a turbine based on the incoming ambient turbulence and turbine operating conditions. The new model utilises Taylor diffusion theory, the Gaussian wake model, turbulent mixing layer theory and the analogy between wind turbine wake expansion and scalar diffusion. These components ensure that the model conserves mass and momentum in the far wake and accounts for the ambient turbulence and turbine-induced turbulence effects on the wake expansion. To account for the turbulence relevant scales that contribute to the wake expansion, the model uses the root-mean-square of the low-pass filtered radial velocity component. A simplified version that only requires the unfiltered velocity standard deviation and turbulence integral scale is also proposed. In addition, a new relation for the near-wake length is derived. The model performance is validated using large-eddy simulation data of a wind turbine wake under neutral atmospheric conditions with a wide range of incoming turbulence levels. The results show that the proposed model yields reasonable predictions of the wake width, maximum velocity deficit and near-wake length. In the case with a relatively low incoming streamwise turbulence intensity of 0.05, the ambient and turbine-induced terms in the model contribute almost equally to the wake width, rendering them both crucial for reasonable wake predictions.",
+          "abstractZh": "解析风力机尾流模型广泛用于预测尾流速度亏损。在这些模型中，尾流增长率是一个关键参数，主要通过经验公式指定。本研究提出并验证了一种新的基于物理的模型，用于根据来流环境湍流和风力机运行条件预测风力机下游的尾流膨胀。新模型利用泰勒扩散理论、高斯尾流模型、湍流混合层理论以及风力机尾流膨胀与标量扩散之间的类比。这些组成部分确保模型在远尾流中保持质量和动量守恒，并考虑环境湍流和风力机诱导湍流对尾流膨胀的影响。为了考虑对尾流膨胀有贡献的湍流相关尺度，模型使用低通滤波后的径向速度分量的均方根。还提出了一个仅需要未滤波速度标准差和湍流积分尺度的简化版本。此外，推导了近尾流长度的新关系式。模型性能通过中性大气条件下风力机尾流的大涡模拟数据进行了验证，涵盖了广泛的来流湍流水平。结果表明，所提出的模型对尾流宽度、最大速度亏损和近尾流长度给出了合理的预测。在来流流向湍流强度相对较低为0.05的情况下，模型中的环境项和风力机诱导项对尾流宽度的贡献几乎相等，使得两者对于合理的尾流预测都至关重要。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "基于泰勒扩散理论和高斯尾流模型等，构建物理尾流膨胀模型，保持质量和动量守恒。",
+            "模型考虑环境湍流和风力机诱导湍流，使用低通滤波径向速度均方根表征相关尺度。",
+            "提出简化版模型，仅需未滤波速度标准差和湍流积分尺度，并推导近尾流长度新关系。",
+            "用中性大气条件下大涡模拟数据验证，模型对尾流宽度、最大速度亏损和近尾流长度预测合理。",
+            "在来流湍流强度0.05时，环境项和诱导项对尾流宽度贡献几乎相等，两者均关键。"
+          ],
+          "keywords": [
+            "风力机尾流",
+            "尾流膨胀",
+            "物理模型",
+            "大气边界层",
+            "湍流",
+            "大涡模拟"
+          ],
+          "figures": [],
+          "relevance": "该研究提出的物理尾流模型可提高风力机尾流速度亏损预测精度，与风电功率预测中的尾流效应建模直接相关，并为气象预报和雷达流场重构中的湍流扩散参数化提供参考。",
+          "tags": [
+            "功率预测",
+            "气象预报"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "943",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1017/jfm.2022.443"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 4.2,
+            "source": "https://www.letpub.com.cn/index.php?journalid=4536&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        }
+      ]
+    },
+    "algo": {
+      "title": "算法进展",
+      "subtitle": "大模型 · 时序预测",
+      "items": []
+    }
+  }
+}

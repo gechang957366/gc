@@ -1,0 +1,565 @@
+{
+  "id": "20261104-b4",
+  "domain": "wind-farm",
+  "label": "换一批 · 11-04 第 4 批",
+  "week": null,
+  "year": 2026,
+  "range": [
+    "2023-12-14",
+    "2026-12-01"
+  ],
+  "mode": "batch",
+  "generatedAt": "2026-11-04T21:08:00+08:00",
+  "generatedBy": "reroll",
+  "note": "按「wind farm wake / wake steering / wind turbine wake / large eddy simulation wake」从等级池（476 条候选）里取下一批：顶刊 1 · 领域顶刊 7。上一批仍保留在历史期号里。",
+  "counts": {
+    "field": 8,
+    "algo": 0,
+    "figures": 0
+  },
+  "sections": {
+    "field": {
+      "title": "专业前沿",
+      "subtitle": "风电场尾流",
+      "summary": "尾流建模呈现从高保真解析向数据驱动与物理约束融合演进的态势。大涡模拟结合致动面/致动线模型与格子玻尔兹曼方法，分别刻画叶片设计、大气稳定度及串列配置对尾流演化的影响；涡格与涡丝方法则以较低成本支撑双转子风机功率与尾流评估。尾流叠加层面，基于动量守恒并计入压力梯度的隐式方法提升了场级尾流亏损的可解析性。数据驱动方面，物理信息机器学习与本征正交分解被用于稀疏观测下的尾流场重构，兼顾可解释性与计算成本。缩放浮式风电场实验进一步为尾流特性与功率提取提供受控验证，整体趋势指向物理机理、稀疏重构与场级评估的耦合。",
+      "items": [
+        {
+          "id": "10.1038/s41467-026-68655-2",
+          "doi": "10.1038/s41467-026-68655-2",
+          "title": "Substantially lower estimates in China’s offshore wind potential using farm-scale spatial modeling and wake effects",
+          "titleZh": "基于风电场尺度空间建模与尾流效应，中国海上风电潜力估计大幅降低",
+          "authors": [
+            "Xu S.",
+            "Yin G.",
+            "Hu P.",
+            "Dong D.",
+            "Qin Y.",
+            "Liu Y.",
+            "Liu G.",
+            "Song L."
+          ],
+          "authorsText": "Xu S., Yin G., Hu P., et al.",
+          "venue": "Nature Communications",
+          "venueShort": "Nat Commun",
+          "year": 2026,
+          "date": "2026-12-01",
+          "level": "SCI",
+          "citation": "Xu S., Yin G., Hu P., et al. Substantially lower estimates in China’s offshore wind potential using farm-scale spatial modeling and wake effects[J]. Nature Communications, 2026, 17(1).",
+          "abstractEn": "Renewable energy is critical for addressing global climate change, and accurate assessments of its potential are key for decision making and planning. This study provides a detailed, farm-level evaluation of offshore wind power potential in China, incorporating realistic turbine layouts derived from remote sensing data, wake loss modeling, and future climate scenarios. Our findings show that accounting for the farm-level details results in a China’s offshore wind potential of 2.5–4.2 PWh yr−1 which is significantly lower than previous estimates, which often exceeded 5.6 PWh yr−1. Through modeling the wake loss effects within wind farms, the study reveals that wake losses are higher than previously assumed in earlier research. Additionally, the study highlights substantial economic and technical disparities between nearshore bottom-fixed and deep-water floating wind farms, with the latter offering higher potential density but at greater costs. Our results provide a more realistic foundation for setting energy targets, optimizing regional strategies, and promoting floating wind technologies to harness deep-water resources, thereby supporting China’s transition to a sustainable energy future.",
+          "abstractZh": "可再生能源对应对全球气候变化至关重要，准确评估其潜力是决策和规划的关键。本研究对中国海上风电潜力进行了详细的场级评估，结合了来自遥感数据的真实风机布局、尾流损失建模以及未来气候情景。研究结果表明，考虑场级细节后，中国海上风电潜力为2.5–4.2 PWh yr−1，显著低于先前通常超过5.6 PWh yr−1的估计。通过模拟风电场内的尾流损失效应，研究揭示尾流损失高于先前研究假设。此外，研究强调了近岸固定式和深水漂浮式风电场之间的巨大经济和技术差异，后者提供更高的潜力密度但成本更高。研究结果为设定能源目标、优化区域战略以及推广漂浮式风电技术以利用深水资源提供了更现实的基础，从而支持中国向可持续能源未来转型。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用遥感数据获取真实风机布局，结合尾流损失建模评估中国海上风电潜力。",
+            "考虑场级细节后，中国海上风电潜力为2.5–4.2 PWh yr−1，显著低于先前超5.6 PWh yr−1的估计。",
+            "模拟显示风电场内尾流损失高于先前研究假设。",
+            "近岸固定式与深水漂浮式风电场存在显著经济和技术差异，后者潜力密度更高但成本更大。",
+            "结果为能源目标设定、区域策略优化和漂浮式风电推广提供更现实基础。"
+          ],
+          "keywords": [
+            "海上风电",
+            "潜力评估",
+            "尾流损失",
+            "空间建模",
+            "遥感数据",
+            "漂浮式风电"
+          ],
+          "figures": [],
+          "relevance": "该研究通过风电场尺度空间建模和尾流效应模拟，提升了海上风电潜力评估的准确性，其尾流损失建模方法对风电功率预测中的流场重构和气象预报具有参考价值。",
+          "tags": [
+            "功率预测",
+            "气象预报",
+            "雷达流场重构"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1038/s41467-026-68655-2"
+            }
+          ],
+          "source": "scopus",
+          "metrics": {
+            "cas": {
+              "zone": "1区",
+              "top": true,
+              "major": "综合性期刊",
+              "year": "2025"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 18.1,
+            "source": "https://www.letpub.com.cn/index.php?journalid=8411&page=journalapp&view=detail"
+          },
+          "rank": 0,
+          "tierLabel": "顶刊",
+          "volume": "17",
+          "issue": "1"
+        },
+        {
+          "id": "10.1016/j.jweia.2026.106564",
+          "doi": "10.1016/j.jweia.2026.106564",
+          "title": "Large eddy simulation of active flow control around a cantilevered square cylinder based on dual synthetic jets",
+          "titleZh": "基于双合成射流的悬臂方形圆柱主动流动控制大涡模拟",
+          "authors": [
+            "Li S.",
+            "Xia M.",
+            "Zhang H.",
+            "Zeng L.",
+            "Hu P.",
+            "Yang B."
+          ],
+          "authorsText": "Li S., Xia M., Zhang H., et al.",
+          "venue": "Journal of Wind Engineering and Industrial Aerodynamics",
+          "venueShort": "JWEIA",
+          "year": 2026,
+          "date": "2026-10-01",
+          "level": "SCI",
+          "citation": "Li S., Xia M., Zhang H., et al. Large eddy simulation of active flow control around a cantilevered square cylinder based on dual synthetic jets[J]. Journal of Wind Engineering and Industrial Aerodynamics, 2026, 277.",
+          "abstractEn": "This study investigated the effect of dual synthetic jets (DSJs) on active flow control around a cantilevered square cylinder with an aspect ratio of 4, using the large eddy simulation (LES) method. Based on the oncoming flow velocity (U∞) and the model width (D), the corresponding Reynolds number is 4.11 × 104. This study explored the impact of the momentum coefficient (Cμ = 0.01-0.1) and the dimensionless jet frequency (f* = 0.5-15) on aerodynamic forces and flow dynamics of the cylinder. The DSJs outlets were deployed at the windward leading edge of the square cylinder. It is found that DSJs positioned at the top can effectively suppress aerodynamic forces of the cylinder. Both the momentum coefficient and dimensionless jet frequency influence the control effectiveness. The maximum reductions in total mean drag coefficient (Cd,mean), fluctuating drag coefficient (Cd,rms) and fluctuating lift coefficient (Cl,rms) are 6.28%, 61.82% and 72.57%, respectively. Flow analysis reveals that DSJs suppress wake development downstream and delay vortex shedding, while turbulent kinetic energy (TKE*) is reduced in the near-wake region but enhanced near the free end. The proper orthogonal decomposition (POD) analysis reveals that the periodic characteristics of the near wake structures are substantially suppressed, large-scale vortices are broken down into smaller and weaker ones, delaying their roll-up process. These phenomena effectively postpone flow separation, enhance wake stability, and ultimately lead to a reduction in aerodynamic forces. This study may offer valuable guidance for related engineering applications.",
+          "abstractZh": "本研究采用大涡模拟（LES）方法，研究了双合成射流（DSJs）对展弦比为4的悬臂方形圆柱主动流动控制的影响。基于来流速度（U∞）和模型宽度（D），对应的雷诺数为4.11×10^4。研究探讨了动量系数（Cμ=0.01-0.1）和无量纲射流频率（f*=0.5-15）对圆柱气动力和流场动力学的影响。DSJs出口布置在方形圆柱的迎风前缘。研究发现，位于顶部的DSJs能有效抑制圆柱的气动力。动量系数和无量纲射流频率均影响控制效果。总平均阻力系数（Cd,mean）、脉动阻力系数（Cd,rms）和脉动升力系数（Cl,rms）的最大降低幅度分别为6.28%、61.82%和72.57%。流场分析表明，DSJs抑制了下游尾流的发展并延迟了涡脱落，近尾流区域的湍动能（TKE*）降低，但在自由端附近增强。本征正交分解（POD）分析揭示，近尾流结构的周期性特征被显著抑制，大尺度涡破碎成更小更弱的涡，延迟了其卷起过程。这些现象有效推迟了流动分离，增强了尾流稳定性，最终导致气动力降低。本研究可为相关工程应用提供有价值的指导。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用大涡模拟研究双合成射流对悬臂方形圆柱的流动控制，雷诺数4.11×10^4。",
+            "顶部射流可有效抑制气动力，平均阻力、脉动阻力和脉动升力最大降低6.28%、61.82%和72.57%。",
+            "射流抑制尾流发展并延迟涡脱落，近尾流湍动能降低但自由端附近增强。",
+            "POD分析显示近尾流周期性被抑制，大涡破碎为小涡，延迟卷起过程。",
+            "动量系数0.01-0.1和无量纲频率0.5-15均影响控制效果。"
+          ],
+          "keywords": [
+            "双合成射流",
+            "大涡模拟",
+            "主动流动控制",
+            "悬臂方形圆柱",
+            "本征正交分解"
+          ],
+          "figures": [],
+          "relevance": "该研究通过大涡模拟分析钝体绕流与射流控制，其流场重构与涡结构分析方法可借鉴于雷达流场重构和风电功率预测中的尾流建模。",
+          "tags": [
+            "雷达流场重构"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1016/j.jweia.2026.106564"
+            }
+          ],
+          "source": "scopus",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 5.1,
+            "source": "https://www.letpub.com.cn/index.php?journalid=5452&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊",
+          "volume": "277"
+        },
+        {
+          "id": "10.1017/jfm.2026.11891",
+          "doi": "10.1017/jfm.2026.11891",
+          "title": "Impacts of blade designs on wake dynamics in tandem wind turbine configurations",
+          "titleZh": "叶片设计对串列风电机组尾流动力学的影响",
+          "authors": [
+            "Dong G.",
+            "Yang X."
+          ],
+          "authorsText": "Dong G., Yang X.",
+          "venue": "Journal of Fluid Mechanics",
+          "venueShort": "JFM",
+          "year": 2026,
+          "date": "2026-08-06",
+          "level": "SCI",
+          "citation": "Dong G., Yang X. Impacts of blade designs on wake dynamics in tandem wind turbine configurations[J]. Journal of Fluid Mechanics, 2026, 1040.",
+          "abstractEn": "This study investigates the impacts of blade aerodynamic design, specifically the spanwise distribution of axial force, on the wake dynamics in tandem turbine configurations. Using large-eddy simulations with actuator surface models, we analyse five tandem set-ups comprising three blade designs: a baseline (NREL-Ori), a root-loaded (NREL-Root) and a tip-loaded (NREL-Tip) variant. Two scenarios are examined: one varying the downstream design with a baseline upstream turbine (scenario I), and another varying the upstream design with a baseline downstream turbine (scenario II). Results show that blade designs significantly affect wake behaviours in both scenarios. In scenario I, the root-loaded design exhibits a larger near-wake velocity deficit but recovers faster due to intensified shear layer instability, which is similar to that observed for a stand-alone turbine. In scenario II, the upstream blade design significantly influences the downstream turbine, with the root-loaded design prematurely triggering wake meandering and accelerating downstream flow recovery. Energy spectra and spectral proper orthogonal decomposition reveal a frequency-selection mechanism linking the strength of the near-wake shear layer, which can be controlled by blade design and inflow structure, to wake evolution. Specifically, the downstream wake resonates with the upstream wake, particularly at the meandering frequency. These resonant behaviours are qualitatively similar across the considered two-turbine configurations. However, the onset location and the intensity of such behaviours depend on the blade designs and their streamwise arrangement. These findings highlight the possibility of optimising blade designs for improving turbine array performance.",
+          "abstractZh": "本研究探讨了叶片气动设计，特别是轴向力的展向分布，对串列风电机组配置中尾流动力学的影响。采用致动面模型的大涡模拟，我们分析了五种串列设置，涉及三种叶片设计：基准型（NREL-Ori）、根部加载型（NREL-Root）和尖端加载型（NREL-Tip）。研究了两种场景：一种是在上游为基准涡轮的情况下改变下游设计（场景I），另一种是在下游为基准涡轮的情况下改变上游设计（场景II）。结果表明，叶片设计在两种场景中均显著影响尾流行为。在场景I中，根部加载设计表现出更大的近尾流速度亏损，但由于剪切层不稳定性增强而恢复更快，这与单台涡轮的观察结果相似。在场景II中，上游叶片设计显著影响下游涡轮，根部加载设计过早触发尾流蜿蜒并加速下游流动恢复。能量谱和谱本征正交分解揭示了一种频率选择机制，将近尾流剪切层的强度（可通过叶片设计和入流结构控制）与尾流演化联系起来。具体而言，下游尾流与上游尾流共振，特别是在蜿蜒频率处。这些共振行为在所考虑的两种双涡轮配置中定性相似。然而，此类行为的起始位置和强度取决于叶片设计及其流向排列。这些发现凸显了优化叶片设计以提高涡轮阵列性能的可能性。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用致动面模型大涡模拟，分析三种叶片设计在五种串列配置中的尾流动力学。",
+            "场景I中根部加载设计近尾流速度亏损更大，但剪切层不稳定增强使其恢复更快。",
+            "场景II中上游根部加载设计过早触发尾流蜿蜒，加速下游流动恢复。",
+            "谱本征正交分解揭示频率选择机制，下游尾流在蜿蜒频率处与上游尾流共振。",
+            "共振起始位置与强度取决于叶片设计及流向排列，为阵列性能优化提供依据。"
+          ],
+          "keywords": [
+            "风电机组",
+            "尾流动力学",
+            "叶片设计",
+            "大涡模拟",
+            "串列配置",
+            "共振"
+          ],
+          "figures": [],
+          "relevance": "该研究揭示叶片设计对串列风电机组尾流演化和共振机制的影响，为风电场功率预测中的尾流建模和机组排布优化提供物理依据。",
+          "tags": [
+            "功率预测"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1017/jfm.2026.11891"
+            }
+          ],
+          "source": "scopus",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 4.2,
+            "source": "https://www.letpub.com.cn/index.php?journalid=4536&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊",
+          "volume": "1040"
+        },
+        {
+          "id": "10.1063/5.0270368",
+          "doi": "10.1063/5.0270368",
+          "title": "Lattice Boltzmann method-based large eddy simulation of the influence of atmospheric stability on wind farm wake",
+          "titleZh": "基于格子玻尔兹曼方法的大涡模拟研究大气稳定度对风电场尾流的影响",
+          "authors": [
+            "Wang Ziwen",
+            "Jacob Jérôme",
+            "Marlow Felix",
+            "Sagaut Pierre"
+          ],
+          "authorsText": "Wang Ziwen, Jacob Jérôme, Marlow Felix, et al.",
+          "venue": "Physics of Fluids",
+          "venueShort": "Phys Fluids",
+          "year": 2025,
+          "date": "2025-06-01",
+          "level": "SCI",
+          "citation": "Wang Ziwen, Jacob Jérôme, Marlow Felix, et al. Lattice Boltzmann method-based large eddy simulation of the influence of atmospheric stability on wind farm wake[J]. Physics of Fluids, 2025, 37(6).",
+          "abstractEn": "Atmospheric stability is essential for wind farm performance. In this numerical work, we investigate the behavior of wind farm wake flow under the influence of atmospheric stability through lattice Boltzmann method-based large eddy simulation. Wind turbines are conceptualized as actuator line models, and the ground momentum and thermal flux within the atmospheric boundary layer (ABL) are represented using the Monin–Obukhov similarity theory. Several fundamental configurations were first simulated, including a single wind turbine under stratified ABL, and a wind farm under neutral ABL, to validate the present numerical framework. The work has then been extended to the study of wind farm performance under varying ABL conditions, including stable and convective environments. The atmospheric stability influence on wind farm performance is analyzed in detail by examining the time-averaged wake flow velocity profiles, turbulence intensity distribution, and temperature field. These quantities tend to stabilize after several turbine rows, with the wake velocity and turbulence intensity being 9% and 22% greater, respectively, in the stable case compared to the convective case. The turbulence kinetic energy (TKE) budget and vortex structure analysis reveal that the buoyancy forces dominate the TKE production in the convective condition, while vertical shear dominates under stable condition.",
+          "abstractZh": "大气稳定度对风电场性能至关重要。本数值工作通过基于格子玻尔兹曼方法的大涡模拟，研究大气稳定度影响下的风电场尾流行为。风力机被概念化为致动线模型，大气边界层（ABL）内的地面动量和热通量采用莫宁-奥布霍夫相似理论表示。首先模拟了几个基本配置，包括分层ABL下的单台风力机和中性ABL下的风电场，以验证当前数值框架。然后将工作扩展到研究不同ABL条件下（包括稳定和对流环境）的风电场性能。通过检查时间平均尾流速度剖面、湍流强度分布和温度场，详细分析了大气稳定度对风电场性能的影响。这些量在几排风力机后趋于稳定，稳定情况下的尾流速度和湍流强度分别比对流情况下大9%和22%。湍流动能（TKE）收支和涡结构分析表明，对流条件下浮力主导TKE产生，而稳定条件下垂直剪切主导。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用格子玻尔兹曼方法结合大涡模拟，风力机用致动线模型表示。",
+            "地面动量和热通量用莫宁-奥布霍夫相似理论处理，模拟分层大气边界层。",
+            "稳定条件下尾流速度和湍流强度分别比对流条件大9%和22%。",
+            "湍流动能收支分析表明对流下浮力主导产生，稳定下垂直剪切主导。",
+            "尾流速度、湍流强度和温度场在几排风力机后趋于稳定。"
+          ],
+          "keywords": [
+            "大气稳定度",
+            "风电场尾流",
+            "格子玻尔兹曼方法",
+            "大涡模拟",
+            "致动线模型",
+            "湍流动能"
+          ],
+          "figures": [],
+          "relevance": "该研究揭示大气稳定度对风电场尾流速度和湍流强度的影响，为风电功率预测中的尾流建模和气象预报参数化提供依据。",
+          "tags": [
+            "气象预报",
+            "功率预测"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "37",
+          "issue": "6",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1063/5.0270368"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1063/5.0256953",
+          "doi": "10.1063/5.0256953",
+          "title": "Innovative sparse data reconstruction approaches for yawed wind turbine wake flow via data-driven and physics-informed machine learning",
+          "titleZh": "基于数据驱动和物理信息机器学习的偏航风力机尾流稀疏数据重构创新方法",
+          "authors": [
+            "Luo Zhaohui",
+            "Wang Longyan",
+            "Fu Yanxia",
+            "Yuan Jianping",
+            "Xu Jian",
+            "Tan Andy Chit"
+          ],
+          "authorsText": "Luo Zhaohui, Wang Longyan, Fu Yanxia, et al.",
+          "venue": "Physics of Fluids",
+          "venueShort": "Phys Fluids",
+          "year": 2025,
+          "date": "2025-03-01",
+          "level": "SCI",
+          "citation": "Luo Zhaohui, Wang Longyan, Fu Yanxia, et al. Innovative sparse data reconstruction approaches for yawed wind turbine wake flow via data-driven and physics-informed machine learning[J]. Physics of Fluids, 2025, 37(3).",
+          "abstractEn": "This paper explores innovative approaches for reconstructing the wake flow field of yawed wind turbines from sparse data using data-driven and physics-informed machine learning techniques. The physics-informed machine learning wake flow estimation (WFE) integrates neural networks with fundamental fluid dynamics equations, providing robust and interpretable predictions. This method ensures adherence to essential fluid dynamics principles, making it suitable for reliable wake flow estimation in wind energy applications. In contrast, the data-driven machine learning wake flow estimation (DDML-WFE) leverages techniques such as proper orthogonal decomposition to extract significant flow features, offering computational efficiency and reduced reconstruction costs. Both methods demonstrate satisfactory performance in reconstructing the instantaneous wake flow field under yawed conditions. DDML-WFE maintains comparable performance even with reduced measurement resolution and increased noise, highlighting its potential for real-time wind turbine control. The study employs a limited number of measurement points to balance data collection challenges while capturing essential flow field characteristics. Future research will focus on optimizing turbine control strategies in wind farms by incorporating multi-scale modules and advanced data-driven techniques for temporal prediction of wake flow fields.",
+          "abstractZh": "本文探索了利用数据驱动和物理信息机器学习技术从稀疏数据重构偏航风力机尾流流场的新方法。物理信息机器学习尾流估计（WFE）将神经网络与基本流体动力学方程相结合，提供稳健且可解释的预测。该方法确保遵守基本流体动力学原理，使其适用于风能应用中可靠的尾流估计。相比之下，数据驱动机器学习尾流估计（DDML-WFE）利用本征正交分解等技术提取显著流动特征，提供计算效率并降低重构成本。两种方法在偏航条件下重构瞬时尾流流场方面均表现出令人满意的性能。DDML-WFE即使在测量分辨率降低和噪声增加的情况下也能保持相当的性能，突显了其在实时风力机控制中的潜力。该研究采用有限数量的测量点来平衡数据收集挑战，同时捕捉必要的流场特征。未来的研究将侧重于通过结合多尺度模块和先进的数据驱动技术进行尾流场的时间预测，来优化风电场中的风力机控制策略。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "提出物理信息机器学习尾流估计（WFE），将神经网络与流体动力学方程结合，实现稳健可解释的预测。",
+            "提出数据驱动机器学习尾流估计（DDML-WFE），利用本征正交分解提取流动特征，降低重构成本。",
+            "两种方法在偏航条件下重构瞬时尾流流场均表现满意。",
+            "DDML-WFE在测量分辨率降低和噪声增加时仍保持相当性能，具备实时控制潜力。",
+            "使用有限测量点平衡数据收集挑战，未来将结合多尺度模块进行时间预测。"
+          ],
+          "keywords": [
+            "风力机尾流",
+            "稀疏数据重构",
+            "物理信息机器学习",
+            "本征正交分解",
+            "偏航条件",
+            "流场估计"
+          ],
+          "figures": [],
+          "relevance": "该研究通过稀疏数据重构偏航风力机尾流流场，直接服务于风电功率预测中的尾流效应建模与流场重构，其物理信息与数据驱动方法对雷达流场重构和气象预报有借鉴意义。",
+          "tags": [
+            "功率预测",
+            "雷达流场重构",
+            "大模型"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "37",
+          "issue": "3",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1063/5.0256953"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1063/5.0258943",
+          "doi": "10.1063/5.0258943",
+          "title": "Twin-rotor wind turbine wake characteristics under various configurations and states",
+          "titleZh": "不同配置与状态下双转子风力机尾流特性",
+          "authors": [
+            "Tian Yinong",
+            "Zhong Yuguang",
+            "Liu Hengxu",
+            "Liu Weiqi",
+            "Zhao Cangze",
+            "Chang Liande",
+            "Dong Chenlong",
+            "Ge Mingze"
+          ],
+          "authorsText": "Tian Yinong, Zhong Yuguang, Liu Hengxu, et al.",
+          "venue": "Physics of Fluids",
+          "venueShort": "Phys Fluids",
+          "year": 2025,
+          "date": "2025-02-01",
+          "level": "SCI",
+          "citation": "Tian Yinong, Zhong Yuguang, Liu Hengxu, et al. Twin-rotor wind turbine wake characteristics under various configurations and states[J]. Physics of Fluids, 2025, 37(2).",
+          "abstractEn": "The twin-rotor wind turbine, as a new concept, can effectively improve the power coefficient, accelerate wake recovery, and reduce the cost of floating platforms and mooring compared to single-rotor turbines. This paper investigates the power and wake of tandem and parallel twin-rotor arrangements, setting up four different calculation models: vortex lattice (VL) to vortex filament conversion, different arrangements, extended blade root length, and altered initial azimuth angle. Changes under different tip speed ratios, steady and unsteady, and motion states were studied. The study found that for power and wake research, the vortex lattice calculation distance needs to be set to more than 2D and 5D (D is the rotor diameter). In the unsteady state of parallel twin-rotor wind turbines, the power coefficient difference between the two rotors is significant, and with increased turbulence intensity, the spacing ratio should be appropriately increased, with an optimal choice existing. For tandem twin-rotor arrangements, the initial staggered arrangement has little impact on power but significantly affects the wake. Increasing the length of the circular airfoil section of the blade root can effectively improve the power of the smaller rotor without changing the power coefficient of the larger rotor. Applying sinusoidal six degrees of freedom motion to the twin-rotor wind turbine can increase the power coefficient except for yawing. This research is of great significance for the arrangement of twin-rotor, reducing floating platform costs, and optimizing wind farm layout.",
+          "abstractZh": "双转子风力机作为一种新概念，相比单转子风力机可有效提高功率系数、加速尾流恢复并降低浮式平台与系泊成本。本文研究串联与并联双转子布置的功率与尾流，建立四种不同计算模型：涡格（VL）到涡丝转换、不同布置、延长叶根长度以及改变初始方位角。研究了不同叶尖速比、稳态与非稳态及运动状态下的变化。研究发现，对于功率与尾流研究，涡格计算距离需设置超过2D和5D（D为转子直径）。在并联双转子风力机非稳态下，两转子功率系数差异显著，且随湍流强度增加，间距比应适当增大，存在最优选择。对于串联双转子布置，初始错列布置对功率影响小但显著影响尾流。增加叶根圆形翼型段长度可有效提高较小转子功率而不改变较大转子功率系数。对双转子风力机施加正弦六自由度运动除偏航外可提高功率系数。该研究对双转子布置、降低浮式平台成本及优化风电场布局具有重要意义。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "建立涡格到涡丝转换等四种计算模型，研究串联与并联双转子风力机功率与尾流",
+            "涡格计算距离需超过2D和5D，才能满足功率与尾流研究要求",
+            "并联双转子非稳态下两转子功率系数差异显著，湍流增强时存在最优间距比",
+            "串联双转子初始错列对功率影响小但显著影响尾流；延长叶根圆形翼型段可提高小转子功率",
+            "正弦六自由度运动除偏航外可提高功率系数，有助于降低浮式平台成本"
+          ],
+          "keywords": [
+            "双转子风力机",
+            "尾流特性",
+            "功率系数",
+            "涡格法",
+            "浮式平台",
+            "风电场布局"
+          ],
+          "figures": [],
+          "relevance": "该文研究双转子风力机尾流与功率特性，属于风电机组气动与尾流分析，可为风电场布局优化和风电功率预测的尾流建模提供参考。",
+          "tags": [
+            "功率预测"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "37",
+          "issue": "2",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1063/5.0258943"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1017/jfm.2024.761",
+          "doi": "10.1017/jfm.2024.761",
+          "title": "A momentum-conserving wake superposition method for wind-farm flows under pressure gradient",
+          "titleZh": "压力梯度下风电场流动的动量守恒尾流叠加方法",
+          "authors": [
+            "Du Bowen",
+            "Ge Mingwei",
+            "Li Xintao",
+            "Liu Yongqian"
+          ],
+          "authorsText": "Du Bowen, Ge Mingwei, Li Xintao, et al.",
+          "venue": "Journal of Fluid Mechanics",
+          "venueShort": "JFM",
+          "year": 2024,
+          "date": "2024-11-12",
+          "level": "SCI",
+          "citation": "Du Bowen, Ge Mingwei, Li Xintao, et al. A momentum-conserving wake superposition method for wind-farm flows under pressure gradient[J]. Journal of Fluid Mechanics, 2024, 999.",
+          "abstractEn": "Pressure gradient over topography will significantly affect wind-farm flow. However, knowledge gaps still exist on how to superpose wind-turbine wakes in the wind-farm flow analytical model to account for this effect, leading to systematic errors in evaluating wind-farm wake effects. To this end, we derive an implicit momentum-conserving wake superposition method under pressure gradient (PG-IMCM) based on the total momentum deficit equation, which is linearised by the convection velocity introduced by Zong & Porté-Agel ( J. Fluid Mech. , vol. 889, 2020, A8). The PG-IMCM method consists of the linear-weighted sum of individual velocity deficits, the sum of the individual pressure correction terms and the total pressure correction term. Based on a sensitivity analysis, we demonstrate that the last two terms nearly cancel out and, thus, can be neglected, resulting in a simplified form, which has the same form as its counterpart under zero pressure gradient but with the single-wake quantities redefined based on the wake model under pressure gradient. This motivates us to further examine the performance of the combination of five empirical superposition methods and the stand-alone wake model under pressure gradient. Validation results based on large-eddy simulation show that PG-IMCM has an overall satisfactory performance in both the magnitude and shape of the velocity-deficit profiles, provided that the stand-alone turbine wake can be modelled accurately, which is virtually identical with its simplified form. Further comparison with empirical superposition methods shows that local linear and wind product superposition methods based on the updated base flow also have comparable performance, with only discernable differences with the PG-IMCM method in the near-wake region of downstream turbines. Therefore, they are two attractive methods for engineering applications.",
+          "abstractZh": "地形上的压力梯度会显著影响风电场流动。然而，在风电场流动分析模型中如何叠加风力机尾流以考虑这种效应仍存在知识空白，导致评估风电场尾流效应时出现系统误差。为此，我们基于总动量亏损方程推导了压力梯度下的隐式动量守恒尾流叠加方法（PG-IMCM），该方程通过Zong & Porté-Agel（J. Fluid Mech., vol. 889, 2020, A8）引入的对流速度进行线性化。PG-IMCM方法由单个速度亏损的线性加权和、单个压力修正项之和以及总压力修正项组成。基于敏感性分析，我们证明后两项几乎相互抵消，因此可以忽略，从而得到一个简化形式，其形式与零压力梯度下的对应方法相同，但单尾流参数基于压力梯度下的尾流模型重新定义。这促使我们进一步检验五种经验叠加方法与压力梯度下独立尾流模型组合的性能。基于大涡模拟的验证结果表明，只要独立风力机尾流能够准确建模，PG-IMCM在速度亏损剖面的大小和形状上总体表现令人满意，且与其简化形式几乎相同。进一步与经验叠加方法比较表明，基于更新基流的局部线性叠加方法和风乘积叠加方法也具有可比性能，仅在下游风力机近尾流区域与PG-IMCM方法存在可辨别差异。因此，它们是两种有吸引力的工程应用方法。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "推导了压力梯度下的隐式动量守恒尾流叠加方法PG-IMCM，基于总动量亏损方程线性化。",
+            "敏感性分析表明单个压力修正项之和与总压力修正项几乎抵消，可忽略，得到简化形式。",
+            "简化形式与零压力梯度下方法形式相同，但单尾流参数基于压力梯度尾流模型重新定义。",
+            "大涡模拟验证显示PG-IMCM在速度亏损剖面大小和形状上总体表现满意。",
+            "局部线性叠加和风乘积叠加方法基于更新基流也具有可比性能，仅近尾流区有差异。"
+          ],
+          "keywords": [
+            "风电场",
+            "尾流叠加",
+            "压力梯度",
+            "动量守恒",
+            "大涡模拟",
+            "功率预测"
+          ],
+          "figures": [],
+          "relevance": "该研究改进了风电场尾流叠加模型，考虑压力梯度效应，可提升风电场功率预测中尾流损失评估的准确性。",
+          "tags": [
+            "功率预测",
+            "气象预报"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "999",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1017/jfm.2024.761"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 4.2,
+            "source": "https://www.letpub.com.cn/index.php?journalid=4536&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1103/physrevfluids.8.120501",
+          "doi": "10.1103/physrevfluids.8.120501",
+          "title": "Floating wind farm experiments through scaling for wake characterization, power extraction, and turbine dynamics",
+          "titleZh": "按比例缩放的浮式风电场实验：尾流特性、功率提取与风机动力学",
+          "authors": [
+            "Bossuyt J.",
+            "Ferčák O.",
+            "Sadek Z.",
+            "Meneveau C.",
+            "Gayme D.F.",
+            "Cal R.B."
+          ],
+          "authorsText": "Bossuyt J., Ferčák O., Sadek Z., et al.",
+          "venue": "Physical Review Fluids",
+          "venueShort": "Phys Rev Fluids",
+          "year": 2023,
+          "date": "2023-12-14",
+          "level": "SCI",
+          "citation": "Bossuyt J., Ferčák O., Sadek Z., et al. Floating wind farm experiments through scaling for wake characterization, power extraction, and turbine dynamics[J]. Physical Review Fluids, 2023, 8(12).",
+          "abstractEn": "In this study, wind and water tunnel experiments of turbulent wakes in a scaled floating wind farm are performed. Scaling of a floating wind farm with a scaling ratio of 1:400 is made possible by relaxing geometric scaling of the turbine platform system, such that the dynamic response can be correctly matched, and to allow for relaxing Froude scaling such that the Reynolds number can be kept large enough. Four dimensionless parameters, describing the relative importance of wind and wave loads compared to turbine inertia, are used to guide the scaled floater design. Free decay tests of the pitch and heave response confirm that the dimensionless natural frequency of the scaled model is in the typical range for full-scale floating turbines when matching the proposed four dimensionless parameters. The response and performance of a single turbine scaled model are characterized for different wind and wave conditions. Subsequently, a wind farm experiment is performed with twelve floating turbine models, organized in four rows and three columns. Particle image velocimetry measurements of the wake of the middle turbine in the third row reveal distinct differences in wake properties for different wave conditions. Conditional averaging confirms a synchronization of wake deflection with the traveling waves in the wind farm. The power outputs show distinct peaks at the wave frequencies and its harmonics, due to motions triggered by complex wave-turbine-wake interactions. The power spectrum of the aggregate power of three streamwise aligned turbines exhibits anticorrelation of motions at the wave frequency due to wave speed induced phase lag, and spatiotemporal correlations of power outputs at the frequency corresponding to the wind-convective time between two rows. These experiments using an appropriately scaled floating wind farm in a wind tunnel setup confirm distinct impacts of turbine motion on wake recovery and meandering, and measurement results highlight the intricate interactions between wave topology and wake meandering.",
+          "abstractZh": "本研究在风洞和水洞中对按比例缩放的浮式风电场的湍流尾流进行了实验。通过放宽风机平台系统的几何缩放，使得动态响应能够正确匹配，并允许放宽弗劳德缩放以使雷诺数保持足够大，从而实现了缩放比为1:400的浮式风电场缩放。四个无量纲参数用于指导缩放的浮式平台设计，这些参数描述了风浪载荷相对于风机惯性的相对重要性。俯仰和垂荡响应的自由衰减测试证实，在匹配所提出的四个无量纲参数时，缩放模型的无量纲固有频率处于全尺寸浮式风机的典型范围内。针对不同的风浪条件，表征了单台风机缩放模型的响应和性能。随后，使用十二台浮式风机模型进行了风电场实验，这些模型按四行三列布置。对第三行中间风机尾流的粒子图像测速测量揭示了不同波浪条件下尾流特性的明显差异。条件平均证实了尾流偏转与风电场中行进波的同步。由于复杂的波浪-风机-尾流相互作用引发的运动，功率输出在波浪频率及其谐波处显示出明显的峰值。三台沿流向排列的风机的总功率谱表现出在波浪频率处运动的负相关，这是由于波浪速度引起的相位滞后，以及在对应于两行之间风对流时间的频率处功率输出的时空相关性。这些在风洞装置中使用适当缩放的浮式风电场进行的实验证实了风机运动对尾流恢复和蜿蜒的明显影响，测量结果突出了波浪拓扑与尾流蜿蜒之间的复杂相互作用。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用1:400缩放浮式风电场，放宽几何与弗劳德缩放以匹配动态响应并保持高雷诺数。",
+            "用四个无量纲参数指导浮式平台设计，自由衰减测试验证固有频率在典型范围内。",
+            "十二台风机按四行三列布置，PIV测量显示不同波浪条件下尾流特性差异明显。",
+            "条件平均证实尾流偏转与行进波同步，功率谱在波浪频率及谐波处出现峰值。",
+            "三台沿流向排列风机的总功率谱显示波浪频率处负相关及风对流时间尺度的时空相关。"
+          ],
+          "keywords": [
+            "浮式风电场",
+            "缩放实验",
+            "尾流特性",
+            "功率提取",
+            "风机动力学",
+            "波浪-尾流相互作用"
+          ],
+          "figures": [],
+          "relevance": "该研究通过缩比风洞实验揭示浮式风机运动与尾流的相互作用，为浮式风电功率预测中的尾流建模和波浪影响分析提供实验依据。",
+          "tags": [
+            "功率预测"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "8",
+          "issue": "12",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1103/physrevfluids.8.120501"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3,
+            "source": "https://www.letpub.com.cn/index.php?journalid=10333&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        }
+      ]
+    },
+    "algo": {
+      "title": "算法进展",
+      "subtitle": "大模型 · 时序预测",
+      "items": []
+    }
+  }
+}

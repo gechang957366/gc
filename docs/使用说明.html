@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>每周文献速递 · 使用说明</title>
+<style>
+  :root{
+    --fg:#16202b; --soft:#3f5163; --faint:#6b7c8f; --line:#dbe4ee; --accent:#0b6a98;
+    --bg:#f4f7fc; --card:#ffffff; --warm:#b45309;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:"Times New Roman","SimSun","宋体",serif; font-size:16px; line-height:1.75;
+  }
+  .page{max-width:860px; margin:0 auto; padding:40px 28px 72px; background:var(--card);
+    box-shadow:0 8px 40px rgba(15,23,42,.06)}
+  header{border-bottom:2px solid var(--line); padding-bottom:18px; margin-bottom:8px}
+  h1{font-size:30px; margin:0 0 6px; letter-spacing:.02em}
+  .sub{color:var(--soft); font-size:16px; margin:0}
+  .lead{color:var(--soft); font-size:16px; margin:18px 0 0}
+  h2{font-size:21px; margin:38px 0 10px; padding-bottom:6px; border-bottom:1px solid var(--line)}
+  h3{font-size:17.5px; margin:24px 0 8px; color:#12405a}
+  p,li{font-size:16px}
+  ul,ol{padding-left:1.4em; margin:8px 0}
+  li{margin:4px 0}
+  code{font-family:"Cascadia Mono",Consolas,"Courier New",monospace; font-size:14px;
+    background:#eef3f9; padding:1px 5px; border-radius:4px; color:#0f3c56}
+  pre{background:#0f1b26; color:#dbe7f3; padding:12px 14px; border-radius:8px; overflow:auto;
+    font-family:"Cascadia Mono",Consolas,monospace; font-size:13.5px; line-height:1.6}
+  pre code{background:none; color:inherit; padding:0}
+  table{border-collapse:collapse; width:100%; margin:12px 0; font-size:15px}
+  th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+  th{background:#eef3f9; font-weight:700}
+  blockquote{margin:14px 0; padding:10px 14px; border-left:3px solid var(--accent);
+    background:#f2f8fd; color:var(--soft); font-size:15.5px}
+  .cards{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:14px 0}
+  .card{border:1px solid var(--line); border-radius:10px; padding:12px 14px; background:#fbfdff}
+  .card b{display:block; margin-bottom:4px; color:#12405a; font-size:16.5px}
+  .card span{color:var(--soft); font-size:15px}
+  .warn{background:#fff8ec; border:1px solid #f3d9a4; color:#8a5a12; border-radius:8px;
+    padding:10px 12px; font-size:15px; margin:12px 0}
+  .tip{background:#f1f8f4; border:1px solid #c9e6d3; color:#1e6b3f; border-radius:8px;
+    padding:10px 12px; font-size:15px; margin:12px 0}
+  .kbd{font-family:Consolas,monospace; border:1px solid var(--line); border-bottom-width:2px;
+    border-radius:4px; padding:0 5px; font-size:14px; background:#fff}
+  footer{margin-top:44px; padding-top:14px; border-top:1px solid var(--line); color:var(--faint); font-size:14px}
+  @media (max-width:700px){
+    .page{padding:22px 16px 48px}
+    h1{font-size:24px}
+    .cards{grid-template-columns:1fr}
+  }
+  @media print{
+    body{background:#fff}
+    .page{box-shadow:none; max-width:none; padding:0}
+    h2{page-break-after:avoid}
+    table,pre,.card{page-break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+  <h1>每周文献速递 · 使用说明</h1>
+  <p class="sub">功率预测 · 气象预报 · 雷达流场重构 / 大模型 · 时序预测</p>
+</header>
+
+<p class="lead">
+一个自动追踪论文的小工具：每周把上面两个方向的新论文整理成中文速递，带<b>双语摘要、关键技术要点、期刊分区和引用格式</b>。
+本说明适用于两个版本：<b>局域网版</b>（我开服务，你在浏览器打开）和<b>免安装本地版</b>（你双击 <code>start.cmd</code>，全在自己电脑上跑）。
+</p>
+
+<h2>一、它能干什么</h2>
+
+<h3>1. 看每周精选（默认视图）</h3>
+<ul>
+  <li><b>两个版块</b>：「专业前沿」（功率预测 / 气象预报 / 雷达流场重构）和「算法进展」（大模型 / 时序预测）。</li>
+  <li><b>每条文献是一张卡片</b>，包含：英文题名 + 中文题名；英文原文摘要 + 中文译文摘要；
+      <b>3–5 条关键技术要点</b>（提炼方法与贡献，不是复述摘要）；期刊全名；
+      有的话还带 <b>中科院分区 / JCR 分区 / 影响因子</b>；<b>GB/T 7714 引用</b>（一键复制）；
+      原文 / PDF 链接；论文原图（可点开放大）。</li>
+  <li><b>本期概述</b>：顶部可展开，一段中文综述 + 本期参考文献清单。</li>
+  <li><b>排序按等级</b>：顶刊 → 中科院 1 区 → CCF-A 会议 → Q1 → 2 区 → …，同档内再按相关度。</li>
+</ul>
+
+<h3>2. 历史期号 / 换一批 / 收藏</h3>
+<ul>
+  <li>顶部「期号」下拉回看往期（标「最新」的是当前期；后面的 <span class="kbd">×</span> 删除某一期）。</li>
+  <li><b>「换一批」</b>：按当前方向再抓 8 篇新论文，生成新的一期，上一批自动留在历史里。</li>
+  <li><b>「收藏」</b>：点卡片上的收藏进收藏夹（存你自己浏览器里，换电脑不同步）。</li>
+  <li>页签右边的输入框是 <b>在本期内过滤</b>，不联网。</li>
+</ul>
+
+<h3>3. 文献检索（像谷歌学术那样按关键词现搜）</h3>
+<ul>
+  <li>输入中文或英文关键词 → 现场去 <b>Scopus / Crossref / arXiv</b> 搜，结果与速递卡片同样式（中文摘要、要点、分区、引用）。</li>
+  <li>结果同样<b>先按期刊等级、再按相关度</b>排，第一页就是同水平的那一批；「换一批」往后翻同档候选，不重复。</li>
+  <li>每条可复制 <b>GB/T 7714 / BibTeX / RIS / APA</b>；顶部可导出全部 BibTeX / RIS。</li>
+  <li><b>需要 API key</b>（见第五节）。没有 key 也能查一部分（arXiv + 部分开放摘要），但覆盖窄很多。</li>
+</ul>
+
+<h3>4. 换研究方向 / 自己新建方向</h3>
+<ul>
+  <li>标题下「方向」下拉切换研究方向，期号、检索、换一批都跟着切；默认方向随时切得回去。</li>
+  <li><b>「＋ 新建方向」</b>可以自己加：填 <b>检索关键词</b>（必填，有输入建议）、
+      <b>优先期刊</b>（搜刊名/ISSN，候选里直接显示分区与影响因子）、
+      <b>领域旗舰刊</b>（点 ☆ 变 ★，会排最前并标「领域顶刊」）。</li>
+</ul>
+
+<h2>二、局域网版怎么用（我开服务，你来访问）</h2>
+<p><b>我这边</b>双击 <code>start.cmd</code>，黑色窗口保持打开（关了服务就停）。</p>
+<p><b>你这边</b>：跟我连同一个网络（同样的校园网 / 办公 WiFi / 有线网），浏览器打开我发的地址，形如：</p>
+<pre><code>http://10.0.0.23:8099/     ← 以窗口里打印的「局域网」那一行为准</code></pre>
+<ul>
+  <li>建议 Chrome / Edge。</li>
+  <li>第一次打不开多半是 Windows 防火墙，我这边点「允许访问」即可。</li>
+  <li>想放桌面：浏览器菜单 →「更多工具 → 创建快捷方式」。</li>
+</ul>
+<div class="warn">
+注意：你的每次「换一批」「现场检索」都是在我的电脑上跑、用我的 API 额度，偶尔点点没问题，别反复刷。
+</div>
+
+<h2>三、免安装本地版怎么用（全在你电脑上）</h2>
+<ol>
+  <li>把 <code>weekly-paper-portable-*.zip</code> 解压到任意文件夹（路径别太深）。</li>
+  <li>双击里面的 <b><code>start.cmd</code></b>。</li>
+  <li>等 1–3 秒，会自动打开浏览器，地址 <code>http://127.0.0.1:8099/</code>；没自动打开就手动输入。</li>
+  <li>黑色窗口不要关（关了服务就停）。停止用 <span class="kbd">Ctrl</span>+<span class="kbd">C</span> 或直接关窗口。</li>
+</ol>
+<div class="tip">
+<b>不需要装 Node.js</b>：压缩包里已经带了 <code>node.exe</code>（约 90 MB，所以包比较大，正常）。
+包里还有 <code>standalone\index.html</code>，双击就能看（不启动服务），适合只想翻一翻。
+</div>
+<p><b>更新数据</b>：以后每周我发新的 <code>data</code> 文件夹，覆盖到你这里的 <code>data\</code>（先关窗口），再启动就是新一期。别删 <code>data\sources.json</code>、<code>data\journals.json</code>、<code>data\domains.json</code>。</p>
+
+<h2>四、数据与隐私</h2>
+<ul>
+  <li><b>压缩包里不含任何 API key</b>，只有论文数据。</li>
+  <li>「收藏」存在你自己浏览器里，不会上传。</li>
+  <li>删掉整个文件夹 = 完全卸载，不写注册表、不装服务。</li>
+</ul>
+
+<h3>4.1 如果我是发一个网址给你（GitHub Pages / 静态托管）</h3>
+<p>那种版本<b>只能看，不能现算</b>：</p>
+<table>
+  <tr><th style="width:56%">功能</th><th>静态网址</th><th>局域网 / 本地版</th></tr>
+  <tr><td>浏览、切方向、回看历史期号、收藏、复制引用、导出 BibTeX/RIS</td><td>✅</td><td>✅</td></tr>
+  <tr><td>换一批、现场检索、新建/编辑方向、删期号</td><td>❌（按钮会藏起来并提示）</td><td>✅</td></tr>
+</table>
+<p>原因很简单：这些功能要现场访问 Scopus/arXiv 并写文件，必须有后端；静态托管只有网页文件，也没有你的 API key。
+静态网址的好处是<b>任何人、任何网络、随时打开</b>（不依赖我电脑开着），适合发到大群里；要现搜就装本地版或连我的局域网。</p>
+
+<h2>五、自己配 API key（让检索 / 换一批用你自己的额度）</h2>
+<p>两个 key，作用不同。<b>只配第一个就能用核心功能</b>；第二个可选（没它就只有英文摘要）。</p>
+
+<h3>5.1 Elsevier API key（必需：Scopus 检索与摘要）</h3>
+<p><b>申请</b>（免费，学术用途）：</p>
+<ol>
+  <li>打开 <code>dev.elsevier.com</code>，邮箱注册并登录；</li>
+  <li>用途写「academic research」即可；</li>
+  <li>进入 <b>My API Key</b> 页面，复制那串 key。</li>
+</ol>
+<p><b>额度</b>：标准学术 key <b>20,000 次/周</b>（7 天滚动）。一次检索或取一条摘要各算 1 次；
+实测「换一批」约 32 次、「现场检索」约 15–40 次、每周自动更新一个方向约 50 次。</p>
+<p><b>放哪</b>：在速递文件夹里建文本文件：</p>
+<pre><code>data\.elsevier-key</code></pre>
+<p>文件里<b>只写这一行 key</b>（不要引号、空格、多余换行）。也可以设环境变量 <code>ELSEVIER_API_KEY</code>（优先级更高）。</p>
+<p><b>验证</b>：</p>
+<pre><code>cd 你解压的文件夹
+node scripts\usage.mjs</code></pre>
+<p>会打印配额上限、本周已用、剩余次数、重置时间。若显示「没有配置 key」，检查文件名（前面有个点）与路径是否在 <code>data\</code> 下。</p>
+
+<h3>5.2 DeepSeek API key（可选：中文摘要与本期概述）</h3>
+<ul>
+  <li>到 <code>platform.deepseek.com</code> → API Keys → 新建，复制 <code>sk-</code> 开头那串（只显示一次）。</li>
+  <li>账户需有余额（充值几十块能用很久，整理一条文献约 1,000 tokens）。</li>
+  <li>放法二选一：环境变量 <code>DEEPSEEK_API_KEY</code>，或 <code>用户目录\.dsh\.credentials.yaml</code>。</li>
+  <li>没有它时：英文摘要、引用、分区、排序正常，只是中文摘要与本期概述为空。</li>
+</ul>
+
+<h3>5.3 安全提醒</h3>
+<div class="warn">
+key 就是额度凭据，等同于密码：别发群里、别提交到 GitHub。怀疑泄露就去控制台删除旧 key、重新生成，再替换本地文件。
+</div>
+
+<h2>六、常见问题</h2>
+<table>
+  <tr><th style="width:34%">现象</th><th>怎么办</th></tr>
+  <tr><td>双击 <code>start.cmd</code> 一闪就没 / 提示 node.exe not found</td>
+      <td>包里缺 <code>node.exe</code>：装一次 Node.js，或找我要完整包。</td></tr>
+  <tr><td>浏览器「无法访问此网站」</td>
+      <td>① 确认黑色窗口还开着；② 试 <code>http://127.0.0.1:8099/</code>（端口被占用时窗口会打印实际端口）；③ 防火墙允许 node.exe。</td></tr>
+  <tr><td>局域网地址同事打不开</td>
+      <td>① 必须同一网络（有的校园网/酒店网络互相隔离，无解）；② 用窗口打印的那个 IP，不要用 127.0.0.1；③ 我这边防火墙点「允许」；④ 换手机热点试试。</td></tr>
+  <tr><td>点「换一批」很久没反应</td>
+      <td>正常 20–60 秒（现场检索 + 补摘要 + 整理）。超过 2 分钟或提示「接口未启用/需要重启」，关掉窗口重新双击 <code>start.cmd</code>。</td></tr>
+  <tr><td>检索没结果 / 提示要 key</td>
+      <td>没配 Elsevier key 或写错。按第五节配好；关键词用英文或常用术语（<code>wake steering</code>、<code>wind power forecasting</code>）。</td></tr>
+  <tr><td>中文摘要空白</td><td>没配 DeepSeek key（5.2）或余额用完。</td></tr>
+  <tr><td>提示 401 / 403</td><td>key 无效或过期，重新生成后替换。</td></tr>
+  <tr><td>期号后面的 ×</td><td>删除某一期（文件+索引一起删，不可恢复）。</td></tr>
+</table>
+
+<h2>七、一句话总结</h2>
+<table>
+  <tr><th style="width:34%">你的需求</th><th>怎么做</th></tr>
+  <tr><td>只想看</td><td>打开链接，或双击 <code>start.cmd</code>，什么都不用配。</td></tr>
+  <tr><td>想能搜、能换一批</td><td>配一个 Elsevier key（免费，约 5 分钟）。</td></tr>
+  <tr><td>想要完整中文摘要</td><td>再加一个 DeepSeek key（可选）。</td></tr>
+  <tr><td>数据每周更新</td><td>局域网版我这边自动更新；本地版等我发新的 <code>data</code> 覆盖。</td></tr>
+</table>
+
+<footer>
+每周文献速递 · 使用说明 · 本文档随压缩包一起分发，可自行打印或转发。
+</footer>
+</div>
+</body>
+</html>

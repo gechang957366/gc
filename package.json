@@ -1,0 +1,39 @@
+{
+  "name": "dsh-weekly-paper",
+  "version": "0.1.0",
+  "description": "DSH Web 顶部下拉菜单：每周论文速递（专业前沿：功率预测/气象预报/雷达流场重构 + 算法进展：大模型/时序预测），带摘要、关键技术点与配图，支持历史期号回看。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "client",
+    "scripts",
+    "data",
+    "docs",
+    "cordis.patch.yml",
+    "start.cmd",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "paper",
+    "weekly",
+    "literature"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,239 @@
+{
+  "schema": 1,
+  "domain": {
+    "field": [
+      "wind",
+      "farm",
+      "wake",
+      "steering",
+      "turbine",
+      "large",
+      "eddy",
+      "simulation"
+    ],
+    "algo": [
+      "model",
+      "learning",
+      "neural",
+      "transformer",
+      "benchmark",
+      "dataset",
+      "algorithm",
+      "architecture",
+      "training",
+      "llm",
+      "language model",
+      "inference",
+      "agent"
+    ]
+  },
+  "note": "风电场尾流：查询词、方向词、优先期刊都在这里改，不需要改代码。",
+  "journals": [
+    {
+      "name": "Journal of Fluid Mechanics",
+      "issn": "0022-1120",
+      "section": "field"
+    },
+    {
+      "name": "Physics of Fluids",
+      "issn": "1070-6631",
+      "section": "field"
+    },
+    {
+      "name": "Physical Review Fluids",
+      "issn": "2469-990X",
+      "section": "field"
+    },
+    {
+      "name": "Journal of Wind Engineering and Industrial Aerodynamics",
+      "issn": "0167-6105",
+      "section": "field"
+    },
+    {
+      "name": "Journal of Fluids and Structures",
+      "issn": "0142-727X",
+      "section": "field"
+    },
+    {
+      "name": "Wind Energy Science",
+      "issn": "2366-7443",
+      "section": "field"
+    },
+    {
+      "name": "Wind Energy",
+      "issn": "1095-4244",
+      "section": "field"
+    },
+    {
+      "name": "Renewable Energy",
+      "issn": "0960-1481",
+      "section": "field"
+    }
+  ],
+  "flagship": {
+    "field": [
+      "journal of fluid mechanics",
+      "physics of fluids",
+      "physical review fluids",
+      "journal of wind engineering and industrial aerodynamics",
+      "journal of fluids and structures"
+    ]
+  },
+  "arxiv": {
+    "field": [
+      "wind farm wake",
+      "wake steering",
+      "wind turbine wake",
+      "large eddy simulation wake"
+    ],
+    "algo": [
+      "time series forecasting foundation model",
+      "large language model agent",
+      "test-time adaptation time series",
+      "mixture of experts language model",
+      "probabilistic time series forecasting"
+    ]
+  },
+  "core": {
+    "field": [
+      "wind",
+      "farm",
+      "wake",
+      "steering",
+      "turbine",
+      "large",
+      "eddy",
+      "simulation"
+    ],
+    "algo": [
+      "time series",
+      "forecasting",
+      "forecast",
+      "temporal",
+      "sequence modeling",
+      "sequence model",
+      "long sequence",
+      "spatio-temporal",
+      "language model",
+      "llm",
+      "foundation model",
+      "agent",
+      "reasoning",
+      "retrieval-augmented",
+      "mixture of experts"
+    ]
+  },
+  "exclude": [
+    "forest canopy",
+    "radiata pine",
+    "tree species",
+    "crop yield",
+    "stock market",
+    "traffic flow prediction",
+    "covid",
+    "epidemi",
+    "ecolog",
+    "geolog",
+    "landscape",
+    "wholesale electricity price",
+    "carbon emission",
+    "air quality",
+    "health risk",
+    "gene",
+    "protein",
+    "speech recognition"
+  ],
+  "keywords": {
+    "field": [
+      "wind",
+      "farm",
+      "wake",
+      "steering",
+      "turbine",
+      "large",
+      "eddy",
+      "simulation"
+    ],
+    "algo": [
+      "time series",
+      "foundation model",
+      "large language model",
+      "llm",
+      "transformer",
+      "mamba",
+      "state space",
+      "agent",
+      "multimodal",
+      "retrieval augmented",
+      "probabilistic forecasting",
+      "long sequence",
+      "continual learning",
+      "graph neural"
+    ]
+  },
+  "limits": {
+    "maxPerSection": 8,
+    "minScore": 2,
+    "preprintCap": 2
+  },
+  "scopus": {
+    "note": "新建方向自动生成：主题查询 + 优先期刊定向（含 ISSN 时）。",
+    "queries": {
+      "field": [
+        "wind farm wake",
+        "wake steering",
+        "wind turbine wake",
+        "large eddy simulation wake"
+      ],
+      "algo": [
+        "\"time series forecasting\"",
+        "\"time series foundation model\"",
+        "\"probabilistic forecasting\"",
+        "\"state space model\" AND forecasting",
+        "\"mixture of experts\" AND forecasting"
+      ]
+    },
+    "aliases": {
+      "Dianli Xitong Zidonghua Automation of Electric Power Systems": "电力系统自动化",
+      "Zhongguo Dianji Gongcheng Xuebao Proceedings of the Chinese Society of Electrical Engineering": "中国电机工程学报",
+      "Dianwang Jishu Power System Technology": "电网技术",
+      "Gaodianya Jishu High Voltage Engineering": "高电压技术",
+      "Zhongguo Dianli China Electric Power": "中国电力",
+      "Taiyangneng Xuebao Acta Energiae Solaris Sinica": "太阳能学报"
+    },
+    "maxPerQuery": 25,
+    "abstractBudget": 24,
+    "rawQueries": {
+      "field": [
+        "SRCTITLE(\"Journal of Fluid Mechanics\") AND TITLE-ABS-KEY(wind OR farm OR wake OR steering)",
+        "SRCTITLE(\"Physics of Fluids\") AND TITLE-ABS-KEY(wind OR farm OR wake OR steering)",
+        "SRCTITLE(\"Physical Review Fluids\") AND TITLE-ABS-KEY(wind OR farm OR wake OR steering)",
+        "SRCTITLE(\"Journal of Wind Engineering and Industrial Aerodynamics\") AND TITLE-ABS-KEY(wind OR farm OR wake OR steering)",
+        "SRCTITLE(\"Journal of Fluids and Structures\") AND TITLE-ABS-KEY(wind OR farm OR wake OR steering)",
+        "SRCTITLE(\"Wind Energy Science\") AND TITLE-ABS-KEY(wind OR farm OR wake OR steering)",
+        "SRCTITLE(\"Wind Energy\") AND TITLE-ABS-KEY(wind OR farm OR wake OR steering)",
+        "SRCTITLE(\"Renewable Energy\") AND TITLE-ABS-KEY(wind OR farm OR wake OR steering)"
+      ],
+      "algo": []
+    }
+  },
+  "arxivConferences": {
+    "note": "用 arXiv 的 co:（comment）字段筛\"已被顶会录用\"的论文；workshop/投稿中/扩展版会被 detectAcceptance 挡掉",
+    "venues": [
+      "NeurIPS 2026",
+      "ICML 2026",
+      "ICLR 2026",
+      "KDD 2026",
+      "ACL 2026",
+      "EMNLP 2026",
+      "CVPR 2026",
+      "ICCV 2026",
+      "AAAI 2026",
+      "IJCAI 2026",
+      "WWW 2026",
+      "SIGIR 2026"
+    ],
+    "topicQuery": "abs:\"time series\" OR abs:forecasting OR abs:\"language model\" OR abs:\"foundation model\"",
+    "maxPerVenue": 15
+  }
+}

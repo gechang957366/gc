@@ -1,0 +1,556 @@
+{
+  "id": "20261104-b1",
+  "domain": "wind-farm",
+  "label": "换一批 · 11-04 第 1 批",
+  "week": null,
+  "year": 2026,
+  "range": [
+    "2024-02-08",
+    "2026-10-01"
+  ],
+  "mode": "batch",
+  "generatedAt": "2026-11-04T21:04:00+08:00",
+  "generatedBy": "reroll",
+  "note": "按「wind farm wake / wake steering / wind turbine wake / large eddy simulation wake」从等级池（476 条候选）里取下一批：领域顶刊 8。上一批仍保留在历史期号里。",
+  "counts": {
+    "field": 8,
+    "algo": 0,
+    "figures": 0
+  },
+  "sections": {
+    "field": {
+      "title": "专业前沿",
+      "subtitle": "风电场尾流",
+      "summary": "这批文献在尾流刻画上主要沿两条路径展开：一是以大涡模拟结合致动线/致动盘模型，在均匀与湍流来流、平台运动、波流耦合及叶尖速比变化等条件下解析尾流蜿蜒、涡结构与载荷非定常性，并借助高分辨率激光雷达观测校验风速与湍流强度演变；二是以预解式线性化模型将平台运动参数化为非定常载荷，实现运动到尾流相干结构的低维预测。技术差异体现在几何构型、入流条件与模型保真度上，趋势则由纯流场模拟转向运动—载荷—尾流耦合的降阶建模，并与雷达流场重构和概率化功率预测相衔接。",
+      "items": [
+        {
+          "id": "10.1063/5.0351292",
+          "doi": "10.1063/5.0351292",
+          "title": "Large-eddy simulation of power and wake responses of a tidal stream turbine under prescribed floating-platform motions",
+          "titleZh": "浮式平台运动给定下潮流涡轮机功率与尾流响应的大涡模拟",
+          "authors": [
+            "Lin X.",
+            "Zhang J.",
+            "Ding Z."
+          ],
+          "authorsText": "Lin X., Zhang J., Ding Z.",
+          "venue": "Physics of Fluids",
+          "venueShort": "Phys Fluids",
+          "year": 2026,
+          "date": "2026-10-01",
+          "level": "SCI",
+          "citation": "Lin X., Zhang J., Ding Z. Large-eddy simulation of power and wake responses of a tidal stream turbine under prescribed floating-platform motions[J]. Physics of Fluids, 2026, 38(10).",
+          "abstractEn": "Platform-induced motions can modify rotor loading and wake development in floating tidal-stream turbines, yet the individual roles of different motion components are difficult to isolate in fully coupled wave–current–platform systems. This study formulates a prescribed-motion problem in uniform inflow to examine the effects of surge, heave, pitch, and coupled surge–heave–pitch motions on the power and wake responses of a tidal stream turbine. A large-eddy simulation framework combined with a dynamic actuator line model is used to resolve rotor performance and wake structures. Under the investigated motion conditions, surge dominates rotor-performance unsteadiness, reducing the mean power and thrust coefficients by approximately 7.6% and 8.9%, respectively, relative to the static baseline, while producing pronounced low-frequency fluctuations in both quantities. Blade-resolved analysis indicates that this reduction is associated with repeated large angle-of-attack excursions over the inner blade span and a decrease in the time-averaged lift coefficient, whereas the drag increase remains limited. In contrast, isolated heave and pitch produce weak variations in rotor performance. The wake response shows a different motion dependence. Surge maintains a narrower wake with a larger local peak velocity deficit and earlier loss of organized tip-vortex coherence, whereas heave contributes more strongly to wake-center displacement, wake unsteadiness, and wake spreading. The coupled case retains performance fluctuations closely resembling those of the isolated-surge case, while exhibiting wake-transport features closer to the heave-dominated response. These findings provide a controlled reference for interpreting motion-component effects.",
+          "abstractZh": "平台诱导的运动可以改变浮式潮流涡轮机的转子载荷和尾流发展，但在完全耦合的波-流-平台系统中，不同运动分量的单独作用难以分离。本研究在均匀入流中构建了一个给定运动问题，以考察垂荡、纵荡、纵摇以及纵荡-垂荡-纵摇耦合运动对潮流涡轮机功率和尾流响应的影响。采用大涡模拟框架结合动态致动线模型来解析转子性能和尾流结构。在所研究的运动条件下，纵荡主导了转子性能的非定常性，相对于静态基线，平均功率和推力系数分别降低约7.6%和8.9%，同时在这两个量中产生明显的低频波动。叶片解析分析表明，这种降低与内叶展上重复出现的大攻角偏移以及时间平均升力系数的减小有关，而阻力增加仍然有限。相比之下，单独的垂荡和纵摇对转子性能产生微弱变化。尾流响应显示出不同的运动依赖性。纵荡保持较窄的尾流，具有较大的局部峰值速度亏损和较早失去有组织的叶尖涡相干性，而垂荡对尾流中心位移、尾流非定常性和尾流扩展的贡献更强。耦合情况保持了与单独纵荡情况非常相似的性能波动，同时表现出更接近垂荡主导响应的尾流输运特征。这些发现为解释运动分量效应提供了受控参考。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用大涡模拟结合动态致动线模型，在均匀入流中给定平台运动，分离纵荡、垂荡、纵摇及耦合运动的影响。",
+            "纵荡主导转子性能非定常性，使平均功率和推力系数分别降低约7.6%和8.9%，并产生低频波动。",
+            "叶片解析表明功率降低源于内叶展大攻角偏移和时均升力系数减小，阻力增加有限。",
+            "垂荡和纵摇单独作用对转子性能影响微弱，但垂荡对尾流中心位移、非定常性和扩展贡献更强。",
+            "耦合运动保持与单独纵荡相似的性能波动，尾流输运特征更接近垂荡主导响应。"
+          ],
+          "keywords": [
+            "大涡模拟",
+            "潮流涡轮机",
+            "平台运动",
+            "功率响应",
+            "尾流",
+            "致动线模型"
+          ],
+          "figures": [],
+          "relevance": "该研究通过大涡模拟揭示浮式平台运动分量对潮流涡轮机功率和尾流的影响，其方法（致动线模型、尾流结构解析）和结论（运动分量对功率波动与尾流演化的作用）可借鉴到风电功率预测中的平台运动影响分析与尾流建模。",
+          "tags": [
+            "功率预测",
+            "雷达流场重构"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1063/5.0351292"
+            }
+          ],
+          "source": "scopus",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊",
+          "volume": "38",
+          "issue": "10"
+        },
+        {
+          "id": "10.1016/j.jweia.2026.106553",
+          "doi": "10.1016/j.jweia.2026.106553",
+          "title": "Characterizing the evolution of wind speed and turbulence intensity in coastal wind turbine wakes using high-resolution lidars",
+          "titleZh": "利用高分辨率激光雷达表征沿海风力机尾流中风速与湍流强度的演变",
+          "authors": [
+            "Shi Y.",
+            "Hu F.",
+            "Li X.",
+            "Liu L.",
+            "Zhang K.",
+            "Liu K.",
+            "Yuan F."
+          ],
+          "authorsText": "Shi Y., Hu F., Li X., et al.",
+          "venue": "Journal of Wind Engineering and Industrial Aerodynamics",
+          "venueShort": "JWEIA",
+          "year": 2026,
+          "date": "2026-09-01",
+          "level": "SCI",
+          "citation": "Shi Y., Hu F., Li X., et al. Characterizing the evolution of wind speed and turbulence intensity in coastal wind turbine wakes using high-resolution lidars[J]. Journal of Wind Engineering and Industrial Aerodynamics, 2026, 276.",
+          "abstractEn": "Turbulence intensity (TI) is closely associated to the wind power generation efficiency, lifespan and structural safety of wind turbines. In this work, the impacts of a large wind turbine (with a height of 135 m and a blade length of 118 m) on the TI were investigated based on two high-resolution wind lidars in a coastal region. The results show that the wind speed (WS) from the bottom wind turbine tip to the top turbine tip in the downstream region was weakened due to the influence of the wind turbine. The wind turbine exhibited a greater impact on the daytime TI, causing an obvious increase (maximum increase of 8%) in the downstream region, especially from the hub height to the top turbine tip. The enhancement of the TI at night was strongest at the hub height. The probability density distribution of the daytime TI demonstrated that the TI in the downstream region was more concentrated around the mean value. The enhancement of the TI in the downstream region was greater in the WS bin of 0–9 m s−1, and the impact of the wind turbine was relatively small when the WS exceeded 12 m s−1. The three-parameter exponential model improved the daytime fitting performance compared with three-parameter power-law model for low TIs in the wind turbine rotor range (17–253 m) under high WSs.",
+          "abstractZh": "湍流强度（TI）与风力机的发电效率、寿命和结构安全密切相关。本研究基于两台高分辨率测风激光雷达在沿海地区开展观测，研究了一台大型风力机（轮毂高度135 m、叶片长度118 m）对TI的影响。结果表明，受风力机影响，下游区域从叶尖底部到叶尖顶部的风速（WS）被削弱。风力机对白天TI的影响更大，导致下游区域明显增加（最大增加8%），尤其是从轮毂高度到叶尖顶部。夜间TI的增强在轮毂高度处最强。白天TI的概率密度分布表明，下游区域的TI更集中在均值附近。下游区域TI的增强在0–9 m s−1的风速区间内更大，当风速超过12 m s−1时风力机的影响相对较小。在高风速下，三参数指数模型相比三参数幂律模型提高了风力机转子范围（17–253 m）内低TI的白天拟合性能。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "利用两台高分辨率激光雷达观测大型风力机尾流，分析风速与湍流强度演变。",
+            "风力机导致下游叶尖底部至顶部风速削弱，白天湍流强度最大增加8%。",
+            "夜间湍流强度增强在轮毂高度最强，白天下游湍流强度更集中。",
+            "风速0–9 m s−1时尾流湍流增强明显，超过12 m s−1时影响较小。",
+            "三参数指数模型在高风速下对低湍流强度的白天拟合优于幂律模型。"
+          ],
+          "keywords": [
+            "激光雷达",
+            "风力机尾流",
+            "湍流强度",
+            "风速演变",
+            "沿海风场"
+          ],
+          "figures": [],
+          "relevance": "该研究揭示风力机尾流中风速与湍流强度的演变规律，可为风电功率预测中的尾流效应建模和气象预报参数化提供观测依据。",
+          "tags": [
+            "功率预测",
+            "气象预报"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1016/j.jweia.2026.106553"
+            }
+          ],
+          "source": "scopus",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 5.1,
+            "source": "https://www.letpub.com.cn/index.php?journalid=5452&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊",
+          "volume": "276"
+        },
+        {
+          "id": "10.1063/5.0320137",
+          "doi": "10.1063/5.0320137",
+          "title": "Large-eddy simulation of two 5:1 rectangular cylinders in tandem: Gap-width dependence of surface-flow and near-wake flow statistics",
+          "titleZh": "两个串联5:1矩形柱体的大涡模拟：表面流与近尾流统计的间隙宽度依赖性",
+          "authors": [
+            "Wang Peiyuan",
+            "Li Shaopeng",
+            "Yuan Renan",
+            "Jiang Yan"
+          ],
+          "authorsText": "Wang Peiyuan, Li Shaopeng, Yuan Renan, et al.",
+          "venue": "Physics of Fluids",
+          "venueShort": "Phys Fluids",
+          "year": 2026,
+          "date": "2026-03-01",
+          "level": "SCI",
+          "citation": "Wang Peiyuan, Li Shaopeng, Yuan Renan, et al. Large-eddy simulation of two 5:1 rectangular cylinders in tandem: Gap-width dependence of surface-flow and near-wake flow statistics[J]. Physics of Fluids, 2026, 38(3).",
+          "abstractEn": "The interference between two 5:1 rectangular cylinders in tandem is strongly affected by the gap width, which is relevant to parallel bridge decks and adjacent buildings. In the present study, three-dimensional large-eddy simulations are conducted to investigate the gap-width dependence of surface-flow and near-wake flow statistics, focusing on the mean velocity and Reynolds-stress distributions. Three gap widths are considered: G = 2D, 6D and 10D, where D is the cylinder height. The results show a transition of the overall flow structure from a reattachment pattern at G = 2D to a co-shedding pattern for G ≥ 6D. In addition to the global pattern transition, detailed surface-flow and near-wake statistics are presented to characterize the gap-width effects. For the upstream cylinder, the surface-flow structures and the Reynolds-stress features remain nearly unchanged with G, indicating weak sensitivity to gap width. In contrast, the downstream cylinder exhibits pronounced gap-width dependence: as G increases, a more developed recirculation bubble forms and flow recovery becomes faster, as evidenced by changes in the statistical distributions and surface-flow thickness. In the gap region, the mean velocity recovers more rapidly with increasing G, while the Reynolds-stress levels are reduced, indicating weakened turbulent activity sustained by the gap interactions. The Reynolds-stress distributions behind the downstream cylinder further reveal the effects of gap width on wake turbulence. These findings provide quantitative evidence of how gap width modifies surface-flow development and near-wake turbulence of tandem 5:1 rectangular cylinders.",
+          "abstractZh": "两个串联5:1矩形柱体之间的干扰受间隙宽度强烈影响，这与平行桥面和相邻建筑相关。本研究进行三维大涡模拟，研究表面流和近尾流统计的间隙宽度依赖性，重点关注平均速度和雷诺应力分布。考虑三种间隙宽度：G = 2D、6D和10D，其中D为柱体高度。结果表明，整体流动结构从G = 2D时的再附着模式过渡到G ≥ 6D时的共同脱落模式。除了全局模式转变外，还提供了详细的表面流和近尾流统计以表征间隙宽度效应。对于上游柱体，表面流结构和雷诺应力特征随G几乎不变，表明对间隙宽度敏感性弱。相比之下，下游柱体表现出明显的间隙宽度依赖性：随着G增加，形成更发展的回流泡，流动恢复更快，这由统计分布和表面流厚度的变化所证明。在间隙区域，平均速度随G增加恢复更快，而雷诺应力水平降低，表明间隙相互作用维持的湍流活动减弱。下游柱体后的雷诺应力分布进一步揭示了间隙宽度对尾流湍流的影响。这些发现为间隙宽度如何改变串联5:1矩形柱体的表面流发展和近尾流湍流提供了定量证据。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用三维大涡模拟研究串联5:1矩形柱体在G=2D、6D、10D下的流动统计。",
+            "整体流态从G=2D的再附着模式转变为G≥6D的共同脱落模式。",
+            "上游柱体表面流与雷诺应力对间隙宽度不敏感，下游柱体依赖性显著。",
+            "间隙区域平均速度随G增加恢复更快，雷诺应力水平降低。",
+            "下游柱体后雷诺应力分布揭示间隙宽度对尾流湍流的影响。"
+          ],
+          "keywords": [
+            "大涡模拟",
+            "串联矩形柱体",
+            "间隙宽度",
+            "表面流",
+            "近尾流",
+            "雷诺应力"
+          ],
+          "figures": [],
+          "relevance": "该研究通过大涡模拟分析柱体尾流统计，与雷达流场重构中的湍流建模和气象预报中的钝体绕流机理相关，可为风场精细模拟提供参考。",
+          "tags": [
+            "气象预报",
+            "雷达流场重构"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "38",
+          "issue": "3",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1063/5.0320137"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1063/5.0275530",
+          "doi": "10.1063/5.0275530",
+          "title": "Transition zone of vortex wake modes and nonlinear dynamics in two-degree-of-freedom vortex-induced vibration of transmission conductors based on three-dimensional large eddy simulation",
+          "titleZh": "基于三维大涡模拟的输电导线两自由度涡激振动涡尾流模态过渡区与非线性动力学",
+          "authors": [
+            "Liao Yongan",
+            "Mei Ao",
+            "Bo Tianli",
+            "Liu Xiaohui",
+            "Wu Fengbo",
+            "Gong Liangfei",
+            "Ru Yanyu",
+            "Zhou Lei"
+          ],
+          "authorsText": "Liao Yongan, Mei Ao, Bo Tianli, et al.",
+          "venue": "Physics of Fluids",
+          "venueShort": "Phys Fluids",
+          "year": 2025,
+          "date": "2025-07-01",
+          "level": "SCI",
+          "citation": "Liao Yongan, Mei Ao, Bo Tianli, et al. Transition zone of vortex wake modes and nonlinear dynamics in two-degree-of-freedom vortex-induced vibration of transmission conductors based on three-dimensional large eddy simulation[J]. Physics of Fluids, 2025, 37(7).",
+          "abstractEn": "The vortex-induced vibration characteristics of transmission conductors under wind fields constitute a critical factor influencing structural safety. This study establishes a three-dimensional fluid–structure interaction numerical model based on the large eddy simulation method, systematically investigating the two-degree-of-freedom vibration characteristics of transmission conductors in pulsating wind fields. The vibration process evolves through four distinct stages: initial small-amplitude steady state, frequency-locked large-amplitude state, transitional modulation phase, and ultimately nonlinear chaotic stage under high wind speeds. The research reveals that within specific parameter ranges of reduced wind speed (4 &lt; Ur&lt; 5) and transverse displacement amplitude ratio (0.7 &lt;Ay&lt; 1) identified as the transition zone of vortex wake modes, the wake flow exhibits unique unsteady characteristics. This transition in vortex shedding patterns triggers significant fluid–structure interaction effects, resulting in substantial enhancement of alongwind displacement. Analysis of aerodynamic work shows that drag force performs predominantly positive work during lock-in and nonlinear stages, sustaining streamwise motion, while lift force does negative work at crosswind peaks, limiting lateral excursions. These findings clarify the multi-stage evolution of vortex-induced vibration, elucidate the wake-driven mechanism of high-amplitude vibration, and quantify the complementary roles of shear-layer instability and phase-dependent lift/drag work in governing conductor dynamics.",
+          "abstractZh": "风场下输电导线的涡激振动特性是影响结构安全的关键因素。本研究基于大涡模拟方法建立三维流固耦合数值模型，系统研究脉动风场中输电导线的两自由度振动特性。振动过程经历四个不同阶段：初始小振幅稳态、频率锁定大振幅状态、过渡调制阶段，以及高风速下最终的非线性混沌阶段。研究揭示，在折合风速（4 < Ur < 5）和横向位移幅值比（0.7 < Ay < 1）的特定参数范围内，识别为涡尾流模态过渡区，尾流表现出独特的非定常特性。涡脱落模式的这种转变触发显著的流固耦合效应，导致顺风向位移大幅增强。气动功分析表明，阻力在锁定和非线性阶段主要做正功，维持流向运动，而升力在横风向峰值处做负功，限制横向偏移。这些发现阐明了涡激振动的多阶段演化，揭示了高振幅振动的尾流驱动机制，并量化了剪切层不稳定性和相位依赖的升/阻力功在控制导线动力学中的互补作用。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "基于大涡模拟建立三维流固耦合模型，研究输电导线两自由度涡激振动。",
+            "振动演化分四阶段：小振幅稳态、频率锁定大振幅、过渡调制、非线性混沌。",
+            "识别出折合风速4<Ur<5、幅值比0.7<Ay<1的涡尾流模态过渡区。",
+            "过渡区涡脱落模式转变引发强流固耦合，顺风向位移显著增强。",
+            "阻力在锁定和非线性阶段做正功维持流向运动，升力在横向峰值做负功限制偏移。"
+          ],
+          "keywords": [
+            "涡激振动",
+            "大涡模拟",
+            "输电导线",
+            "流固耦合",
+            "涡尾流模态",
+            "非线性动力学"
+          ],
+          "figures": [],
+          "relevance": "该研究通过三维大涡模拟揭示输电导线涡激振动的尾流模态过渡机制，其流固耦合建模与涡脱落分析方法可为雷达流场重构中的涡结构识别及风电功率预测中的气象场精细化建模提供参考。",
+          "tags": [
+            "雷达流场重构",
+            "气象预报"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "37",
+          "issue": "7",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1063/5.0275530"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1017/jfm.2025.10276",
+          "doi": "10.1017/jfm.2025.10276",
+          "title": "Effects of tip speed ratio on wind turbine wake meandering",
+          "titleZh": "叶尖速比对风力机尾流蜿蜒的影响",
+          "authors": [
+            "Wang Yan",
+            "Zhao Guihua",
+            "Liu Guoliang",
+            "Zhou Yongze",
+            "Ge Mingwei",
+            "Ouyang Zhen",
+            "Ding Zijing",
+            "Hu Ruifeng"
+          ],
+          "authorsText": "Wang Yan, Zhao Guihua, Liu Guoliang, et al.",
+          "venue": "Journal of Fluid Mechanics",
+          "venueShort": "JFM",
+          "year": 2025,
+          "date": "2025-06-25",
+          "level": "SCI",
+          "citation": "Wang Yan, Zhao Guihua, Liu Guoliang, et al. Effects of tip speed ratio on wind turbine wake meandering[J]. Journal of Fluid Mechanics, 2025, 1014.",
+          "abstractEn": "This study utilises large-eddy simulation with the actuator line model to examine the effects of the tip speed ratio (TSR) on the wake-meandering characteristics of a wind turbine in uniform and turbulent inflows. It is shown that as the TSR grows, the onset position of the wake meandering moves closer to the rotor, and the magnitude of wake oscillation is stronger. This aligns with previous work showing that a higher TSR can accelerate the instability and breakdown of tip vortices. Without a nacelle, the Strouhal number of the wake meandering is found to be independent of the TSR under both the uniform and turbulent inflows. However, with a relatively large nacelle, the Strouhal number first increases and then decreases with TSR. Therefore, the current discovery elucidates the crucial role of the nacelle and clarifies the origin of the TSR dependence of the Strouhal number in wake meandering. In addition, the characteristic frequency of the wake meandering under the turbulent inflow is much smaller than that under the uniform inflow, because of the significant influence of the freestream turbulence. Furthermore, the proper orthogonal decomposition (POD) and spectral POD (SPOD) methods are employed to study the spatiotemporal characteristics of the meandering wake and its TSR dependence. It is found that the tip and root vortices are the prominent wake structures under the uniform inflow, whereas more complex multiscale structures from the interaction between the freestream turbulence and tip/root vortices exist under the turbulent inflow. Moreover, an amplitude modulation phenomenon of the POD time coefficients at the optimal TSR is observed in the uniform inflow case. Finally, a reduced-order model is constructed for predicting the wake dynamics by combining the SPOD and the ‘sparse identification of nonlinear dynamics’ algorithm with high accuracy and interpretability.",
+          "abstractZh": "本研究利用大涡模拟与致动线模型，考察在均匀和湍流来流下叶尖速比（TSR）对风力机尾流蜿蜒特性的影响。结果表明，随着TSR增大，尾流蜿蜒的起始位置向转子靠近，尾流振荡幅度更强。这与先前工作一致，表明较高的TSR可加速叶尖涡的不稳定和破碎。在没有机舱的情况下，发现在均匀和湍流来流下，尾流蜿蜒的斯特劳哈尔数均与TSR无关。然而，当机舱相对较大时，斯特劳哈尔数随TSR先增大后减小。因此，当前发现阐明了机舱的关键作用，并澄清了尾流蜿蜒中斯特劳哈尔数对TSR依赖性的起源。此外，由于自由流湍流的显著影响，湍流来流下尾流蜿蜒的特征频率远小于均匀来流下的特征频率。进一步，采用本征正交分解（POD）和谱本征正交分解（SPOD）方法研究了蜿蜒尾流的时空特性及其对TSR的依赖性。研究发现，在均匀来流下，叶尖涡和叶根涡是主要的尾流结构，而在湍流来流下，由于自由流湍流与叶尖/叶根涡的相互作用，存在更复杂的多尺度结构。此外，在均匀来流情况下，在最佳TSR下观察到POD时间系数的幅度调制现象。最后，通过将SPOD与‘非线性动力学稀疏识别’算法相结合，构建了一个用于预测尾流动力学的降阶模型，具有高精度和可解释性。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用大涡模拟与致动线模型，研究均匀和湍流来流下叶尖速比对尾流蜿蜒的影响。",
+            "TSR增大使尾流蜿蜒起始位置更靠近转子，振荡幅度更强，与叶尖涡不稳定性加速一致。",
+            "无机舱时斯特劳哈尔数与TSR无关；大机舱时随TSR先增后减，揭示机舱的关键作用。",
+            "湍流来流下尾流蜿蜒特征频率远小于均匀来流，自由流湍流影响显著。",
+            "结合SPOD与SINDy构建降阶模型，高精度预测尾流动力学并具可解释性。"
+          ],
+          "keywords": [
+            "叶尖速比",
+            "尾流蜿蜒",
+            "大涡模拟",
+            "斯特劳哈尔数",
+            "降阶模型"
+          ],
+          "figures": [],
+          "relevance": "该研究揭示叶尖速比对尾流蜿蜒的影响机制，为风电功率预测中尾流效应建模与流场重构提供物理依据。",
+          "tags": [
+            "功率预测",
+            "雷达流场重构"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "1014",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1017/jfm.2025.10276"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 4.2,
+            "source": "https://www.letpub.com.cn/index.php?journalid=4536&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1016/j.jweia.2024.105854",
+          "doi": "10.1016/j.jweia.2024.105854",
+          "title": "Energy and frequency analysis in the wake of a heavy-duty truck model using large-eddy simulation",
+          "titleZh": "基于大涡模拟的重型卡车模型尾流能量与频率分析",
+          "authors": [
+            "Saeedi M.",
+            "Nyantekyi-Kwakye B.",
+            "Asgari E."
+          ],
+          "authorsText": "Saeedi M., Nyantekyi-Kwakye B., Asgari E.",
+          "venue": "Journal of Wind Engineering and Industrial Aerodynamics",
+          "venueShort": "JWEIA",
+          "year": 2024,
+          "date": "2024-10-01",
+          "level": "SCI",
+          "citation": "Saeedi M., Nyantekyi-Kwakye B., Asgari E. Energy and frequency analysis in the wake of a heavy-duty truck model using large-eddy simulation[J]. Journal of Wind Engineering and Industrial Aerodynamics, 2024, 253: 105854.",
+          "abstractEn": "In the current research, the turbulent flow field and wake characteristics around a realistic heavy duty truck model and at a practical Reynolds number Re = 2.6 × 106 (calculated using the free-stream velocity and the square root of the truck's frontal area) has been investigated using large eddy simulation based on an experimental wind-tunnel study conducted by National Research Council of Canada. The primary focus of this study is examining the budget terms and energy transfer from large-scale structures to the smaller scales. Major flow features and complex three-dimensional flow topology were investigated using qualitative and quantitative tools. Due to boundary layer separation, the downstream wake region was characterized by a quadrupole mean vortical structure. Evolution of budget-balance terms of turbulent kinetic energy (TKE) transport downstream of the truck model and the TKE distribution were thoroughly investigated revealing the influence of corner flow separation, side shear layer evolutions and rooftop boundary layer separation. The level of the budget terms was observed to be strongly influenced by the downstream propagation of the large-scale vortical structures. Furthermore, a frequency analysis was conducted on different components of integral aerodynamic force on the truck model and on several velocity and pressure probe data downstream of the truck model. The important Strouhal numbers indicating the correlation between flow separation, vortex shedding, and aerodynamic forces were identified.",
+          "abstractZh": "在当前研究中，基于加拿大国家研究委员会进行的风洞实验，采用大涡模拟研究了真实重型卡车模型在实用雷诺数Re = 2.6 × 10^6（使用自由流速度和卡车正面面积平方根计算）下的湍流流场和尾流特性。本研究主要关注预算项以及从大尺度结构到小尺度的能量传递。使用定性和定量工具研究了主要流动特征和复杂的三维流动拓扑。由于边界层分离，下游尾流区域的特征是四极子平均涡结构。深入研究了卡车模型下游湍动能（TKE）输运的预算平衡项演化及TKE分布，揭示了角流分离、侧剪切层演化和车顶边界层分离的影响。观察到预算项的水平受大尺度涡结构向下游传播的强烈影响。此外，对卡车模型上积分气动力的不同分量以及卡车模型下游的几个速度和压力探针数据进行了频率分析。确定了指示流动分离、涡脱落和气动力之间相关性的重要斯特劳哈尔数。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用大涡模拟研究重型卡车模型在Re=2.6×10^6下的尾流特性。",
+            "基于加拿大国家研究委员会风洞实验进行数值模拟验证。",
+            "分析湍动能预算项，揭示角流分离和剪切层对能量传递的影响。",
+            "尾流区呈现四极子平均涡结构，受大尺度涡下游传播主导。",
+            "通过频率分析识别流动分离、涡脱落与气动力相关的斯特劳哈尔数。"
+          ],
+          "keywords": [
+            "大涡模拟",
+            "尾流",
+            "湍动能",
+            "频率分析",
+            "重型卡车",
+            "斯特劳哈尔数"
+          ],
+          "figures": [],
+          "relevance": "该研究通过大涡模拟分析尾流湍流结构与能量传递，其方法可借鉴于雷达流场重构和风电场尾流模拟，但与风电/光伏功率预测无直接关系。",
+          "tags": [
+            "雷达流场重构"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "253",
+          "pages": "105854",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1016/j.jweia.2024.105854"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 5.1,
+            "source": "https://www.letpub.com.cn/index.php?journalid=5452&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1103/physrevfluids.9.034608",
+          "doi": "10.1103/physrevfluids.9.034608",
+          "title": "Wake characteristics behind a tidal turbine with surface waves in turbulent flow analyzed with large-eddy simulation",
+          "titleZh": "湍流中表面波下潮汐涡轮机尾流特性的大涡模拟分析",
+          "authors": [
+            "Ouro Pablo",
+            "Mullings Hannah",
+            "Christou Aristos",
+            "Draycott Samuel",
+            "Stallard Tim"
+          ],
+          "authorsText": "Ouro Pablo, Mullings Hannah, Christou Aristos, et al.",
+          "venue": "Physical Review Fluids",
+          "venueShort": "Phys Rev Fluids",
+          "year": 2024,
+          "date": "2024-03-22",
+          "level": "SCI",
+          "citation": "Ouro Pablo, Mullings Hannah, Christou Aristos, et al. Wake characteristics behind a tidal turbine with surface waves in turbulent flow analyzed with large-eddy simulation[J]. Physical Review Fluids, 2024, 9(3).",
+          "abstractEn": "To design tidal stream turbine arrays, turbine wakes need to be fully characterized to assess the adequate row spacing considering environmental factors such as onset turbulence, velocity shear, and surface waves. The role of waves on wake development varies depending on their characteristics, such as wavelength and amplitude, and needs to be carefully understood. Here large-eddy simulations are performed to analyze the instantaneous and time-averaged wake characteristics developed downstream of a tidal stream turbine for four wave-current conditions ranging from nearly deep to intermediate waves and compared to current-only results. The tip-vortex convection near the free surface is highly influenced by the waves. During the period of increased surface elevation, there is an upwards motion of the vortices which have merged into a single vortical structure during the wave trough period. Downwards vertical transport of tip vortices occurs after the pass of the wave crest, enabling vertical entrainment of momentum into the turbine wake region. Disk-averaged velocity deficit recovery increases for wave-current cases compared to the current-alone condition, with all intermediate wave cases showing a very similar wake recovery rate throughout the wake length. The nearly deep-water waves lead to a slightly slower recovery rate up to 12 turbine diameters ( D ) downstream while, after this distance, the recovery rate is the highest among the simulated wave conditions. The integration of the mean kinetic energy (MKE) budget in the region up to 12 D shows there is a similar distribution in the balance between terms irrespective of the wave-current case. However, in the far-wake region covering from 12 D to 20 D , the nearly deep waves have a larger contribution for MKE replenishment from the transverse convection and turbulence transport terms, balanced with their vertical counterparts and the streamwise convection term. Analysis of the wake self-similarity shows that a Gaussian model description holds for the recovery rate and lateral profile of the wake of a tidal turbine operating in coupled wave-current conditions, with a similar rate of velocity recovery after 12 D irrespective of the wave characteristics. Lateral wake spreading is smaller for the shortest wavelength, which relates to an increased contribution of transverse fluxes in the MKE budget. Published by the American Physical Society 2024",
+          "abstractZh": "为了设计潮汐流涡轮机阵列，需要充分表征涡轮机尾流，以考虑起始湍流、速度剪切和表面波等环境因素来评估合适的行间距。波浪对尾流发展的作用因其特性（如波长和振幅）而异，需要仔细理解。本文进行大涡模拟，分析潮汐流涡轮机下游发展的瞬时和时间平均尾流特性，针对四种从近深水到中等波的波流条件，并与仅水流结果进行比较。自由表面附近的尖端涡对流受波浪高度影响。在表面高程增加期间，涡旋向上运动，这些涡旋在波谷期间合并成单一涡结构。波峰通过后，尖端涡旋发生向下垂直输运，使得动量垂直夹带到涡轮机尾流区域。与仅水流条件相比，波流情况下的盘平均速度亏损恢复增加，所有中等波情况在整个尾流长度上显示出非常相似的尾流恢复率。近深水波导致下游至12个涡轮机直径（D）处的恢复率稍慢，而在此距离之后，恢复率是模拟波浪条件中最高的。对至12D区域的平均动能（MKE）收支积分表明，无论波流情况如何，各项之间的平衡分布相似。然而，在从12D到20D的远尾流区域，近深水波对MKE补充的贡献更大，来自横向对流和湍流输运项，并与它们的垂直对应项和流向对流项平衡。尾流自相似性分析表明，高斯模型描述适用于波流耦合条件下运行的潮汐涡轮机尾流的恢复率和横向剖面，在12D之后速度恢复率相似，与波浪特性无关。最短波长的横向尾流扩展较小，这与MKE收支中横向通量贡献增加有关。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用大涡模拟分析四种波流条件下潮汐涡轮机尾流特性，并与仅水流条件对比。",
+            "波浪影响自由表面附近尖端涡对流，波峰过后涡旋向下输运增强动量夹带。",
+            "波流条件下盘平均速度亏损恢复加快，近深水波在12D内恢复稍慢但之后最快。",
+            "12D内MKE收支分布相似，12D-20D近深水波横向对流和湍流输运贡献更大。",
+            "尾流自相似性符合高斯模型，12D后恢复率与波浪特性无关，最短波长横向扩展较小。"
+          ],
+          "keywords": [
+            "潮汐涡轮机",
+            "尾流特性",
+            "大涡模拟",
+            "表面波",
+            "平均动能收支",
+            "尾流自相似性"
+          ],
+          "figures": [],
+          "relevance": "该研究通过大涡模拟揭示波浪对潮汐涡轮机尾流恢复的影响，其尾流建模和湍流输运分析方法可借鉴于风电/光伏功率预测中的尾流效应建模与气象流场重构。",
+          "tags": [
+            "功率预测",
+            "雷达流场重构"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "9",
+          "issue": "3",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1103/physrevfluids.9.034608"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3,
+            "source": "https://www.letpub.com.cn/index.php?journalid=10333&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1017/jfm.2023.1097",
+          "doi": "10.1017/jfm.2023.1097",
+          "title": "Resolvent-based motion-to-wake modelling of wind turbine wakes under dynamic rotor motion",
+          "titleZh": "动态转子运动下风力机尾流的基于预解式的运动到尾流建模",
+          "authors": [
+            "Li Zhaobin",
+            "Yang Xiaolei"
+          ],
+          "authorsText": "Li Zhaobin, Yang Xiaolei",
+          "venue": "Journal of Fluid Mechanics",
+          "venueShort": "JFM",
+          "year": 2024,
+          "date": "2024-02-08",
+          "level": "SCI",
+          "citation": "Li Zhaobin, Yang Xiaolei. Resolvent-based motion-to-wake modelling of wind turbine wakes under dynamic rotor motion[J]. Journal of Fluid Mechanics, 2024, 980.",
+          "abstractEn": "We propose a linearized deterministic model for predicting coherent structures in the wake of a floating offshore wind turbine subject to platform motions. The model's motion-to-wake predictive capability is achieved through two building blocks: a motion-to-forcing (M2F) part and a forcing-to-wake (F2W) part. The M2F model provides a unified framework to parameterize the effects of arbitrary floating wind turbine motions as unsteady loads of a fixed actuator disk, requiring only the radial distribution of the aerodynamics force coefficient on the blade as input. The F2W model is derived based on a bi-global resolvent model obtained from the linearized Navier–Stokes equations, using the time-averaged wake of a fixed wind turbine as input. In addition to its capability of predicting sensitive frequency ranges, the model excels linear stability analysis by providing spatial modes of the wake response in a motion-specific and phase-resolved manner. The model successfully predicts the wake pulsing mode induced by surge, as well as the similarity and difference of the wake meandering modes caused by sway and yaw. Large-eddy simulations under different inflow turbulence intensities (TIs) and length scales are further conducted to analyse the wake meandering triggered by the simultaneous excitation of free-stream turbulence and sway motion. The results show distinct frequency signatures for the wake dynamics induced by ambient turbulence and sway motion. The inflow TI is found to have a stabilizing effect on the wake, reducing the motion-induced wake responses. Such a stabilizing effect is captured satisfactorily with the proposed model, provided that the effective viscosity is calibrated properly using the data from the fixed turbine wake under the corresponding turbulent inflow.",
+          "abstractZh": "我们提出了一个线性化确定性模型，用于预测受平台运动影响的浮式海上风力机尾流中的相干结构。该模型的运动到尾流预测能力通过两个构建模块实现：运动到强迫（M2F）部分和强迫到尾流（F2W）部分。M2F模型提供了一个统一框架，将任意浮式风力机运动的影响参数化为固定作动盘的非定常载荷，仅需输入叶片上气动力系数的径向分布。F2W模型基于从线性化Navier–Stokes方程得到的双全局预解模型推导，使用固定风力机的时间平均尾流作为输入。除了预测敏感频率范围的能力外，该模型还擅长线性稳定性分析，以运动特定和相位分辨的方式提供尾流响应的空间模态。该模型成功预测了由纵荡引起的尾流脉动模态，以及由横荡和偏航引起的尾流蜿蜒模态的相似性和差异性。进一步进行了不同入流湍流强度（TI）和长度尺度下的大涡模拟，以分析由自由流湍流和横荡运动同时激发引起的尾流蜿蜒。结果表明，环境湍流和横荡运动引起的尾流动力学具有不同的频率特征。发现入流TI对尾流具有稳定作用，减少了运动引起的尾流响应。只要使用相应湍流入流下固定风力机尾流的数据适当校准有效粘度，所提出的模型就能令人满意地捕捉到这种稳定作用。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "提出线性化确定性模型，通过M2F和F2W两部分预测浮式风力机尾流相干结构。",
+            "M2F将任意平台运动参数化为固定作动盘的非定常载荷，仅需叶片气动力系数径向分布。",
+            "F2W基于线性化Navier–Stokes方程的双全局预解模型，以固定风力机时间平均尾流为输入。",
+            "模型成功预测纵荡引起的尾流脉动模态及横荡/偏航引起的蜿蜒模态异同。",
+            "大涡模拟表明入流湍流强度对尾流有稳定作用，模型经有效粘度校准后可捕捉该效应。"
+          ],
+          "keywords": [
+            "浮式风力机",
+            "尾流建模",
+            "预解分析",
+            "平台运动",
+            "大涡模拟",
+            "湍流强度"
+          ],
+          "figures": [],
+          "relevance": "该研究为浮式风力机尾流预测提供了线性化建模方法，与风电功率预测中的尾流效应建模和气象预报中的流场分析相关。",
+          "tags": [
+            "功率预测",
+            "气象预报"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "980",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1017/jfm.2023.1097"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 4.2,
+            "source": "https://www.letpub.com.cn/index.php?journalid=4536&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        }
+      ]
+    },
+    "algo": {
+      "title": "算法进展",
+      "subtitle": "大模型 · 时序预测",
+      "items": []
+    }
+  }
+}

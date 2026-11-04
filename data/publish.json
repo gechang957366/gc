@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "repo": "gechang957366/gc",
+  "branch": "main",
+  "pagesBranch": "gh-pages",
+  "autoPush": true
+}

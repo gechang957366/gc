@@ -1,0 +1,545 @@
+{
+  "id": "20261104-b3",
+  "domain": "wind-farm",
+  "label": "换一批 · 11-04 第 3 批",
+  "week": null,
+  "year": 2026,
+  "range": [
+    "2022-01-18",
+    "2026-10-01"
+  ],
+  "mode": "batch",
+  "generatedAt": "2026-11-04T21:05:00+08:00",
+  "generatedBy": "reroll",
+  "note": "按「wind farm wake / wake steering / wind turbine wake / large eddy simulation wake」从等级池（476 条候选）里取下一批：领域顶刊 8。上一批仍保留在历史期号里。",
+  "counts": {
+    "field": 8,
+    "algo": 0,
+    "figures": 0
+  },
+  "sections": {
+    "field": {
+      "title": "专业前沿",
+      "subtitle": "风电场尾流",
+      "summary": "尾流建模呈现从工程简化模型向高保真模拟与数据驱动方法并进的态势。混合尾流模型与串行优化降低了高维偏航搜索的计算成本，大涡模拟结合致动线或浸没边界法用于沙尘输运、流固耦合及浮式机组侧向运动下的蜿蜒起始分析，线性稳定性分析与多尺度三重分解则揭示相干结构与能量交换机制。重构与预测方面，物理信息本征正交分解将稀疏测量重构表述为受Navier-Stokes残差约束的正向问题，傅里叶神经算子实现三维尾流场的联合重构与时间外推。整体趋势是物理约束与算子学习融合，尾流机理认识反哺功率预测与流场重构。",
+      "items": [
+        {
+          "id": "10.1063/5.0349084",
+          "doi": "10.1063/5.0349084",
+          "title": "High-dimensional wind farm wake modeling and efficiency optimization using a hybrid modeling approach",
+          "titleZh": "基于混合建模方法的高维风电场尾流建模与效率优化",
+          "authors": [
+            "Mehmood Z.",
+            "Wang Z.",
+            "Sun L.",
+            "Xu M.",
+            "Akhtar S.",
+            "Asima"
+          ],
+          "authorsText": "Mehmood Z., Wang Z., Sun L., et al.",
+          "venue": "Physics of Fluids",
+          "venueShort": "Phys Fluids",
+          "year": 2026,
+          "date": "2026-10-01",
+          "level": "SCI",
+          "citation": "Mehmood Z., Wang Z., Sun L., et al. High-dimensional wind farm wake modeling and efficiency optimization using a hybrid modeling approach[J]. Physics of Fluids, 2026, 38(10).",
+          "abstractEn": "The performance optimization of wind turbines faces challenges due to wake interactions, leading to overall power losses in wind farms. Wake steering through the yaw control strategy has strong potential; however, conventional algorithms are hindered by high computational costs for large-scale real-time deployments. This study presents a fast and scalable approach for the performance optimization of wind farms under different environmental conditions through wake steering. The methodology integrates the Gauss–curled hybrid wake model with a serial refined to investigate how physically resolved wake mechanisms influence yaw control optimization while maintaining computational efficiency. The approach reduces high-dimensional optimization problems into sequential upstream to downstream turbine search for optimal yaw angles by reducing the computational cost and improving the physical accuracy. The framework was first applied to onshore wind farm turbines and then extended to an offshore wind farm comprising 96 wind turbines. The results indicate that wake interaction significantly affects the downstream performance owing to the wake overlap. The proposed method effectively models and mitigates wake effects through integrated wake modeling and an optimized yaw control strategy. The results demonstrate that dynamic wake interaction, yaw-induced wake deflection, and wake recovery enable physically consistent and scalable wake steering optimization under different environmental conditions. The agreement between the results obtained from the second wind farm and the monitoring data from supervisory control and data acquisition confirmed the reliability of the proposed framework for real-time applications. This wake steering technique verified by monitoring data provides an efficient tool for managing wake control across large-scale wind farm arrays.",
+          "abstractZh": "由于尾流相互作用，风电机组性能优化面临挑战，导致风电场整体功率损失。通过偏航控制策略进行尾流转向具有很大潜力；然而，传统算法因计算成本高而难以用于大规模实时部署。本研究提出一种快速且可扩展的方法，通过尾流转向在不同环境条件下优化风电场性能。该方法将Gauss–curled混合尾流模型与串行精细化方法相结合，在保持计算效率的同时研究物理上解析的尾流机制如何影响偏航控制优化。该方法通过降低计算成本并提高物理精度，将高维优化问题转化为从上游到下游的机组顺序搜索以确定最优偏航角。该框架首先应用于陆上风电场机组，随后扩展到包含96台风电机组的海上风电场。结果表明，由于尾流重叠，尾流相互作用显著影响下游性能。所提方法通过集成的尾流建模与优化偏航控制策略，有效建模并缓解尾流效应。结果表明，动态尾流相互作用、偏航诱导的尾流偏转和尾流恢复能够在不同环境条件下实现物理一致且可扩展的尾流转向优化。第二个风电场获得的结果与数据采集与监视控制系统的监测数据一致，证实了所提框架用于实时应用的可靠性。这种经监测数据验证的尾流转向技术为大规模风电场阵列的尾流控制管理提供了高效工具。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "将Gauss–curled混合尾流模型与串行精细化方法结合，兼顾计算效率与物理精度",
+            "把高维偏航优化转化为上游至下游机组顺序搜索，降低计算成本",
+            "先用于陆上风电场，再扩展到含96台机组的海上风电场验证",
+            "结果显示尾流重叠显著影响下游性能，所提方法可有效建模并缓解尾流效应",
+            "第二座风电场结果与SCADA监测数据一致，验证了实时应用可靠性"
+          ],
+          "keywords": [
+            "风电场尾流",
+            "偏航控制",
+            "尾流转向",
+            "混合尾流模型",
+            "计算效率",
+            "SCADA验证"
+          ],
+          "figures": [],
+          "relevance": "该文聚焦风电场尾流建模与偏航控制优化，可提升风电场整体功率输出，为风电功率预测中的场级功率建模与尾流损失修正提供物理依据。",
+          "tags": [
+            "功率预测",
+            "气象预报"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1063/5.0349084"
+            }
+          ],
+          "source": "scopus",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊",
+          "volume": "38",
+          "issue": "10"
+        },
+        {
+          "id": "10.1063/5.0325547",
+          "doi": "10.1063/5.0325547",
+          "title": "Joint reconstruction and temporal prediction of three-dimensional wind turbine wakes using Fourier neural operators",
+          "titleZh": "基于傅里叶神经算子的三维风力机尾流联合重构与时间预测",
+          "authors": [
+            "Lee E.",
+            "Chamorro L.P.",
+            "Lee S."
+          ],
+          "authorsText": "Lee E., Chamorro L.P., Lee S.",
+          "venue": "Physics of Fluids",
+          "venueShort": "Phys Fluids",
+          "year": 2026,
+          "date": "2026-08-01",
+          "level": "SCI",
+          "citation": "Lee E., Chamorro L.P., Lee S. Joint reconstruction and temporal prediction of three-dimensional wind turbine wakes using Fourier neural operators[J]. Physics of Fluids, 2026, 38(8).",
+          "abstractEn": "A reconstructive channel-UNet-assisted Fourier neural operator (ReCUFNO) is proposed for joint three-dimensional (3D) reconstruction and temporal prediction of wind-turbine wakes from limited two-dimensional (2D) observations. The model reconstructs and forecasts the three-dimensional scalar field of streamwise velocity, u, on a 3D grid from two orthogonal planar u-velocity slices conditioned on yaw angle. The approach combines a reconstructive channel-assisted layer with Fourier neural-operator forecasting and UNet-based spatial refinement to improve multi-scale wake representation and autoregressive stability. To address the mismatch between 2D inputs and 3D outputs, a reconstruction-consistent rollout maps each predicted volume back into planar inputs through slice extraction and roll-and-update feedback. Evaluated on yawed large-eddy simulation (LES) datasets, ReCUFNO achieves a single-step wind turbine error of approximately 5% and a single-step structural similarity index of 0.66, while maintaining bounded error growth over 30-step rollouts. Additional wake-focused diagnostics, including wake deflection, wake angle, centerline correlation, and rotor-disk power-deficit estimates, show improved agreement with LES relative to a UNet baseline. These results indicate that ReCUFNO provides a stable surrogate for observation-limited reconstruction and short-horizon prediction of yawed wind-turbine wake velocity fields.",
+          "abstractZh": "提出一种重构通道UNet辅助的傅里叶神经算子（ReCUFNO），用于从有限二维观测中联合实现风力机尾流的三维重构与时间预测。该模型以偏航角为条件，从两个正交平面u速度切片出发，在三维网格上重构并预测流向速度u的三维标量场。方法将重构通道辅助层与傅里叶神经算子预测及基于UNet的空间细化相结合，以改善多尺度尾流表征与自回归稳定性。针对二维输入与三维输出之间的不匹配，采用重构一致性滚动机制，通过切片提取与滚动更新反馈将每个预测体映射回平面输入。在偏航大涡模拟（LES）数据集上评估，ReCUFNO单步风力机误差约5%，单步结构相似性指数为0.66，并在30步滚动中保持误差有界增长。尾流偏转、尾流角、中心线相关性及转子盘功率亏损估计等尾流专项诊断指标相对UNet基线均与LES吻合更好。结果表明，ReCUFNO为观测受限条件下偏航风力机尾流速度场的重构与短时预测提供了稳定代理模型。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "提出ReCUFNO，从两个正交二维速度切片重构并预测三维尾流速度场",
+            "融合重构通道辅助层、傅里叶神经算子预测与UNet空间细化",
+            "用重构一致性滚动机制解决二维输入与三维输出不匹配",
+            "单步误差约5%、SSIM为0.66，30步滚动误差有界增长",
+            "尾流偏转、尾流角与功率亏损估计均优于UNet基线"
+          ],
+          "keywords": [
+            "风力机尾流",
+            "傅里叶神经算子",
+            "三维重构",
+            "时间预测",
+            "大涡模拟",
+            "偏航"
+          ],
+          "figures": [],
+          "relevance": "该工作用神经算子从有限二维观测重构并短时预测三维尾流速度场，可直接支撑风电场功率预测中的尾流建模与雷达/测风数据驱动的流场重构。",
+          "tags": [
+            "功率预测",
+            "雷达流场重构",
+            "时序预测"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1063/5.0325547"
+            }
+          ],
+          "source": "scopus",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊",
+          "volume": "38",
+          "issue": "8"
+        },
+        {
+          "id": "10.1063/5.0292127",
+          "doi": "10.1063/5.0292127",
+          "title": "Sparse wind turbine wake reconstruction using physics-informed proper orthogonal decomposition",
+          "titleZh": "基于物理信息本征正交分解的稀疏风力机尾流重构",
+          "authors": [
+            "Luo Zhaohui",
+            "Wang Longyan",
+            "Xu Jian",
+            "Yuan Jianping",
+            "Tan Andy Chit"
+          ],
+          "authorsText": "Luo Zhaohui, Wang Longyan, Xu Jian, et al.",
+          "venue": "Physics of Fluids",
+          "venueShort": "Phys Fluids",
+          "year": 2025,
+          "date": "2025-10-01",
+          "level": "SCI",
+          "citation": "Luo Zhaohui, Wang Longyan, Xu Jian, et al. Sparse wind turbine wake reconstruction using physics-informed proper orthogonal decomposition[J]. Physics of Fluids, 2025, 37(10).",
+          "abstractEn": "Wind turbine wake modeling from sparse measurements remains challenging due to spatiotemporal variability and limited full-field data availability in operational wind farms. This study introduces a physics-informed neural network with proper orthogonal decomposition (PINN-POD) framework for reconstructing unsteady wake fields and extracting coherent structures from sparse velocity measurements. The reconstruction is formulated as a physics-constrained forward problem, where PINNs estimate velocity fields by minimizing the measurement error and the Navier–Stokes equation residuals. Sparse spatial–temporal coordinates serve as inputs while automatic differentiation enforces physical constraints. POD then extracts dominant coherent structures while assessing training convergence through loss reduction and variations in mode energy. A dual-convergence strategy tracks training loss and mode variation, with robustness assessed under different noise levels. The framework accurately reconstructs instantaneous and time-averaged wake features for both non-yaw and yaw conditions. Comprehensive noise analysis reveals reconstruction errors below 5.81% for non-yaw cases and 7.00% for 30° yaw cases under 24% measurement noise, with errors concentrated in high-gradient shear regions while preserving wake core accuracy. Sensor distribution analysis demonstrates that 5 × 3 configurations provide adequate reconstruction quality, requiring minimum five cross-stream sensors for acceptable flow structure capture. Extracted POD modes preserve spatial coherence and capture characteristic wake asymmetries. PINN-POD demonstrates superior flow continuity and mode accuracy, especially under noisy conditions. The approach enables physics-consistent wake reconstruction and reduced-order modeling from limited measurements, providing practical utility for wind farm monitoring, control, and layout optimization.",
+          "abstractZh": "由于时空变异性和运行风电场中全流场数据有限，从稀疏测量中建模风力机尾流仍具挑战性。本研究提出一种结合本征正交分解的物理信息神经网络（PINN-POD）框架，用于从稀疏速度测量中重构非定常尾流场并提取相干结构。重构被表述为物理约束的正向问题，其中PINN通过最小化测量误差和Navier-Stokes方程残差来估计速度场。稀疏时空坐标作为输入，自动微分施加物理约束。POD随后提取主导相干结构，同时通过损失下降和模态能量变化评估训练收敛性。采用双收敛策略跟踪训练损失和模态变化，并在不同噪声水平下评估鲁棒性。该框架准确重构了非偏航和偏航条件下的瞬时和时均尾流特征。全面的噪声分析表明，在24%测量噪声下，非偏航情况的重构误差低于5.81%，30°偏航情况低于7.00%，误差集中在高梯度剪切区域，同时保持尾流核心精度。传感器分布分析表明，5×3配置可提供足够的重构质量，至少需要五个横流传感器才能可接受地捕捉流动结构。提取的POD模态保持空间相干性并捕捉特征尾流不对称性。PINN-POD表现出优越的流动连续性和模态精度，尤其在噪声条件下。该方法能够从有限测量中实现物理一致的尾流重构和降阶建模，为风电场监测、控制和布局优化提供实用价值。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "提出PINN-POD框架，从稀疏速度测量重构非定常尾流场并提取相干结构。",
+            "将重构表述为物理约束正向问题，PINN最小化测量误差和Navier-Stokes方程残差。",
+            "采用双收敛策略跟踪训练损失和模态变化，并在不同噪声水平下评估鲁棒性。",
+            "在24%测量噪声下，非偏航重构误差低于5.81%，30°偏航低于7.00%。",
+            "5×3传感器配置可提供足够重构质量，至少需五个横流传感器捕捉流动结构。"
+          ],
+          "keywords": [
+            "风力机尾流",
+            "物理信息神经网络",
+            "本征正交分解",
+            "稀疏重构",
+            "降阶建模"
+          ],
+          "figures": [],
+          "relevance": "该工作从稀疏测量重构风力机尾流场，直接服务于风电功率预测中的尾流效应建模与流场重构，其物理约束和降阶建模方法也可用于雷达流场重构。",
+          "tags": [
+            "功率预测",
+            "雷达流场重构"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "37",
+          "issue": "10",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1063/5.0292127"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1063/5.0289853",
+          "doi": "10.1063/5.0289853",
+          "title": "Large-eddy simulation of dust transport and coherent structures in a wind turbine wake",
+          "titleZh": "风力机尾流中沙尘输运与相干结构的大涡模拟",
+          "authors": [
+            "Wang Yan",
+            "Guan Ronghu",
+            "Lu Pan",
+            "Zheng Jian",
+            "Ma Gaosheng",
+            "Yang Fan"
+          ],
+          "authorsText": "Wang Yan, Guan Ronghu, Lu Pan, et al.",
+          "venue": "Physics of Fluids",
+          "venueShort": "Phys Fluids",
+          "year": 2025,
+          "date": "2025-09-01",
+          "level": "SCI",
+          "citation": "Wang Yan, Guan Ronghu, Lu Pan, et al. Large-eddy simulation of dust transport and coherent structures in a wind turbine wake[J]. Physics of Fluids, 2025, 37(9).",
+          "abstractEn": "This study utilizes large-eddy simulation (LES) with an actuator line model (ALM) to quantify, for the first time, the influence of an operational 5 MW wind turbine wake on the structural characteristics and transport dynamics of suspended dust. The results indicate that turbine wake-induced turbulence significantly weakens the correlation between dust concentration and flow velocity, with the correlation coefficient decreasing by up to 16.6%. Rotor-induced flow alters the structural characteristics of dust concentration, leading to decreased characteristic length scales in both the spanwise and streamwise directions, as well as an increased structural inclination angle. These effects become more pronounced with larger particle diameters and higher threshold of correlation. Additionally, the wake also affects dust distribution and transport, inducing significant concentration fluctuations in the near-wake region (−6.7% to +3.67%), with these fluctuations gradually diminishing downstream and stabilizing beyond seven rotor diameters. Quadrant analysis further reveals that wake turbulence enhances the vertical turbulent diffusion of dust, with the effect being more pronounced for larger particles. These findings provide novel insights into how wind turbines affect dust structural characteristics and redistribution, offering valuable theoretical support for optimizing desert wind farm designs and wind-powered dust control strategies.",
+          "abstractZh": "本研究采用大涡模拟（LES）结合致动线模型（ALM），首次量化了运行中的5 MW风力机尾流对悬浮沙尘结构特征与输运动力学的影响。结果表明，风力机尾流诱导的湍流显著削弱了沙尘浓度与流速之间的相关性，相关系数最多下降16.6%。转子诱导流动改变了沙尘浓度的结构特征，使展向和流向的特征长度尺度均减小，结构倾角增大。这些效应随颗粒直径增大和相关性阈值提高而更加显著。此外，尾流还影响沙尘分布与输运，在近尾流区引起显著的浓度波动（−6.7%至+3.67%），这些波动向下游逐渐减弱，并在七个转子直径之外趋于稳定。象限分析进一步表明，尾流湍流增强了沙尘的垂向湍流扩散，且对大颗粒的影响更为明显。这些发现为风力机如何影响沙尘结构特征与再分布提供了新见解，为优化沙漠风电场设计和风力驱动沙尘控制策略提供了有价值的理论支撑。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用大涡模拟结合致动线模型，首次量化5 MW风力机尾流对沙尘结构的影响",
+            "尾流湍流削弱沙尘浓度与流速相关性，相关系数最多下降16.6%",
+            "沙尘展向与流向特征长度尺度减小、结构倾角增大，大颗粒更显著",
+            "近尾流区浓度波动−6.7%至+3.67%，七个转子直径外趋于稳定",
+            "象限分析显示尾流增强沙尘垂向湍流扩散，大颗粒效应更强"
+          ],
+          "keywords": [
+            "大涡模拟",
+            "致动线模型",
+            "风力机尾流",
+            "沙尘输运",
+            "相干结构"
+          ],
+          "figures": [],
+          "relevance": "该研究揭示风力机尾流湍流对沙尘输运与相干结构的影响，可为风电场尾流建模及沙尘环境下功率预测的流场刻画提供参考。",
+          "tags": [
+            "雷达流场重构",
+            "气象预报"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "37",
+          "issue": "9",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1063/5.0289853"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1017/jfm.2025.10320",
+          "doi": "10.1017/jfm.2025.10320",
+          "title": "Wind-farm wake recovery mechanisms in conventionally neutral boundary layers",
+          "titleZh": "常规中性边界层中风电场尾流恢复机制",
+          "authors": [
+            "Lanzilao Luca",
+            "Meyers Johan"
+          ],
+          "authorsText": "Lanzilao Luca, Meyers Johan",
+          "venue": "Journal of Fluid Mechanics",
+          "venueShort": "JFM",
+          "year": 2025,
+          "date": "2025-07-15",
+          "level": "SCI",
+          "citation": "Lanzilao Luca, Meyers Johan. Wind-farm wake recovery mechanisms in conventionally neutral boundary layers[J]. Journal of Fluid Mechanics, 2025, 1015.",
+          "abstractEn": "Synthetic-aperture radar images and mesoscale models show that wind-farm wakes differ from single-turbine wakes. For instance, wind-farm wakes often narrow and do not disperse over long distances, contrasting the broader and more dissipating wakes of individual turbines. In this work, we aim to better understand the mechanisms that govern wind-farm wake behaviour and recovery. Hence we study the wake properties of a $1.6$ GW wind farm operating in conventionally neutral boundary layers with capping-inversion heights $203$ , $319$ , $507$ and $1001$ m. In shallow boundary layers, we find strong flow decelerations that reduce the Coriolis force magnitude, leading to an anticlockwise wake deflection in the Northern Hemisphere. In deep boundary layers, the vertical turbulent entrainment of momentum adds clockwise-turning flow from aloft into the wake region, leading to a faster recovery rate and a clockwise wake deflection. To estimate the wake properties, we propose a simple function to fit the velocity magnitude profiles along the spanwise direction. In the vertical direction, the wake spreads up to the capping-inversion height, which significantly limits vertical wake development in shallow-boundary-layer cases. In the horizontal direction and for shallow boundary layers, the wake behaves as two distinct mixing layers located at the lateral wake edges, which expand and turn towards their low-velocity side, causing the wake to narrow along the streamwise direction. A detailed analysis of the momentum budget reveals that in deep boundary layers, the wake is predominantly replenished through turbulent vertical entrainment. Conversely, in shallow boundary layers, wakes are mostly replenished by mean flow advection in the spanwise direction.",
+          "abstractZh": "合成孔径雷达图像和中尺度模型显示，风电场尾流与单台风力机尾流不同。例如，风电场尾流通常变窄且长距离不扩散，而单台风力机尾流更宽且耗散更强。本文旨在更好地理解控制风电场尾流行为和恢复的机制。因此，我们研究了在常规中性边界层中运行的1.6 GW风电场的尾流特性，盖顶逆温层高度分别为203、319、507和1001米。在浅边界层中，我们发现强烈的流动减速降低了科里奥利力的大小，导致北半球出现逆时针尾流偏转。在深边界层中，垂直湍流动量夹带将来自上方的顺时针旋转流动带入尾流区域，导致更快的恢复速率和顺时针尾流偏转。为了估计尾流特性，我们提出了一个简单的函数来拟合沿展向方向的速度幅值剖面。在垂直方向上，尾流扩展到盖顶逆温层高度，这在浅边界层情况下显著限制了垂直尾流发展。在水平方向上，对于浅边界层，尾流表现为位于尾流侧边缘的两个不同的混合层，它们扩展并转向其低速侧，导致尾流沿流向变窄。对动量收支的详细分析表明，在深边界层中，尾流主要通过湍流垂直夹带得到补充。相反，在浅边界层中，尾流主要通过展向方向的平均流平流得到补充。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "用1.6 GW风电场在四种盖顶逆温高度下模拟尾流，揭示浅边界层尾流逆时针偏转、深边界层顺时针偏转。",
+            "深边界层中垂直湍流夹带带来顺时针流动，加速尾流恢复；浅边界层中尾流恢复主要靠展向平均流平流。",
+            "提出简单函数拟合展向速度幅值剖面，并发现浅边界层尾流垂直发展受盖顶逆温高度限制。",
+            "浅边界层尾流水平方向表现为两个混合层，向低速侧扩展导致尾流沿流向变窄。"
+          ],
+          "keywords": [
+            "风电场尾流",
+            "边界层",
+            "尾流恢复",
+            "湍流夹带",
+            "动量收支"
+          ],
+          "figures": [],
+          "relevance": "该研究揭示风电场尾流恢复机制与边界层结构的关系，可为风电功率预测中的尾流损失建模和气象预报中边界层参数化提供物理依据。",
+          "tags": [
+            "功率预测",
+            "气象预报"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "1015",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1017/jfm.2025.10320"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 4.2,
+            "source": "https://www.letpub.com.cn/index.php?journalid=4536&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1017/jfm.2024.581",
+          "doi": "10.1017/jfm.2024.581",
+          "title": "Energy exchanges between coherent modes in the near wake of a wind turbine model at different tip speed ratios",
+          "titleZh": "不同叶尖速比下风力机模型近尾流中相干模态间的能量交换",
+          "authors": [
+            "Biswas Neelakash",
+            "Buxton Oliver R.H."
+          ],
+          "authorsText": "Biswas Neelakash, Buxton Oliver R.H.",
+          "venue": "Journal of Fluid Mechanics",
+          "venueShort": "JFM",
+          "year": 2024,
+          "date": "2024-09-26",
+          "level": "SCI",
+          "citation": "Biswas Neelakash, Buxton Oliver R.H. Energy exchanges between coherent modes in the near wake of a wind turbine model at different tip speed ratios[J]. Journal of Fluid Mechanics, 2024, 996.",
+          "abstractEn": "In this work we investigate the spatio-temporal nature of various coherent modes present in a wind turbine wake using a combination of new particle image velocimetry experiments and data from Biswas & Buxton ( J. Fluid Mech. , vol. 979, 2024, A34). A multiscale triple decomposition of the acquired velocity field is sought to extract the coherent modes and, thereafter, the energy exchanges to and from them are studied using the multiscale triple decomposed coherent kinetic energy budgets developed by Baj & Buxton ( Phys. Rev. Fluids , vol. 2, 2017, 114607). Different frequencies forming the tip vortex system (such as the blade passing frequency, turbine's rotational frequency and their harmonics) are found to be energised by different sources such as production from the mean flow or nonlinear triadic interaction or both, similar to the primary, secondary or the mixed modes discussed in Biswas et al. ( J. Fluid Mech. , vol. 941, 2022, A36). The tip vortex system forms a complex network of nonlinear triadic energy transfers, the nature and the magnitudes of which depend on the tip speed ratio ( $\\lambda$ ). Contrastingly, the modes associated with the sheddings from the nacelle or tower and wake meandering are found to be primarily energised by the mean flow. We show that the tip vortex system exchanges energy with the mean flow primarily through the turbine's rotational frequency. In fact, the system transfers energy back to the mean flow through the turbine's rotational frequency at some distance downstream marking the onset location of wake recovery ( $x_{wr}$ ). Here $x_{wr}$ is shown to reduce with $\\lambda$ due to stronger interaction and earlier merging of the tip vortices at a higher $\\lambda$ .",
+          "abstractZh": "本文结合新的粒子图像测速实验和Biswas & Buxton（J. Fluid Mech., vol. 979, 2024, A34）的数据，研究了风力机尾流中存在的各种相干模态的时空特性。采用多尺度三重分解对获取的速度场进行处理以提取相干模态，然后利用Baj & Buxton（Phys. Rev. Fluids, vol. 2, 2017, 114607）开发的多尺度三重分解相干动能收支研究了与这些模态相关的能量交换。研究发现，构成叶尖涡系统的不同频率（如叶片通过频率、涡轮旋转频率及其谐波）由不同来源供能，例如平均流的产生或非线性三阶相互作用或两者兼有，类似于Biswas等人（J. Fluid Mech., vol. 941, 2022, A36）讨论的主模态、次模态或混合模态。叶尖涡系统形成了一个复杂的非线性三阶能量传递网络，其性质和大小取决于叶尖速比（λ）。相比之下，与机舱或塔架脱落以及尾流蜿蜒相关的模态主要从平均流获取能量。我们表明，叶尖涡系统主要通过涡轮旋转频率与平均流交换能量。事实上，该系统在某个下游距离处通过涡轮旋转频率将能量回传给平均流，这标志着尾流恢复的起始位置（x_wr）。这里x_wr随λ减小，因为在较高的λ下叶尖涡的相互作用更强且合并更早。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用多尺度三重分解从PIV速度场中提取风力机尾流相干模态。",
+            "叶尖涡系统频率由平均流产生或非线性三阶相互作用供能，取决于叶尖速比。",
+            "叶尖涡系统主要通过涡轮旋转频率与平均流交换能量。",
+            "尾流恢复起始位置x_wr随叶尖速比λ增大而减小。",
+            "机舱/塔架脱落和尾流蜿蜒模态主要从平均流获取能量。"
+          ],
+          "keywords": [
+            "风力机尾流",
+            "相干模态",
+            "能量交换",
+            "叶尖速比",
+            "多尺度三重分解"
+          ],
+          "figures": [],
+          "relevance": "该研究揭示风力机尾流相干结构与能量交换机制，为风电功率预测中尾流效应建模和流场重构提供物理基础。",
+          "tags": [
+            "雷达流场重构"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "996",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1017/jfm.2024.581"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 4.2,
+            "source": "https://www.letpub.com.cn/index.php?journalid=4536&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1063/5.0086557",
+          "doi": "10.1063/5.0086557",
+          "title": "Fluid structure interaction of a subaqueous pendulum: Analyzing the effect of wake correction via large eddy simulations",
+          "titleZh": "水下摆的流固耦合：基于大涡模拟分析尾流修正的影响",
+          "authors": [
+            "Worf Dominik",
+            "Khosronejad Ali",
+            "Gold Thomas",
+            "Reiterer Kevin",
+            "Habersack Helmut",
+            "Sindelar Christine"
+          ],
+          "authorsText": "Worf Dominik, Khosronejad Ali, Gold Thomas, et al.",
+          "venue": "Physics of Fluids",
+          "venueShort": "Phys Fluids",
+          "year": 2022,
+          "date": "2022-05-01",
+          "level": "SCI",
+          "citation": "Worf Dominik, Khosronejad Ali, Gold Thomas, et al. Fluid structure interaction of a subaqueous pendulum: Analyzing the effect of wake correction via large eddy simulations[J]. Physics of Fluids, 2022, 34(5).",
+          "abstractEn": "The dynamic behavior of a subaqueous cylindrical pendulum and corresponding flow dynamics are investigated. The objectives were twofold: (i) to examine whether the two-dimensional model equations sufficiently capture the three-dimensional dynamics and (ii) to investigate the emerging three-dimensional vortical flow structures. Large eddy simulations with two-way coupling fluid structure interaction were carried out using the immersed boundary method to simulate the motion of the pendulum and its interactions with the initially stagnant water. The resulting pendulum motion is compared against measured data obtained in a series of experimental tests to validate the simulation results and the model equations with and without wake corrections. An analysis of the flow vorticity revealed the development of a vortex ring during the first swing and the formation of tip vortices. The evolution of the vortex rings emerging from the motion of the subaqueous cylindrical pendulum was visualized using Q-criteria showing a reasonable agreement with vortical structures observed in the experiment using particle imaging velocimetry. The hydrodynamic moments acting on the simulated pendulum and the moments calculated from the model equations are analyzed. Using the insights from these numerical simulations, a modification of the wake correction is proposed to enhance the accuracy of the rate of decay and period. The transient effect of coherent flow on pendulum dynamics, especially the added mass effect, is discussed.",
+          "abstractZh": "研究了水下圆柱摆的动态行为及相应的流动动力学。目标有两个：(i) 检验二维模型方程是否足以捕捉三维动力学；(ii) 研究出现的三维涡流结构。采用浸没边界法进行双向耦合流固耦合的大涡模拟，以模拟摆的运动及其与初始静止水的相互作用。将得到的摆运动与一系列实验测试中获得的测量数据进行比较，以验证模拟结果以及有无尾流修正的模型方程。对流动涡量的分析揭示了第一次摆动期间涡环的发展以及尖端涡的形成。使用Q准则可视化了水下圆柱摆运动产生的涡环的演化，显示出与使用粒子成像测速在实验中观察到的涡结构合理一致。分析了作用在模拟摆上的水动力矩以及由模型方程计算得到的力矩。利用这些数值模拟的见解，提出了尾流修正的修改，以提高衰减率和周期的准确性。讨论了相干流动对摆动力学的瞬态效应，特别是附加质量效应。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "采用浸没边界法进行双向耦合流固耦合大涡模拟，模拟水下圆柱摆运动。",
+            "将模拟摆运动与实验数据对比，验证有无尾流修正的模型方程。",
+            "涡量分析显示第一次摆动形成涡环和尖端涡，Q准则可视化与PIV实验一致。",
+            "分析水动力矩与模型方程力矩，提出尾流修正修改以提高衰减率和周期准确性。",
+            "讨论相干流动瞬态效应，特别是附加质量效应。"
+          ],
+          "keywords": [
+            "流固耦合",
+            "大涡模拟",
+            "尾流修正",
+            "涡环",
+            "附加质量"
+          ],
+          "figures": [],
+          "relevance": "该论文研究水下摆的流固耦合与大涡模拟，与风电/光伏功率预测、气象预报、雷达流场重构无关；其方法涉及流体动力学模拟，但与新能源功率预测领域无直接关系。",
+          "tags": [
+            "时序预测"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "34",
+          "issue": "5",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1063/5.0086557"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 3.8,
+            "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        },
+        {
+          "id": "10.1017/jfm.2021.1147",
+          "doi": "10.1017/jfm.2021.1147",
+          "title": "Onset of wake meandering for a floating offshore wind turbine under side-to-side motion",
+          "titleZh": "浮式海上风力机侧向运动下尾流蜿蜒的起始",
+          "authors": [
+            "Li Zhaobin",
+            "Dong Guodan",
+            "Yang Xiaolei"
+          ],
+          "authorsText": "Li Zhaobin, Dong Guodan, Yang Xiaolei",
+          "venue": "Journal of Fluid Mechanics",
+          "venueShort": "JFM",
+          "year": 2022,
+          "date": "2022-01-18",
+          "level": "SCI",
+          "citation": "Li Zhaobin, Dong Guodan, Yang Xiaolei. Onset of wake meandering for a floating offshore wind turbine under side-to-side motion[J]. Journal of Fluid Mechanics, 2022, 934.",
+          "abstractEn": "Wind turbine wakes, being convectively unstable, may behave as an amplifier of upstream perturbations and make downstream turbines experience strong inflow fluctuations. In this work, we investigate the effects of the side-to-side motion of a floating offshore wind turbine (FOWT) on wake dynamics using large-eddy simulation and linear stability analysis (LSA). When the inflow turbulence intensity is low, simulation results reveal that the turbine motion with certain Strouhal numbers $St = fD/U_\\infty \\in (0.2,0.6)$ (where $f$ is the motion frequency, $D$ is the rotor diameter, and $U_\\infty$ is the incoming wind speed), which overlap with the Strouhal numbers of wake meandering induced by the shear layer instability, can lead to wake meandering with amplitudes being one order of magnitude larger than the FOWT motion for the most unstable frequency. For high inflow turbulence intensity, on the other hand, the onset of wake meandering is dominated by the inflow turbulence. The probability density function of the spanwise instantaneous wake centres is observed being non-Gaussian and closely related to that of the side-to-side motion. This complements the existing wake meandering mechanisms, that the side-to-side motion of an FOWT can be a novel origin for the onset of wake meandering. It is also found that LSA can predict the least stable frequencies and the amplification factor with acceptable accuracy for motion amplitude $0.01D$ . Effects of nonlinearity are observed when motion amplitude increases to $0.04D$ , for which the most unstable turbine oscillations shift slightly to lower frequencies and the amplification factor decreases.",
+          "abstractZh": "风力机尾流具有对流不稳定性，可作为上游扰动的放大器，使下游风力机经历强烈的入流波动。本文利用大涡模拟和线性稳定性分析（LSA）研究浮式海上风力机（FOWT）的侧向运动对尾流动力学的影响。当入流湍流强度较低时，模拟结果表明，具有特定斯特劳哈尔数 St = fD/U∞ ∈ (0.2,0.6)（其中 f 为运动频率，D 为转子直径，U∞ 为来流风速）的风力机运动，与剪切层不稳定性引起的尾流蜿蜒的斯特劳哈尔数重叠，可导致尾流蜿蜒，对于最不稳定频率，其振幅比 FOWT 运动大一个数量级。另一方面，对于高入流湍流强度，尾流蜿蜒的起始由入流湍流主导。观察到展向瞬时尾流中心的概率密度函数为非高斯分布，且与侧向运动的概率密度函数密切相关。这补充了现有的尾流蜿蜒机制，即 FOWT 的侧向运动可以成为尾流蜿蜒起始的新起源。还发现，对于运动振幅 0.01D，LSA 可以以可接受的精度预测最不稳定频率和放大因子。当运动振幅增加到 0.04D 时，观察到非线性效应，此时最不稳定的风力机振荡略微向低频移动，放大因子减小。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "用大涡模拟和线性稳定性分析研究浮式风力机侧向运动对尾流的影响。",
+            "低湍流下，St在0.2-0.6的运动可引发尾流蜿蜒，振幅比运动大一个数量级。",
+            "高湍流下，尾流蜿蜒起始由入流湍流主导。",
+            "尾流中心概率密度非高斯，与侧向运动概率密度密切相关。",
+            "LSA在振幅0.01D时能较好预测最不稳定频率和放大因子；0.04D时出现非线性效应。"
+          ],
+          "keywords": [
+            "浮式海上风力机",
+            "尾流蜿蜒",
+            "侧向运动",
+            "大涡模拟",
+            "线性稳定性分析",
+            "斯特劳哈尔数"
+          ],
+          "figures": [],
+          "relevance": "该研究揭示浮式风力机运动诱发尾流蜿蜒的机制，与风电功率预测中尾流效应建模和气象预报中湍流影响相关。",
+          "tags": [
+            "功率预测",
+            "气象预报"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "934",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1017/jfm.2021.1147"
+            }
+          ],
+          "source": "crossref",
+          "metrics": {
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 4.2,
+            "source": "https://www.letpub.com.cn/index.php?journalid=4536&page=journalapp&view=detail"
+          },
+          "flagship": true,
+          "rank": 0,
+          "tierLabel": "领域顶刊"
+        }
+      ]
+    },
+    "algo": {
+      "title": "算法进展",
+      "subtitle": "大模型 · 时序预测",
+      "items": []
+    }
+  }
+}

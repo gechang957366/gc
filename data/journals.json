@@ -1,0 +1,951 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-11-04T07:39:33.560Z",
+  "source": "letpub（中科院分区表/影响因子）、ai4paper.pro（2025 JCR 分区）、cqvip 维普与期刊官网（中文刊收录）、ccf.org.cn（CCF 推荐目录）",
+  "dataNote": "cas 取自中科院分区表 2025 年 3 月升级版（大类分区与 Top 标志均来自该表，year=2025）；jcr 与 if 为 2025 版 JCR（letpub 标注“2025-2026 最新版 / 2026 年 6 月更新”，ai4paper 标注“2025 JCR”，Springer 官方标注 “(2025)”），year=2025。中文期刊不适用中科院分区与 JCR，收录情况写入 cn 与 note，相关字段置 null。 2026-11-04 追加 9 本流体/风工程刊（尾流方向旗舰刊与综述刊），仅 IF 与 JCR 为核对值，中科院分区留空。",
+  "journals": [
+    {
+      "name": "Wind Energy Science",
+      "issn": "2366-7443",
+      "cn": null,
+      "cas": {
+        "zone": "3区",
+        "top": false,
+        "major": "工程技术",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q3",
+        "year": "2025"
+      },
+      "if": 4.2,
+      "ccf": null,
+      "note": "ESCI 收录（非 SCIE）；2026 新锐分区：2区；中科院 2025 升级版 3 区与 2026 新锐分区 2 区不一致，引用时必须注明口径；中科院大类 3 区另经 xueshu.com “中科院最新升级版分区表大类学科工程技术 3 区” 佐证。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=14144&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=14144&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/wind-energy-science/",
+        "https://www.xueshu.com/sci/63343/"
+      ]
+    },
+    {
+      "name": "Energies",
+      "issn": "1996-1073",
+      "cn": null,
+      "cas": {
+        "zone": "4区",
+        "top": false,
+        "major": "工程技术",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q3",
+        "year": "2025"
+      },
+      "if": 3.9,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：3区；MDPI 期刊，中科院 2025 为 4 区而 2026 新锐分区为 3 区；IF 3.9 已与 MDPI 官网核对一致（MDPI 该刊页面未列 JCR 分区行，Q3 仅来自 ai4paper）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=2495&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=2495&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/energies/",
+        "https://www.mdpi.com/journal/energies"
+      ]
+    },
+    {
+      "name": "Monthly Weather Review",
+      "issn": "0027-0644",
+      "cn": null,
+      "cas": {
+        "zone": "3区",
+        "top": false,
+        "major": "地球科学",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q2",
+        "year": "2025"
+      },
+      "if": 3.3,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：3区。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=5998&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=5998&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/monthly-weather-review/"
+      ]
+    },
+    {
+      "name": "Remote Sensing",
+      "issn": "2072-4292",
+      "cn": null,
+      "cas": {
+        "zone": "2区",
+        "top": false,
+        "major": "地球科学",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 4.3,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：2区；MDPI 期刊；JCR Q1、IF 4.3 已与 MDPI 官网 “JCR - Q1 (Geosciences, Multidisciplinary)”、IF 4.3 核对一致。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=8969&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=8969&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/remote-sensing/",
+        "https://www.mdpi.com/journal/remotesensing"
+      ]
+    },
+    {
+      "name": "Atmospheric Measurement Techniques",
+      "issn": "1867-1381",
+      "cn": null,
+      "cas": {
+        "zone": "3区",
+        "top": false,
+        "major": "地球科学",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q2",
+        "year": "2025"
+      },
+      "if": 3.7,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：3区。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=954&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=954&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/atmospheric-measurement-techniques/"
+      ]
+    },
+    {
+      "name": "Geoscientific Model Development",
+      "issn": "1991-959X",
+      "cn": null,
+      "cas": {
+        "zone": "2区",
+        "top": false,
+        "major": "地球科学",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 4.9,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：2区。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=8224&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=8224&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/geoscientific-model-development/"
+      ]
+    },
+    {
+      "name": "Nature Communications",
+      "issn": "2041-1723",
+      "cn": null,
+      "cas": {
+        "zone": "1区",
+        "top": true,
+        "major": "综合性期刊",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 18.1,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：1区（Top）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=8411&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=8411&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/nature-communications/"
+      ]
+    },
+    {
+      "name": "Nature",
+      "issn": "0028-0836",
+      "cn": null,
+      "cas": {
+        "zone": "1区",
+        "top": true,
+        "major": "综合性期刊",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 56.1,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：1区（Top）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=6054&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=6054&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/nature/"
+      ]
+    },
+    {
+      "name": "Nature Machine Intelligence",
+      "issn": "2522-5839",
+      "cn": null,
+      "cas": {
+        "zone": "1区",
+        "top": true,
+        "major": "计算机科学",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 29.8,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：1区（Top）；CCF 推荐目录未收录该刊。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=11172&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=11172&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/nature-machine-intelligence/"
+      ]
+    },
+    {
+      "name": "PLOS One",
+      "issn": "1932-6203",
+      "cn": null,
+      "cas": {
+        "zone": "3区",
+        "top": false,
+        "major": "综合性期刊",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q2",
+        "year": "2025"
+      },
+      "if": 2.8,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：3区；大类为综合性期刊（Multidisciplinary Sciences）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=6775&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=6775&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/plos-one/"
+      ]
+    },
+    {
+      "name": "Scientific Reports",
+      "issn": "2045-2322",
+      "cn": null,
+      "cas": {
+        "zone": "3区",
+        "top": false,
+        "major": "综合性期刊",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 4.9,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：3区；大类为综合性期刊（Multidisciplinary Sciences）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=8695&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=8695&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/scientific-reports/"
+      ]
+    },
+    {
+      "name": "IEEE Transactions on Sustainable Energy",
+      "issn": "1949-3029",
+      "cn": null,
+      "cas": {
+        "zone": "1区",
+        "top": true,
+        "major": "工程技术",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 10.3,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：1区（Top）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=9470&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=9470&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/ieee-transactions-on-sustainable-energy/"
+      ]
+    },
+    {
+      "name": "IEEE Transactions on Smart Grid",
+      "issn": "1949-3053",
+      "cn": null,
+      "cas": {
+        "zone": "1区",
+        "top": true,
+        "major": "工程技术",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 10.1,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：1区（Top）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=9469&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=9469&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/ieee-transactions-on-smart-grid/"
+      ]
+    },
+    {
+      "name": "IEEE Transactions on Power Systems",
+      "issn": "0885-8950",
+      "cn": null,
+      "cas": {
+        "zone": "1区",
+        "top": true,
+        "major": "工程技术",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 8.7,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：1区（Top）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=3415&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=3415&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/ieee-transactions-on-power-systems/"
+      ]
+    },
+    {
+      "name": "IEEE Transactions on Energy Conversion",
+      "issn": "0885-8969",
+      "cn": null,
+      "cas": {
+        "zone": "2区",
+        "top": false,
+        "major": "工程技术",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 6.1,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：2区。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=3385&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=3385&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/ieee-transactions-on-energy-conversion/"
+      ]
+    },
+    {
+      "name": "IEEE Transactions on Power Delivery",
+      "issn": "0885-8977",
+      "cn": null,
+      "cas": {
+        "zone": "2区",
+        "top": false,
+        "major": "工程技术",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q2",
+        "year": "2025"
+      },
+      "if": 4.7,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：3区；中科院 2025 为工程技术 2 区，2026 新锐分区下调至 3 区。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=3413&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=3413&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/ieee-transactions-on-power-delivery/"
+      ]
+    },
+    {
+      "name": "Wind Energy",
+      "issn": "1095-4244",
+      "cn": null,
+      "cas": {
+        "zone": "3区",
+        "top": false,
+        "major": "工程技术",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q2",
+        "year": "2025"
+      },
+      "if": 3.6,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：3区。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=8114&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=8114&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/wind-energy/"
+      ]
+    },
+    {
+      "name": "Renewable Energy",
+      "issn": "0960-1481",
+      "cn": null,
+      "cas": {
+        "zone": "1区",
+        "top": true,
+        "major": "工程技术",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 9.1,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：1区（Top）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=7135&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=7135&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/renewable-energy/"
+      ]
+    },
+    {
+      "name": "Energy",
+      "issn": "0360-5442",
+      "cn": null,
+      "cas": {
+        "zone": "1区",
+        "top": true,
+        "major": "工程技术",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 10.1,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：1区（Top）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=2496&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=2496&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/energy/"
+      ]
+    },
+    {
+      "name": "Applied Energy",
+      "issn": "0306-2619",
+      "cn": null,
+      "cas": {
+        "zone": "1区",
+        "top": true,
+        "major": "工程技术",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 12.2,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：1区（Top）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=729&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=729&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/applied-energy/"
+      ]
+    },
+    {
+      "name": "Energy Conversion and Management",
+      "issn": "0196-8904",
+      "cn": null,
+      "cas": {
+        "zone": "1区",
+        "top": true,
+        "major": "工程技术",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 11.8,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：1区（Top）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=2500&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=2500&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/energy-conversion-and-management/"
+      ]
+    },
+    {
+      "name": "Applied Sciences",
+      "issn": "2076-3417",
+      "cn": null,
+      "cas": {
+        "zone": "4区",
+        "top": false,
+        "major": "综合性期刊",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q2",
+        "year": "2025"
+      },
+      "if": 2.9,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：3区；MDPI 期刊，常标作 Applied Sciences-Basel；中科院大类为“综合性期刊”而非“工程技术”；JCR Q2、IF 2.9 已与 MDPI 官网 “JCR - Q2 (Engineering, Multidisciplinary)”、IF 2.9 核对一致。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=9954&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=9954&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/applied-sciences-basel/",
+        "https://www.mdpi.com/journal/applsci"
+      ]
+    },
+    {
+      "name": "Forecasting",
+      "issn": "2571-9394",
+      "cn": null,
+      "cas": {
+        "zone": "3区",
+        "top": false,
+        "major": "综合性期刊",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 4.2,
+      "ccf": null,
+      "note": "ESCI 收录（非 SCIE）；2026 新锐分区：3区；MDPI 期刊；JCR Q1、IF 4.2 已与 MDPI 官网 “JCR - Q1 (Multidisciplinary Sciences)”、IF 4.2 核对一致。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=33460&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=33460&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/forecasting/",
+        "https://www.mdpi.com/journal/forecasting"
+      ]
+    },
+    {
+      "name": "中国电机工程学报",
+      "issn": "0258-8013",
+      "cn": "北大核心/EI/CSCD/CSTPCD",
+      "cas": {
+        "zone": null,
+        "top": null,
+        "major": null,
+        "year": null
+      },
+      "jcr": {
+        "quartile": null,
+        "year": null
+      },
+      "if": null,
+      "ccf": null,
+      "note": "中文期刊，中科院分区表与 JCR 分区均不适用，故 cas/jcr/if 置 null。维普收录标签：北大核心、EI、CSCD、CSTPCD（中国科技核心）、RCCSE、JST、卓越期刊。主办方中国电机工程学会官网《期刊简介》：“全国中文核心期刊……被国外 Ei、INSPEC 等 6 种数据库收录，被国内 CSCD、CSTPC 等 8 种数据库收录。”维普“影响因子（2025 版）”4.812，系维普自有关键指标，不是 JCR 影响因子。",
+      "source": "https://www.csee.org.cn/front/content/29733",
+      "sources": [
+        "https://www.csee.org.cn/front/content/29733",
+        "https://www.cqvip.com/journal/search?k=%E4%B8%AD%E5%9B%BD%E7%94%B5%E6%9C%BA%E5%B7%A5%E7%A8%8B%E5%AD%A6%E6%8A%A5"
+      ]
+    },
+    {
+      "name": "电力系统自动化",
+      "issn": "1000-1026",
+      "cn": "北大核心/EI/CSCD/CSTPCD",
+      "cas": {
+        "zone": null,
+        "top": null,
+        "major": null,
+        "year": null
+      },
+      "jcr": {
+        "quartile": null,
+        "year": null
+      },
+      "if": null,
+      "ccf": null,
+      "note": "中文期刊，中科院分区表与 JCR 分区均不适用，故 cas/jcr/if 置 null。维普收录标签：北大核心、EI、CSCD、CSTPCD、RCCSE、JST、AJ、卓越期刊。期刊官网“收录情况”：被 Ei、Scopus、SA、JST、CSCD、INSPEC、CSA、AJ、Google Scholar 等国内外 14 种数据库收录，并入选《能源电力领域高质量科技期刊分级目录》T1 级。维普“影响因子（2025 版）”6.426（维普指标，非 JCR IF）。",
+      "source": "http://aeps-info.com/aeps/ch/common_item.aspx?parent_id=20060501000000001&menu_id=20191203161038001",
+      "sources": [
+        "http://aeps-info.com/aeps/ch/common_item.aspx?parent_id=20060501000000001&menu_id=20191203161038001",
+        "https://www.cqvip.com/journal/search?k=%E7%94%B5%E5%8A%9B%E7%B3%BB%E7%BB%9F%E8%87%AA%E5%8A%A8%E5%8C%96"
+      ]
+    },
+    {
+      "name": "中国电力",
+      "issn": "1004-9649",
+      "cn": "北大核心/CSCD/CSTPCD",
+      "cas": {
+        "zone": null,
+        "top": null,
+        "major": null,
+        "year": null
+      },
+      "jcr": {
+        "quartile": null,
+        "year": null
+      },
+      "if": null,
+      "ccf": null,
+      "note": "中文期刊，中科院分区表与 JCR 分区均不适用，故 cas/jcr/if 置 null。维普收录标签：北大核心、CSCD、CSTPCD（中国科技核心）、RCCSE、JST、AJ；维普未标注 EI，故此处不写 EI。维普“影响因子（2025 版）”4.016（维普指标，非 JCR IF）。主办单位：国网能源研究院有限公司、中国电机工程学会、国网智能电网研究院有限公司。官网 electricpower.com.cn 的《期刊简介》正文由前端异步加载、接口未公开，未取到官方原文，收录信息以维普为准。",
+      "source": "https://www.cqvip.com/journal/search?k=%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%8A%9B",
+      "sources": [
+        "https://www.cqvip.com/journal/search?k=%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%8A%9B",
+        "https://www.electricpower.com.cn/journal-introduction"
+      ]
+    },
+    {
+      "name": "可再生能源",
+      "issn": "1671-5292",
+      "cn": "北大核心/CSCD/CSTPCD",
+      "cas": {
+        "zone": null,
+        "top": null,
+        "major": null,
+        "year": null
+      },
+      "jcr": {
+        "quartile": null,
+        "year": null
+      },
+      "if": null,
+      "ccf": null,
+      "note": "中文期刊，中科院分区表与 JCR 分区均不适用，故 cas/jcr/if 置 null。杂志社官网《期刊简介》：“《可再生能源》（ISSN 1671-5292/CN 21-1469/TK）……全国中文核心期刊（能源与动力工程类）、中国 CSCD 和中国科技核心期刊”，并被 CA、CABI、CSA、IC 收录。维普收录标签：北大核心、CSCD、CSTPCD、RCCSE、JST（未标注 EI，故不写 EI）。维普“影响因子（2025 版）”2.102（维普指标，非 JCR IF）。",
+      "source": "http://www.kzsny.com/info.php?id=23",
+      "sources": [
+        "http://www.kzsny.com/info.php?id=23",
+        "https://www.cqvip.com/journal/search?k=%E5%8F%AF%E5%86%8D%E7%94%9F%E8%83%BD%E6%BA%90"
+      ]
+    },
+    {
+      "name": "IEEE Transactions on Knowledge and Data Engineering",
+      "issn": "1041-4347",
+      "cn": null,
+      "cas": {
+        "zone": "1区",
+        "top": true,
+        "major": "计算机科学",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 11.6,
+      "ccf": "A",
+      "note": "SCIE 收录；2026 新锐分区：2区（Top）；CCF 推荐目录 A 类；中科院 2025 为计算机科学 1 区 Top，2026 新锐分区为 2 区。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=3399&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=3399&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/ieee-transactions-on-knowledge-and-data-engineering/",
+        "https://www.ccf.org.cn/Academic_Evaluation/DM_CS/"
+      ]
+    },
+    {
+      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "issn": "0162-8828",
+      "cn": null,
+      "cas": {
+        "zone": "1区",
+        "top": true,
+        "major": "计算机科学",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 20.4,
+      "ccf": "A",
+      "note": "SCIE 收录；2026 新锐分区：1区（Top）；CCF 推荐目录 A 类。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=3411&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=3411&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/ieee-transactions-on-pattern-analysis-and-machine-intelligence/",
+        "https://www.ccf.org.cn/Academic_Evaluation/AI/"
+      ]
+    },
+    {
+      "name": "Journal of Machine Learning Research",
+      "issn": "1532-4435",
+      "cn": null,
+      "cas": {
+        "zone": "4区",
+        "top": false,
+        "major": "计算机科学",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 6.8,
+      "ccf": "A",
+      "note": "SCIE 收录；2026 新锐分区：3区；CCF 推荐目录 A 类；中科院分区偏低（计算机科学 4 区）但 JCR 为 Q1，两种口径差异大，引用时建议并标。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=4744&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=4744&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/journal-of-machine-learning-research/",
+        "https://www.ccf.org.cn/Academic_Evaluation/AI/"
+      ]
+    },
+    {
+      "name": "Advances in Atmospheric Sciences",
+      "issn": "0256-1530",
+      "cn": null,
+      "cas": {
+        "zone": "1区",
+        "top": true,
+        "major": "地球科学",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 5,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：1区；中科院大气物理研究所官网确认“AAS 和 AOSL 分别位列 2025 年中科院分区表 1 区和 2 区”；IF 5.0 已与 Springer 官方 Journal metrics “Journal Impact Factor 5.0 (2025)” 核对一致。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=226&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=226&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/advances-in-atmospheric-sciences/",
+        "https://link.springer.com/journal/376"
+      ]
+    },
+    {
+      "name": "Journal of Renewable and Sustainable Energy",
+      "issn": "1941-7012",
+      "cn": null,
+      "cas": {
+        "zone": "4区",
+        "top": false,
+        "major": "工程技术",
+        "year": "2025"
+      },
+      "jcr": {
+        "quartile": "Q4",
+        "year": "2025"
+      },
+      "if": 2.4,
+      "ccf": null,
+      "note": "SCIE 收录；2026 新锐分区：4区；本清单中中科院分区与 JCR 分区均属最低档（4 区 / Q4）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=5121&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=5121&page=journalapp&view=detail",
+        "https://ai4paper.pro/journal/journal-of-renewable-and-sustainable-energy/"
+      ]
+    },
+    {
+      "name": "Journal of Fluid Mechanics",
+      "issn": "0022-1120",
+      "cn": null,
+      "cas": {
+        "zone": null,
+        "top": null,
+        "major": "工程技术",
+        "year": null
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 4.2,
+      "ccf": null,
+      "note": "IF 取自 letpub 期刊列表页（2025-2026 最新版）；letpub 列表页的分区列为「新锐期刊分区表（2026）」，中科院 2025 大类分区未单独取到，故 cas.zone 留空，不拿新锐值冒充中科院分区；JCR 分区取多小类最高值（letpub 详情页 WOS 分区块）。 letpub 列表页显示的分区：1区（新锐）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=4536&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=4536&page=journalapp&view=detail"
+      ]
+    },
+    {
+      "name": "Physics of Fluids",
+      "issn": "1070-6631",
+      "cn": null,
+      "cas": {
+        "zone": null,
+        "top": null,
+        "major": "工程技术",
+        "year": null
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 3.8,
+      "ccf": null,
+      "note": "IF 取自 letpub 期刊列表页（2025-2026 最新版）；letpub 列表页的分区列为「新锐期刊分区表（2026）」，中科院 2025 大类分区未单独取到，故 cas.zone 留空，不拿新锐值冒充中科院分区；JCR 分区取多小类最高值（letpub 详情页 WOS 分区块）。 letpub 列表页显示的分区：1区（新锐）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=6673&page=journalapp&view=detail"
+      ]
+    },
+    {
+      "name": "Physical Review Fluids",
+      "issn": "2469-990X",
+      "cn": null,
+      "cas": {
+        "zone": null,
+        "top": null,
+        "major": "工程技术",
+        "year": null
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 3,
+      "ccf": null,
+      "note": "IF 取自 letpub 期刊列表页（2025-2026 最新版）；letpub 列表页的分区列为「新锐期刊分区表（2026）」，中科院 2025 大类分区未单独取到，故 cas.zone 留空，不拿新锐值冒充中科院分区；JCR 分区取多小类最高值（letpub 详情页 WOS 分区块）。 letpub 列表页显示的分区：1区（新锐）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=10333&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=10333&page=journalapp&view=detail"
+      ]
+    },
+    {
+      "name": "Journal of Wind Engineering and Industrial Aerodynamics",
+      "issn": "0167-6105",
+      "cn": null,
+      "cas": {
+        "zone": null,
+        "top": null,
+        "major": "工程技术",
+        "year": null
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 5.1,
+      "ccf": null,
+      "note": "IF 取自 letpub 期刊列表页（2025-2026 最新版）；letpub 列表页的分区列为「新锐期刊分区表（2026）」，中科院 2025 大类分区未单独取到，故 cas.zone 留空，不拿新锐值冒充中科院分区；JCR 分区取多小类最高值（letpub 详情页 WOS 分区块）。 letpub 列表页显示的分区：1区（新锐）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=5452&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=5452&page=journalapp&view=detail"
+      ]
+    },
+    {
+      "name": "Journal of Fluids and Structures",
+      "issn": "0142-727X",
+      "cn": null,
+      "cas": {
+        "zone": null,
+        "top": null,
+        "major": "工程技术",
+        "year": null
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 3.6,
+      "ccf": null,
+      "note": "IF 取自 letpub 期刊列表页（2025-2026 最新版）；letpub 列表页的分区列为「新锐期刊分区表（2026）」，中科院 2025 大类分区未单独取到，故 cas.zone 留空，不拿新锐值冒充中科院分区；JCR 分区取多小类最高值（letpub 详情页 WOS 分区块）。 letpub 列表页显示的分区：1区（新锐）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=4537&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=4537&page=journalapp&view=detail"
+      ]
+    },
+    {
+      "name": "Boundary-Layer Meteorology",
+      "issn": "0006-8314",
+      "cn": null,
+      "cas": {
+        "zone": null,
+        "top": null,
+        "major": "工程技术",
+        "year": null
+      },
+      "jcr": {
+        "quartile": "Q2",
+        "year": "2025"
+      },
+      "if": 2.6,
+      "ccf": null,
+      "note": "IF 取自 letpub 期刊列表页（2025-2026 最新版）；letpub 列表页的分区列为「新锐期刊分区表（2026）」，中科院 2025 大类分区未单独取到，故 cas.zone 留空，不拿新锐值冒充中科院分区；JCR 分区取多小类最高值（letpub 详情页 WOS 分区块）。 letpub 列表页显示的分区：1区（新锐）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=1306&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=1306&page=journalapp&view=detail"
+      ]
+    },
+    {
+      "name": "Experiments in Fluids",
+      "issn": "0723-4864",
+      "cn": null,
+      "cas": {
+        "zone": null,
+        "top": null,
+        "major": "工程技术",
+        "year": null
+      },
+      "jcr": {
+        "quartile": "Q2",
+        "year": "2025"
+      },
+      "if": 2.7,
+      "ccf": null,
+      "note": "IF 取自 letpub 期刊列表页（2025-2026 最新版）；letpub 列表页的分区列为「新锐期刊分区表（2026）」，中科院 2025 大类分区未单独取到，故 cas.zone 留空，不拿新锐值冒充中科院分区；JCR 分区取多小类最高值（letpub 详情页 WOS 分区块）。 letpub 列表页显示的分区：1区（新锐）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=2778&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=2778&page=journalapp&view=detail"
+      ]
+    },
+    {
+      "name": "Ocean Engineering",
+      "issn": "0029-8018",
+      "cn": null,
+      "cas": {
+        "zone": null,
+        "top": null,
+        "major": "工程技术",
+        "year": null
+      },
+      "jcr": {
+        "quartile": null,
+        "year": null
+      },
+      "if": 6.3,
+      "ccf": null,
+      "note": "IF 取自 letpub 期刊列表页（2025-2026 最新版）；letpub 列表页的分区列为「新锐期刊分区表（2026）」，中科院 2025 大类分区未单独取到，故 cas.zone 留空，不拿新锐值冒充中科院分区；JCR 分区取多小类最高值（letpub 详情页 WOS 分区块）。 letpub 列表页显示的分区：（未取到）。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=6334&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=6334&page=journalapp&view=detail"
+      ]
+    },
+    {
+      "name": "Renewable and Sustainable Energy Reviews",
+      "issn": "1364-0321",
+      "cn": null,
+      "cas": {
+        "zone": null,
+        "top": null,
+        "major": "工程技术",
+        "year": null
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "year": "2025"
+      },
+      "if": 18,
+      "ccf": null,
+      "note": "IF 18.0 与列表页分区（letpub：1区）均为核对值；中科院 2025 大类分区未单独取到，故 cas.zone 留空。",
+      "source": "https://www.letpub.com.cn/index.php?journalid=7133&page=journalapp&view=detail",
+      "sources": [
+        "https://www.letpub.com.cn/index.php?journalid=7133&page=journalapp&view=detail"
+      ]
+    }
+  ]
+}
