@@ -1,8 +1,0 @@
-.elsevier-key
-logs/
-.pool/
-.api-usage.json
-update-requests.json
-.github-token
-published.json
-data/publish.json
