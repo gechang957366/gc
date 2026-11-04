@@ -209,6 +209,9 @@ async function api(token, path, init = {}) {
   } catch {
     body = { raw: text }
   }
+  if (process.env.DWP_PUBLISH_DEBUG) {
+    console.error(`[gh] ${init.method || 'GET'} ${path} → ${res.status}${res.ok ? '' : ` ${String(text).slice(0, 120)}`}`)
+  }
   return { status: res.status, ok: res.ok, body }
 }
 
