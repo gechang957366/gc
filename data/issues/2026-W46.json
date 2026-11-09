@@ -1,0 +1,557 @@
+{
+  "id": "2026-W46",
+  "label": "2026-W46 · 自动更新",
+  "week": 46,
+  "year": 2026,
+  "range": [
+    "2026-11-04",
+    "2026-11-09"
+  ],
+  "mode": "incremental",
+  "generatedAt": "2026-11-09T08:00:01+08:00",
+  "generatedBy": "auto",
+  "note": "自动抓取 2026-11-04 → 2026-11-09 的新文献；Crossref + arXiv + 刊级检索。",
+  "counts": {
+    "field": 3,
+    "algo": 5,
+    "figures": 0
+  },
+  "domain": "power",
+  "sections": {
+    "field": {
+      "title": "专业前沿",
+      "subtitle": "功率预测 · 气象预报 · 雷达流场重构 / 大模型 · 时序预测",
+      "items": [
+        {
+          "id": "10.1002/we.70161",
+          "doi": "10.1002/we.70161",
+          "title": "WakeMeta: Physics‐Guided Graph Meta‐Adaptation for Cross‐Farm Probabilistic Wind Power Forecasting",
+          "titleZh": "WakeMeta：物理引导的图元适应用于跨风电场概率风电功率预测",
+          "authors": [
+            "Yang Y",
+            "Zhang Y",
+            "Thinakaran R"
+          ],
+          "authorsText": "Yang Y, Zhang Y, Thinakaran R",
+          "venue": "Wind Energy",
+          "venueShort": "Wind Energy",
+          "year": 2026,
+          "date": "2026-11-04",
+          "level": "SCI",
+          "citation": "Yang Y, Zhang Y, Thinakaran R. WakeMeta: Physics‐Guided Graph Meta‐Adaptation for Cross‐Farm Probabilistic Wind Power Forecasting[J]. Wind Energy, 2026, 29(12).",
+          "abstractEn": "ABSTRACT Short‐term wind power forecasting is essential for reliable grid operation, yet newly commissioned wind farms often provide only limited supervisory control and data acquisition (SCADA) histories for model adaptation. Existing cross‐farm methods face two related limitations: Data‐driven models must relearn site‐specific interturbine dependencies, while probabilistic forecasts can become poorly calibrated under layout and operating‐regime shifts. This study proposes WakeMeta, a physics‐guided graph meta‐adaptation framework. WakeMeta converts an established Bastankhah–Porté–Agel Gaussian wake relation into a directed, training‐independent graph operator determined by turbine geometry, wind direction, and fixed engineering wake parameters. The graph constrains a spatiotemporal encoder with dilated temporal convolutions and graph attention, while a probabilistic head combines Gaussian likelihood, continuous ranked probability score (CRPS), coverage calibration, and head‐level Monte Carlo (MC) dropout. A first‐order meta‐learning procedure is applied only to data‐driven parameters, and target adaptation uses validation‐gated early stopping in which the unadapted initialization is a legal candidate. Under the frozen evaluation protocol (V3‐final) with five paired nonoverlapping target windows, 4‐h forecasts, and 14 days of target data, WakeMeta achieves CRPS and calibration error (CE) values of 0.1117/0.0386 on Penmanshiel and 0.0640/0.0742 on La Haute Borne. The corresponding CRPS is 5.0% lower than seasonal autoregression on Penmanshiel and 14.1% lower than persistence on La Haute Borne, while direct source pretraining with fine‐tuning remains strongest on La Haute Borne. Robustness experiments show that backbone, predictive family, graph, and adaptation effects are target dependent, supporting a deliberately scoped interpretation centered on portable physical structure and calibrated probabilistic transfer.",
+          "abstractZh": "短期风电功率预测对电网可靠运行至关重要，但新投运风电场通常仅提供有限的SCADA历史数据用于模型适应。现有跨风电场方法面临两个相关局限：数据驱动模型必须重新学习站点特定的风机间依赖关系，而概率预测在布局和运行工况变化下可能校准不良。本研究提出WakeMeta，一种物理引导的图元适应框架。WakeMeta将已建立的Bastankhah–Porté–Agel高斯尾流关系转换为由风机几何、风向和固定工程尾流参数确定的有向、训练无关的图算子。该图约束具有膨胀时间卷积和图注意力的时空编码器，而概率头结合高斯似然、连续排序概率分数（CRPS）、覆盖校准和头级蒙特卡洛（MC）丢弃。一阶元学习过程仅应用于数据驱动参数，目标适应使用验证门控早停，其中未适应的初始化是合法候选。在冻结评估协议（V3-final）下，使用五个配对非重叠目标窗口、4小时预测和14天目标数据，WakeMeta在Penmanshiel上达到CRPS和校准误差（CE）值0.1117/0.0386，在La Haute Borne上为0.0640/0.0742。相应CRPS在Penmanshiel上比季节自回归低5.0%，在La Haute Borne上比持续性低14.1%，而直接源预训练加微调在La Haute Borne上仍最强。鲁棒性实验表明，骨干、预测族、图和适应效应依赖于目标，支持以可移植物理结构和校准概率迁移为中心的刻意限定解释。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "将Bastankhah–Porté–Agel高斯尾流关系转为有向图算子，由风机几何、风向和固定尾流参数确定",
+            "图算子约束膨胀时间卷积与图注意力的时空编码器，概率头融合高斯似然、CRPS、覆盖校准与MC丢弃",
+            "一阶元学习仅更新数据驱动参数，目标适应用验证门控早停，未适应初始化可作候选",
+            "Penmanshiel上CRPS/CE为0.1117/0.0386，La Haute Borne为0.0640/0.0742",
+            "CRPS较季节自回归低5.0%（Penmanshiel），较持续性低14.1%（La Haute Borne）"
+          ],
+          "keywords": [
+            "风电功率预测",
+            "跨风电场迁移",
+            "概率预测",
+            "物理引导图",
+            "元学习",
+            "尾流模型"
+          ],
+          "figures": [],
+          "relevance": "该文面向跨风电场短期风电功率概率预测，用物理尾流图与元学习提升小样本目标场站的校准与精度，与风电功率预测和概率预测直接相关。",
+          "tags": [
+            "功率预测",
+            "概率预测",
+            "图学习"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "29",
+          "issue": "12",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1002/we.70161"
+            }
+          ],
+          "source": "crossref",
+          "score": 21,
+          "rank": 3,
+          "tierLabel": "JCR Q2",
+          "metrics": {
+            "cas": {
+              "zone": "3区",
+              "top": false,
+              "major": "工程技术",
+              "year": "2025"
+            },
+            "jcr": {
+              "quartile": "Q2",
+              "year": "2025"
+            },
+            "if": 3.6,
+            "source": "https://www.letpub.com.cn/index.php?journalid=8114&page=journalapp&view=detail"
+          }
+        },
+        {
+          "id": "10.3390/en19215330",
+          "doi": "10.3390/en19215330",
+          "title": "A Recording-Trigger Method for DC-Side Insulation Anomalies of Photovoltaic Inverters Under Wide-Range Voltage Fluctuations",
+          "titleZh": "宽范围电压波动下光伏逆变器直流侧绝缘异常的录波触发方法",
+          "authors": [
+            "Zhuang B",
+            "Peng H",
+            "Wu S"
+          ],
+          "authorsText": "Zhuang B, Peng H, Wu S",
+          "venue": "Energies",
+          "venueShort": "Energies",
+          "year": 2026,
+          "date": "2026-11-06",
+          "level": "SCI",
+          "citation": "Zhuang B, Peng H, Wu S. A Recording-Trigger Method for DC-Side Insulation Anomalies of Photovoltaic Inverters Under Wide-Range Voltage Fluctuations[J]. Energies, 2026, 19(21): 5330.",
+          "abstractEn": "An ungrounded bipolar photovoltaic (PV) DC link has no stable voltage reference: the bus swings 500–1500 V under normal maximum power point tracking (MPPT), irradiance and temperature changes, so a fixed threshold false-starts or misses low-voltage faults. We combine two physically different observables in a layered, non-redundant trigger: a millisecond voltage-imbalance arm and a persistent insulation-resistance confirmation before latching, with a resistance-only backup and a slow-aging branch, each judged against the episode’s own baseline, not an ohmic cutoff. Sampling (400 Hz anti-alias, 10 kHz, 1 kHz) is Nyquist-consistent; the nominal 4.7 MΩ spans 2.1–5.6 MΩ across baselines. On 18,000 Monte Carlo cases the detector reaches an overall Pd=0.9223, detects 233/234 faults at the empirical 2 MΩ 95% limit with 0/6000 false records (bound 5.0 × 10−4), a 329 ms median confirmation latency and a 263 ms median arm lead. With the voltage channel unusable the resistance backup retains coverage (McNemar p=1); independent C and Python detectors agree sample by sample. Stress tests give Pd=1.00 under simultaneous bipolar breakdown, zero false records under 80 V ringing or strong common mode, and only a bounded delay during an estimator gap.",
+          "abstractZh": "不接地双极光伏直流母线没有稳定电压参考：在正常最大功率点跟踪（MPPT）、辐照度和温度变化下母线电压在500–1500 V间波动，固定阈值会误启动或漏检低压故障。我们将两种物理上不同的观测量组合成分层、非冗余的触发：毫秒级电压不平衡支路与锁存前持续的绝缘电阻确认，辅以仅电阻后备和缓慢老化支路，各自以事件自身基线而非欧姆截止值判定。采样（400 Hz抗混叠、10 kHz、1 kHz）满足奈奎斯特一致性；标称4.7 MΩ在各基线下跨2.1–5.6 MΩ。在18,000个蒙特卡洛案例中，检测器总体Pd=0.9223，在经验2 MΩ 95%限值下检出233/234个故障，0/6000次误记录（界5.0×10−4），中位确认延迟329 ms、中位支路超前263 ms。电压通道不可用时电阻后备保持覆盖（McNemar p=1）；独立的C与Python检测器逐样本一致。压力测试在同时双极击穿下Pd=1.00，在80 V振铃或强共模下零误记录，估计器间隙期间仅有有限延迟。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "针对不接地双极光伏直流母线500–1500 V宽范围波动，固定阈值易误报或漏检低压故障。",
+            "提出分层非冗余触发：毫秒级电压不平衡支路加持续绝缘电阻确认，并以事件自身基线判定。",
+            "18,000个蒙特卡洛案例总体Pd=0.9223，2 MΩ限值下检出233/234，0/6000误记录。",
+            "中位确认延迟329 ms、支路超前263 ms；电压通道失效时电阻后备覆盖不变（McNemar p=1）。",
+            "压力测试双极击穿Pd=1.00，80 V振铃与强共模下零误记录，估计器间隙仅有限延迟。"
+          ],
+          "keywords": [
+            "光伏逆变器",
+            "直流侧绝缘",
+            "录波触发",
+            "电压波动",
+            "蒙特卡洛"
+          ],
+          "figures": [],
+          "relevance": "该文面向光伏逆变器直流侧绝缘异常检测与录波触发，属于光伏系统故障诊断与运行监测，不涉及风电/光伏功率预测、气象预报或雷达流场重构。",
+          "tags": [
+            "时序预测"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "19",
+          "issue": "21",
+          "pages": "5330",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.3390/en19215330"
+            }
+          ],
+          "source": "crossref",
+          "score": 9,
+          "rank": 4,
+          "tierLabel": "中科院4区",
+          "metrics": {
+            "cas": {
+              "zone": "4区",
+              "top": false,
+              "major": "工程技术",
+              "year": "2025"
+            },
+            "jcr": {
+              "quartile": "Q3",
+              "year": "2025"
+            },
+            "if": 3.9,
+            "source": "https://www.letpub.com.cn/index.php?journalid=2495&page=journalapp&view=detail"
+          }
+        },
+        {
+          "id": "10.3390/en19215319",
+          "doi": "10.3390/en19215319",
+          "title": "Multiscale Quantum-Enhanced Forecasting Framework for Photovoltaic Power Output and Electric Load",
+          "titleZh": "光伏功率输出与电力负荷的多尺度量子增强预测框架",
+          "authors": [
+            "Zhang C",
+            "Zhou J",
+            "Weng Z",
+            "Li R",
+            "Wang L",
+            "Li Z",
+            "Li M"
+          ],
+          "authorsText": "Zhang C, Zhou J, Weng Z, et al.",
+          "venue": "Energies",
+          "venueShort": "Energies",
+          "year": 2026,
+          "date": "2026-11-06",
+          "level": "SCI",
+          "citation": "Zhang C, Zhou J, Weng Z, et al. Multiscale Quantum-Enhanced Forecasting Framework for Photovoltaic Power Output and Electric Load[J]. Energies, 2026, 19(21): 5319.",
+          "abstractEn": "Accurate day-ahead forecasting of photovoltaic (PV) power and electric load is essential for reliable power system operation under growing renewable penetration and demand complexity. Both series, however, are strongly nonstationary, with multiscale dynamics driven by external factors. This study develops a multiscale quantum-enhanced forecasting framework integrating rolling variational mode decomposition (VMD), feature attention (FA), and bidirectional quantum temporal modeling. Rolling VMD separates slower trends from rapid fluctuations, FA weights weather and calendar inputs, and the bidirectional quantum module encodes nonlinear dependencies within the observed history to represent irradiance-driven PV variability and temperature- and calendar-related load dynamics. Historical context is combined with the corresponding previous-day target for direct day-ahead forecasting. Using the Desert Knowledge Australia Solar Centre (DKASC) photovoltaic dataset and the GEFCom2014 load dataset, the seasonal reference comparisons cover four seven-day intervals per task. Across the 672 hourly evaluation points per task, the five-run mean RMSE and R2 are 2.0299 kW and 0.9618 for PV and 7.5385 MW and 0.9633 for load. PV evaluation includes nighttime zeroing based on observed irradiance. Ablation results confirm the complementary contributions of the three modules, supporting a unified approach to supply- and demand-side day-ahead forecasting.",
+          "abstractZh": "在可再生能源渗透率上升和需求复杂性增加的背景下，准确的光伏（PV）功率和电力负荷日前预测对电力系统可靠运行至关重要。然而，这两类序列均具有强非平稳性，并受外部因素驱动呈现多尺度动态。本研究构建了一个多尺度量子增强预测框架，集成滚动变分模态分解（VMD）、特征注意力（FA）和双向量子时序建模。滚动VMD将缓慢趋势与快速波动分离，FA对天气和日历输入进行加权，双向量子模块编码观测历史中的非线性依赖关系，以表征辐照度驱动的光伏波动性和温度及日历相关的负荷动态。历史上下文与相应的前一日目标值结合，用于直接日前预测。使用Desert Knowledge Australia Solar Centre（DKASC）光伏数据集和GEFCom2014负荷数据集，季节性参考对比覆盖每个任务四个七天区间。在每个任务672个逐小时评估点上，五次运行的平均RMSE和R2分别为：光伏2.0299 kW和0.9618，负荷7.5385 MW和0.9633。光伏评估包含基于观测辐照度的夜间置零处理。消融结果证实了三个模块的互补贡献，支持供需两侧日前预测的统一方法。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "构建滚动VMD+特征注意力+双向量子时序的多尺度预测框架",
+            "滚动VMD分离慢趋势与快波动，FA加权天气与日历输入",
+            "DKASC光伏672点RMSE 2.0299 kW、R2 0.9618",
+            "GEFCom2014负荷672点RMSE 7.5385 MW、R2 0.9633",
+            "消融实验证实三模块互补，统一支持供需两侧日前预测"
+          ],
+          "keywords": [
+            "光伏功率预测",
+            "负荷预测",
+            "变分模态分解",
+            "量子时序建模",
+            "特征注意力",
+            "日前预测"
+          ],
+          "figures": [],
+          "relevance": "直接面向光伏功率与负荷日前预测，采用分解-注意力-量子时序建模，与风电/光伏功率预测和时序预测方法高度相关。",
+          "tags": [
+            "功率预测",
+            "时序预测"
+          ],
+          "section": "field",
+          "kind": "journal",
+          "volume": "19",
+          "issue": "21",
+          "pages": "5319",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.3390/en19215319"
+            }
+          ],
+          "source": "crossref",
+          "score": 9,
+          "rank": 4,
+          "tierLabel": "中科院4区",
+          "metrics": {
+            "cas": {
+              "zone": "4区",
+              "top": false,
+              "major": "工程技术",
+              "year": "2025"
+            },
+            "jcr": {
+              "quartile": "Q3",
+              "year": "2025"
+            },
+            "if": 3.9,
+            "source": "https://www.letpub.com.cn/index.php?journalid=2495&page=journalapp&view=detail"
+          }
+        }
+      ],
+      "summary": "跨风电场概率功率预测中，物理引导的图元学习将Bastankhah–Porté–Agel高斯尾流关系转化为有向图算子，以风机几何、风向与固定尾流参数构造图结构，约束膨胀时间卷积与图注意力的时空编码，概率头则融合高斯似然、CRPS与覆盖校准，体现机理约束与数据驱动耦合的趋势。光伏侧的方法分化更明显：录波触发走分层非冗余判定路线，以毫秒级电压不平衡支路叠加持续绝缘电阻确认，并用事件自身基线替代固定阈值以适应宽范围直流母线波动；功率与负荷预测则采用滚动VMD分离慢趋势与快波动，经特征注意力加权天气与日历输入后接入双向量子时序网络，多尺度分解与量子增强成为提升预测精度的一条新路径。"
+    },
+    "algo": {
+      "title": "算法进展",
+      "subtitle": "大模型 · 时序预测",
+      "items": [
+        {
+          "id": "arxiv:2611.08082v1",
+          "arxivId": "2611.08082v1",
+          "title": "DictLLM: Post-training Compression of Large Language Model with Dictionary Kernels",
+          "titleZh": "DictLLM：基于字典核的大语言模型后训练压缩",
+          "authors": [
+            "Jinho Park",
+            "Se Young Chun",
+            "Mingoo Seok"
+          ],
+          "authorsText": "Park J, Chun S, Seok M",
+          "venue": "Conference on Neural Information Processing Systems (NeurIPS 2026)",
+          "venueShort": "NeurIPS 2026",
+          "year": 2026,
+          "date": "2026-11-05",
+          "level": "CCF-A",
+          "citation": "Park J, Chun S, Seok M. DictLLM: Post-training Compression of Large Language Model with Dictionary Kernels[C]//Conference on Neural Information Processing Systems (NeurIPS 2026). 2026.",
+          "abstractEn": "Efficient deployment of large language models (LLMs) on mobile devices requires balancing performance with compute and memory constraints. Post-training compression is an effective approach to managing this trade-off, while requiring much less computation than in-training counterparts. We propose DictLLM, a dictionary-based compression scheme in which weight matrices within grouped layers are decomposed into a shared dictionary and layer-specific sparse coefficients, directly obtained from a pre-trained model without further training. Specifically, we cast DictLLM as a four-step post-training optimization. First, we obtain shared dictionaries via singular value decomposition (SVD) of input-scaled weight matrices, amortizing rank across grouped layers; second, we sparsify the layer-specific coefficients to the target compression ratio using a dictionary-aware Hessian; and third, we refine the dictionaries given the resulting sparse coefficients. Finally, we aggressively quantize both components using factor-specific Hessian information: input covariance for the dictionaries and the dictionary-aware Hessian for the coefficients. The resulting representation reduces memory footprint by storing a single shared dictionary per layer group, along with sparse layer-specific coefficients. On language modeling and zero-shot reasoning benchmarks, DictLLM consistently outperforms existing post-training low-rank compression methods and pushes the Pareto frontier between model size and performance. DictLLM compresses the original LLaMA-7B model by 5.1x with only a 2.9-point increase in WikiText-2 perplexity, achieving a 3.6x higher compression ratio than the state-of-the-art low-rank method.",
+          "abstractZh": "在移动设备上高效部署大语言模型（LLM）需要在性能与计算和内存约束之间取得平衡。后训练压缩是管理这种权衡的有效方法，同时所需计算量远少于训练中压缩。我们提出DictLLM，一种基于字典的压缩方案，其中分组层内的权重矩阵被分解为共享字典和层特定的稀疏系数，直接从预训练模型获得而无需进一步训练。具体来说，我们将DictLLM转化为一个四步后训练优化。首先，我们通过对输入缩放后的权重矩阵进行奇异值分解（SVD）获得共享字典，在分组层间分摊秩；其次，我们使用字典感知的Hessian将层特定系数稀疏化到目标压缩率；第三，我们根据得到的稀疏系数细化字典。最后，我们使用因子特定的Hessian信息对两个组件进行激进量化：字典使用输入协方差，系数使用字典感知的Hessian。得到的表示通过为每个层组存储单个共享字典以及稀疏的层特定系数来减少内存占用。在语言建模和零样本推理基准上，DictLLM始终优于现有的后训练低秩压缩方法，并推动了模型大小与性能之间的帕累托前沿。DictLLM将原始LLaMA-7B模型压缩5.1倍，WikiText-2困惑度仅增加2.9点，压缩率比最先进的低秩方法高3.6倍。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "提出DictLLM，将分组层权重分解为共享字典和层特定稀疏系数，无需训练。",
+            "通过SVD获得共享字典，利用字典感知Hessian稀疏化系数，再细化字典。",
+            "使用因子特定Hessian对字典和系数进行激进量化，减少内存占用。",
+            "在语言建模和零样本推理任务上优于现有后训练低秩压缩方法。",
+            "压缩LLaMA-7B达5.1倍，WikiText-2困惑度仅增2.9点，压缩率比SOTA高3.6倍。"
+          ],
+          "keywords": [
+            "大语言模型",
+            "后训练压缩",
+            "字典学习",
+            "稀疏系数",
+            "Hessian量化"
+          ],
+          "figures": [],
+          "relevance": "该工作为大语言模型后训练压缩方法，与风电/光伏功率预测中的大模型轻量化部署相关，可借鉴其压缩技术降低预测模型的计算与存储开销。",
+          "tags": [
+            "大模型"
+          ],
+          "section": "algo",
+          "kind": "conference",
+          "acceptance": {
+            "venue": "NeurIPS 2026",
+            "ccf": "A",
+            "kind": "conf",
+            "evidence": "NeurIPS 2026. Project page: https://jp4327.github.io/dictllm/"
+          },
+          "links": [
+            {
+              "label": "原文",
+              "url": "https://arxiv.org/abs/2611.08082v1"
+            },
+            {
+              "label": "PDF",
+              "url": "https://arxiv.org/pdf/2611.08082v1"
+            }
+          ],
+          "source": "arxiv-conference",
+          "score": 30,
+          "rank": 0,
+          "tierLabel": "CCF-A"
+        },
+        {
+          "id": "arxiv:2611.06993v1",
+          "arxivId": "2611.06993v1",
+          "title": "Batch-Conditioned Semantic Anchors for Robust Transductive Adaptation of Vision--Language Models",
+          "titleZh": "批量条件语义锚点用于视觉-语言模型的鲁棒转导适应",
+          "authors": [
+            "Mohammed Rahman Sherif Khan Mohammad",
+            "Ardhendu Behera",
+            "Sandip Pradhan",
+            "Swagat Kumar",
+            "Amr Ahmed"
+          ],
+          "authorsText": "Mohammad M, Behera A, Pradhan S, et al.",
+          "venue": "Conference on Neural Information Processing Systems (NeurIPS 2026)",
+          "venueShort": "NeurIPS 2026",
+          "year": 2026,
+          "date": "2026-11-04",
+          "level": "CCF-A",
+          "citation": "Mohammad M, Behera A, Pradhan S, et al. Batch-Conditioned Semantic Anchors for Robust Transductive Adaptation of Vision--Language Models[C]//Conference on Neural Information Processing Systems (NeurIPS 2026). 2026.",
+          "abstractEn": "Transductive adaptation improves vision-language models at test time by refining predictions on an unlabeled batch, but current methods face a key trade-off. Aggressive approaches exploit batch structure but can drift when batches are sparse, have prior shift, or cover little of the label space. Conservative methods better preserve CLIP text semantics, but fixed semantic references can under-adapt even when the batch provides strong corrective evidence. We propose JPTA (Joint Prior and Transport Adaptation), a prior-aware framework that casts transductive VLM adaptation as batch-conditioned semantic reference estimation. Instead of treating CLIP text prototypes as fixed priors or freely replaceable, JPTA views them as semantic references that shift toward image-side batch structure only under calibrated evidence. It estimates batch priors and soft image-side prototypes to form transported semantic references whose impact is scaled by batch reliability. Across standard benchmarks, low effective-class regimes, all-class evaluation, and online streams, JPTA consistently outperforms TransCLIP and StatA, with the largest gains on sparse and prior-shifted batches. Anchor-drift, active-support, and absent-class-mass diagnostics show that JPTA fixes effective-class mismatch without unconstrained transductive drift, indicating that robust transductive VLM adaptation should recalibrate semantic references using reliable batch evidence rather than choose between unrestricted transduction and fixed prototypes. Code is available at https://github.com/MR-Sherif/JPTA.git.",
+          "abstractZh": "转导适应通过在未标记批次上细化预测来改进测试时的视觉-语言模型，但当前方法面临关键权衡。激进方法利用批次结构，但当批次稀疏、存在先验偏移或覆盖标签空间较少时可能漂移。保守方法更好地保留CLIP文本语义，但固定语义参考可能适应不足，即使批次提供强纠正证据。我们提出JPTA（联合先验与传输适应），一种先验感知框架，将转导VLM适应视为批量条件语义参考估计。JPTA不将CLIP文本原型视为固定先验或可自由替换，而是将其视为语义参考，仅在校准证据下向图像侧批次结构偏移。它估计批次先验和软图像侧原型，形成传输语义参考，其影响由批次可靠性缩放。在标准基准、低有效类区域、全类评估和在线流上，JPTA始终优于TransCLIP和StatA，在稀疏和先验偏移批次上增益最大。锚点漂移、主动支持和缺失类质量诊断表明，JPTA修复了有效类不匹配而没有无约束的转导漂移，表明鲁棒的转导VLM适应应使用可靠批次证据重新校准语义参考，而不是在无限制转导和固定原型之间选择。代码见https://github.com/MR-Sherif/JPTA.git。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "提出JPTA框架，将转导VLM适应建模为批量条件语义参考估计。",
+            "通过估计批次先验和软图像侧原型，形成传输语义参考，并按批次可靠性缩放影响。",
+            "在标准基准、低有效类、全类评估和在线流上，JPTA一致优于TransCLIP和StatA。",
+            "在稀疏和先验偏移批次上增益最大，诊断显示修复有效类不匹配且无转导漂移。"
+          ],
+          "keywords": [
+            "转导适应",
+            "视觉-语言模型",
+            "语义锚点",
+            "批次先验",
+            "可靠性校准"
+          ],
+          "figures": [],
+          "relevance": "该论文虽面向视觉-语言模型，但其批量条件语义锚点与可靠性校准思想可借鉴于大模型/时序预测中的自适应与漂移控制。",
+          "tags": [
+            "大模型"
+          ],
+          "section": "algo",
+          "kind": "conference",
+          "acceptance": {
+            "venue": "NeurIPS 2026",
+            "ccf": "A",
+            "kind": "conf",
+            "evidence": "Accepted at NeurIPS 2026"
+          },
+          "links": [
+            {
+              "label": "原文",
+              "url": "https://arxiv.org/abs/2611.06993v1"
+            },
+            {
+              "label": "PDF",
+              "url": "https://arxiv.org/pdf/2611.06993v1"
+            }
+          ],
+          "source": "arxiv-conference",
+          "score": 19,
+          "rank": 0,
+          "tierLabel": "CCF-A"
+        },
+        {
+          "id": "10.1038/s41598-026-78926-z",
+          "doi": "10.1038/s41598-026-78926-z",
+          "title": "Performance of five large language models (LLM) on infectious diseases related questions",
+          "titleZh": "五种大语言模型（LLM）在传染病相关问题上的表现",
+          "authors": [
+            "Maker J",
+            "Kim M",
+            "Guo X"
+          ],
+          "authorsText": "Maker J, Kim M, Guo X",
+          "venue": "Scientific Reports",
+          "venueShort": "Sci Rep",
+          "year": 2026,
+          "date": "2026-11-07",
+          "level": "SCI",
+          "citation": "Maker J, Kim M, Guo X. Performance of five large language models (LLM) on infectious diseases related questions[J]. Scientific Reports, 2026.",
+          "abstractEn": "Abstract As there i​s growing interest in utilizing large language models (LLMs) in healthcare education, there are still concerns about their accuracy. The primary study question is to evaluate the accuracy of five LLMs in answering infectious disease (ID) related questions. We compared five LLMs—ChatGPT-4.1, ChatGPT-4o-mini, Claude, Copilot, and Gemini—on 227 exam items from an infectious diseases (ID) course in a Doctor of Pharmacy program. Items were categorized by topic, Bloom’s taxonomy, and format. LLM accuracy across different categories was summarized using descriptive statistics. The Chi-Square test was used to compare results among the different LLMs. Agreement across responses from different LLMs was investigated via Cohen’s Kappa Coefficient. The overall accuracy across all models ranged from 89.4% to 91.2% with ChatGPT 4o-mini scoring highest and Claude and Copilot scoring lowest. LLMs had highest accuracy answering pharmacology questions (93.6%), followed by therapeutics (93.0%), PK/PD (91.1%), microbiology (87.5%), and medicinal chemistry (84%). Medicinal chemistry and microbiology performed significantly worse compared to therapeutics (p < 0.05). Questions categorized as Evaluate/Create performed significantly worse compared to Remember/Understand category (85.6% vs. 92.0%, p < 0.05). The accuracy of questions with a picture was significantly worse than those with no picture (69% vs 91%, respectively). Inter-model agreement was moderate (κ = 0.497–0.613). Contemporary LLMs show high accuracy on ID coursework, with weaknesses in chemistry/microbiology content, higher-order reasoning, and image interpretation; careful integration and guidance are warranted.",
+          "abstractZh": "摘要 随着在医疗教育中使用大语言模型（LLM）的兴趣日益增长，其准确性仍存在担忧。主要研究问题是评估五种LLM在回答传染病（ID）相关问题时的准确性。我们在药学博士项目的传染病课程中的227道考试题上比较了五种LLM——ChatGPT-4.1、ChatGPT-4o-mini、Claude、Copilot和Gemini。题目按主题、Bloom分类法和格式分类。使用描述性统计总结LLM在不同类别中的准确性。使用卡方检验比较不同LLM之间的结果。通过Cohen's Kappa系数研究不同LLM回答之间的一致性。所有模型的总体准确性范围为89.4%至91.2%，其中ChatGPT 4o-mini得分最高，Claude和Copilot得分最低。LLM在回答药理学问题时的准确性最高（93.6%），其次是治疗学（93.0%）、PK/PD（91.1%）、微生物学（87.5%）和药物化学（84%）。与治疗学相比，药物化学和微生物学的表现显著较差（p < 0.05）。归类为评估/创造的问题与记忆/理解类别相比表现显著较差（85.6% vs. 92.0%，p < 0.05）。带图片的问题的准确性显著低于无图片的问题（分别为69% vs 91%）。模型间一致性为中等（κ = 0.497–0.613）。当代LLM在传染病课程作业上显示出高准确性，但在化学/微生物学内容、高阶推理和图像解读方面存在弱点；需要仔细整合和指导。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "评估五种LLM在227道传染病考试题上的准确性，总体准确率89.4%-91.2%。",
+            "ChatGPT-4o-mini得分最高，Claude和Copilot最低；模型间一致性中等（κ=0.497-0.613）。",
+            "药理学问题准确率最高（93.6%），药物化学最低（84%），微生物学87.5%。",
+            "评估/创造类问题准确率（85.6%）显著低于记忆/理解类（92.0%）。",
+            "带图片问题准确率（69%）显著低于无图片问题（91%）。"
+          ],
+          "keywords": [
+            "大语言模型",
+            "传染病",
+            "准确性评估",
+            "医学教育",
+            "Bloom分类法"
+          ],
+          "figures": [],
+          "relevance": "该论文评估大语言模型在传染病问题上的准确性，属于大模型能力评估研究，与时序预测方法无直接关系，但可为大模型在专业领域的应用提供参考。",
+          "tags": [
+            "大模型"
+          ],
+          "section": "algo",
+          "kind": "journal",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1038/s41598-026-78926-z"
+            }
+          ],
+          "source": "crossref",
+          "score": 18,
+          "rank": 6,
+          "tierLabel": "JCR Q1",
+          "metrics": {
+            "cas": {
+              "zone": "3区",
+              "top": false,
+              "major": "综合性期刊",
+              "year": "2025"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": "2025"
+            },
+            "if": 4.9,
+            "source": "https://www.letpub.com.cn/index.php?journalid=8695&page=journalapp&view=detail"
+          }
+        },
+        {
+          "id": "10.1016/j.ins.2026.124337",
+          "doi": "10.1016/j.ins.2026.124337",
+          "title": "CoGTST: A cross-scale cooperative graph network with an adaptive patch transformer for multivariate time series forecasting",
+          "titleZh": "CoGTST：面向多变量时间序列预测的跨尺度协作图网络与自适应分块Transformer",
+          "authors": [
+            "Xiang X.",
+            "Wang Y.",
+            "Jiang X.",
+            "Wang Z."
+          ],
+          "authorsText": "Xiang X., Wang Y., Jiang X., et al",
+          "venue": "Information Sciences",
+          "venueShort": "Inf Sci",
+          "publisher": "Elsevier",
+          "year": 2026,
+          "date": "2026-11-09",
+          "coverDate": "2027-03-15",
+          "note": "在线首发，期次 2027-03-15",
+          "level": "SCI",
+          "citation": "Xiang X., Wang Y., Jiang X., et al. CoGTST: A cross-scale cooperative graph network with an adaptive patch transformer for multivariate time series forecasting[J]. Information Sciences, 2027, 765.",
+          "abstractEn": "Accurate multivariate time series forecasting requires the joint characterization of temporal dynamics across multiple resolutions and evolving dependencies among variables. Existing approaches often model multiscale temporal patterns, inter-variable relations, and long-range dependencies separately, limiting coordination between representation scale, information propagation, and temporal tokenization. We propose CoGTST, a cross-scale cooperative graph framework with an adaptive patch Transformer. CoGTST constructs hierarchical temporal representations through progressive downsampling and wavelet-based decomposition and organizes the resulting multiresolution features into cross-scale and cross-variable graphs. A cooperative graph neural network further regulates message propagation through node-specific incoming and outgoing communication states, inducing layer-dependent computational graphs that enable selective and directional information exchange. The graph-refined representations are subsequently reorganized by a frequency-conditioned adaptive patching mechanism, while lightweight routing attention performs efficient global integration. This design jointly coordinates temporal representation, relational propagation, and token organization within a unified forecasting process. Experiments on seven public benchmark datasets show that CoGTST achieves the lowest average MSE on six of the seven datasets and remains competitive across forecasting horizons, particularly for short- and medium-term prediction. Ablation and expert-ensemble studies further support the complementary contributions of the proposed components and the benefits of jointly optimizing them within a unified framework.",
+          "abstractZh": "准确的多变量时间序列预测需要联合刻画多个分辨率下的时间动态以及变量间不断演化的依赖关系。现有方法通常分别建模多尺度时间模式、变量间关系和长程依赖，限制了表示尺度、信息传播与时间分块之间的协同。我们提出CoGTST，一种带有自适应分块Transformer的跨尺度协作图框架。CoGTST通过渐进下采样和小波分解构建层次化时间表示，并将得到的多分辨率特征组织为跨尺度和跨变量图。协作图神经网络进一步通过节点特定的入站和出站通信状态调节消息传播，诱导出层相关的计算图，从而实现选择性和方向性的信息交换。随后，图精炼后的表示由频率条件自适应分块机制重新组织，同时轻量级路由注意力执行高效的全局整合。该设计在统一的预测过程中联合协调时间表示、关系传播和分块组织。在七个公开基准数据集上的实验表明，CoGTST在七个数据集中的六个上取得最低的平均MSE，并在各预测步长上保持竞争力，尤其在短期和中期预测中表现突出。消融和专家集成研究进一步支持了所提组件的互补贡献以及在统一框架内联合优化它们的优势。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "通过渐进下采样与小波分解构建层次化多分辨率时间表示，并组织为跨尺度与跨变量图。",
+            "协作图神经网络以节点入/出通信状态调节消息传播，形成层相关计算图实现方向性信息交换。",
+            "频率条件自适应分块机制重组图精炼表示，轻量路由注意力完成高效全局整合。",
+            "在七个公开基准中六个取得最低平均MSE，短中期预测步长上具竞争力。",
+            "消融与专家集成实验验证各组件互补性及统一框架联合优化的收益。"
+          ],
+          "keywords": [
+            "多变量时间序列预测",
+            "跨尺度图网络",
+            "自适应分块Transformer",
+            "小波分解",
+            "协作图神经网络"
+          ],
+          "figures": [],
+          "relevance": "该文面向多变量时序预测的图学习与分块Transformer方法，可迁移至风电/光伏功率预测的时空依赖建模与多尺度特征提取。",
+          "tags": [
+            "时序预测",
+            "图学习"
+          ],
+          "section": "algo",
+          "kind": "journal",
+          "volume": "765",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1016/j.ins.2026.124337"
+            }
+          ],
+          "source": "scopus",
+          "score": 32,
+          "rank": 8,
+          "tierLabel": "SCI"
+        },
+        {
+          "id": "10.1016/j.ins.2026.124241",
+          "doi": "10.1016/j.ins.2026.124241",
+          "title": "Attention-based experience replay for knowledge distillation: an efficient model-agnostic continual learning strategy for multivariate time series forecasting",
+          "titleZh": "基于注意力的经验回放用于知识蒸馏：一种面向多变量时间序列预测的高效模型无关持续学习策略",
+          "authors": [
+            "Besnard Q.",
+            "Ragot N."
+          ],
+          "authorsText": "Besnard Q., Ragot N",
+          "venue": "Information Sciences",
+          "venueShort": "Inf Sci",
+          "publisher": "Elsevier",
+          "year": 2026,
+          "date": "2026-11-09",
+          "coverDate": "2027-02-15",
+          "note": "在线首发，期次 2027-02-15",
+          "level": "SCI",
+          "citation": "Besnard Q., Ragot N. Attention-based experience replay for knowledge distillation: an efficient model-agnostic continual learning strategy for multivariate time series forecasting[J]. Information Sciences, 2027, 762.",
+          "abstractEn": "Deep neural networks for long-term time series forecasting are commonly trained offline and deployed as static predictors, although they operate in environments where data distributions continuously evolve. This mismatch between offline training and real-world deployment progressively degrades forecasting performance and motivates the need for continual model adaptation. In this work, we formulate continual learning for long-term time series forecasting as a deployment-time adaptation problem under delayed supervision and bounded memory constraints. Based on this formulation, we propose a model-agnostic continual learning framework together with KDAS (Knowledge Distillation with Attention Sampling), a hybrid continual learning strategy that combines self-knowledge distillation with a learned attention sampling mechanism. Unlike conventional replay strategies relying on random or heuristic sampling, KDAS continuously learns which historical sequences should be retained to better balance adaptation to new data and preservation of previously acquired knowledge. We evaluate the proposed framework on three state-of-the-art forecasting architectures and twenty multivariate datasets, including standard benchmarks and real-world piezometric time series exhibiting significant long-term distribution shifts, and compare it against several continual learning baselines. The results show that KDAS achieves competitive or superior forecasting accuracy on drifting datasets while providing stronger knowledge retention than replay-only strategies under identical memory constraints. These findings demonstrate that learning replay policies offer an effective and practical solution for continual forecasting in non-stationary environments.",
+          "abstractZh": "用于长期时间序列预测的深度神经网络通常离线训练并部署为静态预测器，尽管它们运行在数据分布持续演变的环境中。这种离线训练与实际部署之间的不匹配会逐渐降低预测性能，并促使需要持续的模型自适应。在本工作中，我们将长期时间序列预测的持续学习形式化为延迟监督和有限内存约束下的部署时自适应问题。基于这一形式化，我们提出了一个模型无关的持续学习框架以及KDAS（带注意力采样的知识蒸馏），这是一种混合持续学习策略，将自知识蒸馏与学习到的注意力采样机制相结合。与依赖随机或启发式采样的传统回放策略不同，KDAS持续学习应保留哪些历史序列，以更好地平衡对新数据的适应和对先前获得知识的保持。我们在三种最先进的预测架构和二十个多变量数据集上评估了所提出的框架，包括标准基准和表现出显著长期分布偏移的真实测压时间序列，并将其与多个持续学习基线进行比较。结果表明，在漂移数据集上，KDAS实现了有竞争力或更优的预测精度，同时在相同内存约束下比仅回放策略提供了更强的知识保持。这些发现表明，学习回放策略为非平稳环境中的持续预测提供了一种有效且实用的解决方案。",
+          "abstractZhSource": "译",
+          "keyPoints": [
+            "将长期时序预测的持续学习形式化为延迟监督与有限内存下的部署时自适应问题",
+            "提出模型无关框架与KDAS策略，结合自知识蒸馏和学习到的注意力采样机制",
+            "KDAS持续学习应保留哪些历史序列，替代随机或启发式回放采样",
+            "在3种预测架构、20个多变量数据集（含真实测压序列）上与多个持续学习基线对比",
+            "漂移数据集上精度有竞争力或更优，相同内存约束下知识保持强于仅回放策略"
+          ],
+          "keywords": [
+            "持续学习",
+            "知识蒸馏",
+            "经验回放",
+            "注意力采样",
+            "多变量时间序列预测",
+            "非平稳环境"
+          ],
+          "figures": [],
+          "relevance": "面向非平稳环境下多变量时序预测的持续学习与知识蒸馏方法，可直接用于风电/光伏功率预测模型在分布漂移下的在线自适应更新。",
+          "tags": [
+            "时序预测",
+            "大模型"
+          ],
+          "section": "algo",
+          "kind": "journal",
+          "volume": "762",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1016/j.ins.2026.124241"
+            }
+          ],
+          "source": "scopus",
+          "score": 29,
+          "rank": 8,
+          "tierLabel": "SCI"
+        }
+      ],
+      "summary": "针对不确定性刻画与部署时自适应，时序预测方向的工作沿两条路径展开：一条以多分辨率表示为核心，通过渐进下采样与小波分解构建跨尺度、跨变量图，并以协作图神经网络的方向性消息传播捕捉层间依赖；另一条将长期预测形式化为延迟监督与有限内存下的持续学习问题，借助自知识蒸馏与注意力采样实现模型无关的经验回放。大模型侧则从压缩与适应切入，字典核后训练压缩以共享字典与层特定稀疏系数降低存储开销，批量条件语义锚点将转导适应建模为批次级参考估计以应对分布漂移。相关评估工作则关注模型间一致性与任务准确性，为上述方法的选择提供参照。"
+    }
+  }
+}

@@ -2,19 +2,36 @@
   "schema": 1,
   "title": "每周论文速递",
   "subtitle": "功率预测 · 气象预报 · 雷达流场重构 / 大模型 · 时序预测",
-  "updatedAt": "2026-11-04T21:08:00+08:00",
-  "current": "2026-BACKFILL",
+  "domain": "power",
+  "updatedAt": "2026-11-09T08:00:01+08:00",
+  "current": "2026-W46",
   "coverage": {
     "backfillFrom": "2024-12-04",
     "coveredFrom": "2024-12-04",
-    "to": "2026-11-04",
-    "totalItems": 15,
+    "to": "2026-11-09",
+    "totalItems": 23,
     "figures": 5,
     "mode": "incremental",
-    "nextWindowFrom": "2026-11-04",
-    "note": "首轮做过近三年回溯（已合并为精选），之后每周只取上一期之后的新文献。"
+    "nextWindowFrom": "2026-11-09",
+    "note": "首轮做过近三年回溯，之后每周只取上一期之后的新文献。"
   },
   "issues": [
+    {
+      "id": "2026-W46",
+      "label": "2026-W46 · 自动更新",
+      "range": [
+        "2026-11-04",
+        "2026-11-09"
+      ],
+      "mode": "incremental",
+      "updatedAt": "2026-11-09T08:00:01+08:00",
+      "counts": {
+        "field": 3,
+        "algo": 5,
+        "figures": 0
+      },
+      "note": "自动抓取 2026-11-04 → 2026-11-09 的新文献；Crossref + arXiv + 刊级检索。"
+    },
     {
       "id": "2026-BACKFILL",
       "label": "回溯精选 · 近三年顶级",
@@ -31,6 +48,5 @@
       },
       "note": "合并 2026-W45-2 + 2026-W45 + 2026-W44 + 2026-W43，只保留顶刊/中科院1区/CCF-A；丢弃 29 条次级、去重 0 条。"
     }
-  ],
-  "domain": "power"
+  ]
 }
